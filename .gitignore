@@ -1,6 +1,4 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-
-# dependencies
+# Závislosti
 node_modules/
 
 # Expo
@@ -9,35 +7,47 @@ dist/
 web-build/
 expo-env.d.ts
 
-# Native
+# Nativní složky generuje Expo (prebuild), needitují se ručně
+/ios
+/android
 .kotlin/
-*.orig.*
+
+# Podpisové klíče a certifikáty (nikdy necommitovat)
 *.jks
+*.keystore
+!debug.keystore
 *.p8
 *.p12
 *.key
+*.pem
 *.mobileprovision
+credentials.json
+
+# Buildy z EAS / lokálních buildů
+*.ipa
+*.apk
+*.aab
+build-*.tar.gz
+
+# Env proměnné – commituje se jen .env.example
+.env
+.env.*
+!.env.example
 
 # Metro
 .metro-health-check*
 
-# debug
+# Logy
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+*.log
 
-# macOS
-.DS_Store
-*.pem
-
-# local env files
-.env*.local
-
-# typescript
+# TypeScript
 *.tsbuildinfo
 
-example
-
-# generated native folders
-/ios
-/android
+# Editor a systém
+.DS_Store
+*.orig.*
+.idea/
+.claude/settings.local.json

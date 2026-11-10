@@ -1,0 +1,148 @@
+{
+  "common": {
+    "tryAgain": "Zkusit znovu",
+    "undo": "Vrátit",
+    "clear": "Smazat",
+    "back": "Zpět",
+    "continue": "Pokračovat",
+    "done": "Hotovo",
+    "skip": "Přeskočit"
+  },
+  "errors": {
+    "generic": "Něco se pokazilo. Zkus to prosím znovu.",
+    "network": "Nepodařilo se spojit se serverem. Zkontroluj připojení.",
+    "loadTitle": "Nepodařilo se načíst",
+    "crashTitle": "Tohle se nepovedlo",
+    "crashText": "Něco se pokazilo a obrazovka se nenačetla. O chybě víme a podíváme se na ni."
+  },
+  "tabs": {
+    "overview": "Přehled",
+    "trips": "Výlety",
+    "map": "Mapa",
+    "profile": "Profil"
+  },
+  "welcome": {
+    "title": "Celý výlet\nv jedné appce",
+    "subtitle": "Itinerář, mapa, balení i společné výdaje. Pro tebe i celou partu.",
+    "start": "Začít plánovat",
+    "haveAccount": "Už mám účet",
+    "signIn": "Přihlásit se",
+    "preview": {
+      "nextTrip": "Další cesta",
+      "days_one": "den",
+      "days_few": "dny",
+      "days_other": "dní",
+      "city": "Lisabon",
+      "day": "Den 2 · Alfama",
+      "breakfast": "Snídaně v Pastéis",
+      "tram": "Tramvaj 28",
+      "viewpoint": "Miradouro da Graça",
+      "owes": "Tomáš ti dluží",
+      "amount": "620 Kč"
+    }
+  },
+  "destination": {
+    "step": "Tvůj první výlet",
+    "title": "Kam jedeš?",
+    "placeholder": "Město, země nebo hory…",
+    "suggestionsLabel": "Lidé často plánují",
+    "suggestions": [
+      "Lisabon",
+      "Chorvatsko",
+      "Řím",
+      "Krkonoše",
+      "Barcelona",
+      "Vídeň"
+    ],
+    "hint": "Termín, parťáky a místa doplníš potom.",
+    "plan": "Naplánovat {{place}}",
+    "planTrip": "Naplánovat výlet"
+  },
+  "auth": {
+    "choose": {
+      "title": "Pokračuj do Journea",
+      "subtitle": "Přihlas se, nebo si za pár vteřin založ účet.",
+      "guestTitle": "Ulož si výlet",
+      "guestSubtitle": "S účtem nepřijdeš o své výlety a můžeš pozvat parťáky.",
+      "guestSubtitleTrip": "S účtem nepřijdeš o {{trip}} a můžeš pozvat parťáky.",
+      "apple": "Pokračovat přes Apple",
+      "google": "Pokračovat přes Google",
+      "email": "Pokračovat e-mailem",
+      "appleSoon": "Přihlášení přes Apple přibude s vlastním buildem appky.",
+      "googleSoon": "Přihlášení přes Google přibude s vlastním buildem appky.",
+      "legal": "Pokračováním souhlasíš s <terms>podmínkami</terms> a <privacy>zásadami ochrany osobních údajů</privacy>."
+    },
+    "email": {
+      "title": "Tvůj e-mail",
+      "subtitle": "Přihlásíme tě, nebo ti založíme nový účet.",
+      "placeholder": "jmeno@email.cz"
+    },
+    "password": {
+      "title": "Vítej zpátky",
+      "placeholder": "Heslo",
+      "submit": "Přihlásit se",
+      "forgot": "Zapomenuté heslo?",
+      "changed": "Heslo je změněné. Přihlas se novým."
+    },
+    "create": {
+      "title": "Nový účet",
+      "subtitle": "Vymysli heslo pro <strong>{{email}}</strong>.",
+      "submit": "Vytvořit účet"
+    },
+    "rules": {
+      "length": "Aspoň 8 znaků",
+      "uppercase": "Velké písmeno",
+      "digit": "Číslice"
+    },
+    "otp": {
+      "title": "Ověř e-mail",
+      "sent": "Poslali jsme kód na <strong>{{email}}</strong>.",
+      "resend": "Nepřišel? Poslat znovu",
+      "resent": "Nový kód je na cestě."
+    },
+    "profile": {
+      "title": "Jak ti máme říkat?",
+      "subtitle": "Uvidí to parťáci ve sdílených výletech."
+    },
+    "reset": {
+      "title": "Zapomenuté heslo",
+      "newTitle": "Nové heslo",
+      "newSubtitle": "Vymysli heslo, kterým se budeš přihlašovat.",
+      "placeholder": "Nové heslo",
+      "submit": "Změnit heslo"
+    }
+  },
+  "newTrip": {
+    "bannerTitle": "Výlet máš zatím jen v telefonu",
+    "bannerText": "Vytvoř si účet, ať o něj nepřijdeš.",
+    "bannerAction": "Uložit",
+    "badge": "Nový výlet",
+    "noDate": "Termín zatím nemáš",
+    "addDate": "Doplnit termín",
+    "next": "Co dál",
+    "steps": {
+      "dateTitle": "Kdy jedeš?",
+      "dateText": "Termín rozdělí výlet do dnů.",
+      "peopleTitle": "Pozvi parťáky",
+      "peopleText": "Plánujte spolu a dělte si výdaje.",
+      "placesTitle": "Přidej místa",
+      "placesText": "Co chceš vidět, kde spíš, kde jíst.",
+      "packingTitle": "Seznam věcí",
+      "packingText": "Ať nic nezapomeneš doma."
+    }
+  },
+  "overview": {
+    "planTrip": "Naplánovat výlet"
+  },
+  "comingSoon": {
+    "tripsTitle": "Všechny výlety",
+    "tripsText": "Tady bude seznam tvých cest s hledáním a filtry.",
+    "mapTitle": "Mapa přes celou obrazovku",
+    "mapText": "Všechna místa ze všech výletů na jedné mapě."
+  },
+  "profile": {
+    "guest": "Host (bez účtu)",
+    "soon": "Účet, přátelé, měna a upozornění přijdou sem.",
+    "signOut": "Odhlásit se"
+  }
+}

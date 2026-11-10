@@ -1,0 +1,2566 @@
+{
+  "nav": {
+    "open": "Otevřít Journeo",
+    "dashboard": "Přejít na přehled"
+  },
+  "changelog": {
+    "open": "Zobrazit novinky",
+    "newBadge": "Nová verze",
+    "title": "Novinky",
+    "subtitle": "Co je nového v Journeo",
+    "current": "Aktuální verze",
+    "empty": "Zatím tu nejsou žádné novinky.",
+    "releases": {
+      "v1_8": {
+        "title": "Journeo na ploše",
+        "summary": "Journeo si teď přidáte na plochu telefonu a otevřete jedním klepnutím, celé přes obrazovku jako aplikaci. K tomu vyladěná aplikace na iPhonu, volitelné e-maily a plynulejší načítání.",
+        "highlights": [
+          "Přidejte si Journeo na plochu: na Androidu jedním klepnutím, na iPhonu s krátkým návodem krok za krokem",
+          "Když odkaz otevřete v Instagramu nebo Facebooku, poradíme, jak Journeo otevřít v Safari nebo Chrome",
+          "Aplikace spuštěná z plochy iPhonu už nemá horní lištu schovanou pod hodinami",
+          "V Nastavení si vypnete e-maily, které nechcete: žádosti o přátelství, vyrovnané dluhy a předané výlety. Kódy pro přihlášení chodí vždy",
+          "Sdílený výlet se otevírá ve světlém režimu, tmavý si návštěvník zapne sám",
+          "Místo točících se koleček uvidíte obrys obsahu, který se právě načítá",
+          "Pole „Kam jedeš?“ na úvodní stránce je na telefonu zase pořádně velké",
+          "Dlaždice Země na přehledu počítá jen navštívené země, stejně jako profil",
+          "Upozornění od smazaných účtů ukazují „Smazaný uživatel“ místo otazníku",
+          "Logo vlevo nahoře vede na úvodní stránku"
+        ]
+      },
+      "v1_7": {
+        "title": "Výdaje v cizí měně",
+        "summary": "Každý výlet má teď vlastní měnu a výdaj zadáte v té, ve které jste platili. Journeo ho převede kurzem ECB ke dni výdaje a původní částku si pamatuje. K tomu změna termínu výletu, úprava odkazů a rychlejší, svižnější rozpočet.",
+        "highlights": [
+          "Výdaj zadáte v kterékoli z 30 měn, převede se kurzem ECB ke dni výdaje a u výdaje zůstane vidět i původní částka",
+          "Kurz můžete přepsat vlastním, třeba ze směnárny nebo z výpisu karty",
+          "Formulář si u výletu pamatuje poslední měnu, takže v cizině nemusíte pokaždé přepínat",
+          "Každý výlet má vlastní měnu, sdílené výlety jsou tak pro všechny stejné; změníte ji v rozpočtu, i s přepočtem částek",
+          "V Nastavení je teď „Hlavní měna“: v ní se zakládají nové výlety a počítají souhrny napříč výlety",
+          "Termín výletu změníte kliknutím na datum v hlavičce; program zůstane u správných dní",
+          "Odkazy a poznámky jdou upravit, včetně popisku odkazu",
+          "Výdaj smažete bez potvrzování a vrátíte ho přes toast nebo Cmd/Ctrl+Z",
+          "Přidané, upravené i smazané výdaje se ukážou hned, bez čekání na uložení",
+          "Měny jdou vybírat šipkami a Esc zavírá postupně, nejdřív seznam a až pak celé okno"
+        ]
+      },
+      "v1_6": {
+        "title": "Rychlý start a pozvánky do výletu",
+        "summary": "Nový výlet založíte za minutu: napíšete, kam jedete, vyberete termín a hned vidíte, jak se výlet skládá. Partu do výletu pozvete jedním odkazem, i když ještě nemá účet, a cizí sdílený výlet si můžete zkopírovat k sobě. K tomu nové okno sdílení, novinky a přívětivější prázdné obrazovky.",
+        "highlights": [
+          "Zakládání výletu na celé stránce: destinace, rychlý termín (tento víkend, příští víkend…) a vpravo živý náhled dnů, balení a místa na mapě",
+          "Výlet se založí rovnou vyplněný: dny s názvy a destinace připíchnutá na mapě",
+          "Balení si můžete předvyplnit podle typu výletu (město, hory, moře, roadtrip), nebo si ho napsat sami",
+          "Pozvánka do výletu odkazem: kdo ho otevře, připojí se jako editor, a účet si případně založí cestou",
+          "Když se někdo připojí k vašemu výletu, přijde vám notifikace",
+          "Sdílený výlet si můžete jedním tlačítkem zkopírovat k sobě: program, balení i místa",
+          "Nové okno sdílení: vlevo kdo jede, vpravo pozvánka a odkaz jen pro čtení jako přepínač",
+          "Noví uživatelé začínají otázkou „Kam to bude?“ a krátkým checklistem prvních kroků",
+          "Na úvodní stránce můžete napsat destinaci ještě před registrací",
+          "Prázdný rozpočet, seznam výletů, statistiky a mapa ukazují, co v nich uvidíte, a nabídnou první krok",
+          "Přepracované okno novinek s přehledem všech verzí",
+          "Stránku zakládání zavřete klávesou Esc a noví uživatelé mají výchozí světlý vzhled"
+        ]
+      },
+      "v1_5": {
+        "title": "Nový detail výletu a navigace",
+        "summary": "Výlet je teď zápisník: každý den má svou stránku, mezi dny listujete pásem dat nahoře, šipkami nebo přejetím prstem a balení, odkazy, mapa i rozpočet visí jako záložky na okraji stránky. Všechno se ukládá samo, výdaj zapíšete na mobilu jedním ťuknutím a celá aplikace dostala novou, sjednocenou navigaci.",
+        "highlights": [
+          "Stránka dne s názvem, místem a plánem na linkovaném papíře — vše upravíte přímo na místě",
+          "Pás dnů s datem a místem, dnešek je označený; listování šipkami ← → nebo přejetím prstem",
+          "Automatické ukládání — žádné tlačítko Uložit, v hlavičce vidíte „Ukládám…“ a „Uloženo“",
+          "Záložky Balení, Odkazy a poznámky, Mapa a Rozpočet s živým stavem (4/9, 34 040 Kč)",
+          "Na mobilu nová spodní lišta s velkým tlačítkem + Výdaj uprostřed",
+          "Balení rozdělené na „Zbývá zabalit“ a „Sbaleno“ s ukazatelem průběhu",
+          "Odkazy a poznámky se samy roztřídí, u odkazů vidíte doménu",
+          "Rozpočet ve výletu přehledně na jedné stránce: kolik je utraceno, za co a výdaje po dnech výletu",
+          "Okno sdílení výletu ve světlém vzhledu a čitelnější popisky v celé aplikaci",
+          "Nový postranní panel s vaším „pasem“ — navštívené země, počet výletů a dní na cestách, a odpočet do nejbližšího výletu",
+          "Na mobilu jednotná spodní lišta s tlačítkem + uprostřed a avatar místo menu — otevře profil, nastavení a vzhled"
+        ]
+      },
+      "v1_4": {
+        "title": "Rychlé hledání a nový přehled",
+        "summary": "Přehled teď začíná odpovědí na otázku „co teď?“ — jedna velká karta podle toho, jestli je cesta rozjetá, teprve nadchází, nebo už skončila, k tomu připravenost výletu a klíčová čísla na jeden pohled. A odkudkoli v aplikaci vám stačí ⌘K: najdete výlet, den programu, výdaj, věc v balení, poznámku, místo na mapě i přítele.",
+        "highlights": [
+          "Rychlé hledání přes ⌘K (Ctrl+K) — výlety, dny, výdaje, balení, poznámky, místa i přátelé na jednom místě",
+          "Hledá bez ohledu na diakritiku a odpustí i překlep — „londyn“ najde Londýn",
+          "Výsledek vás pošle přesně tam, kam patří: místo se zaměří na mapě, den se otevře v itineráři",
+          "Rychlé akce rovnou z hledání — nový výlet, přepnutí vzhledu i jazyka",
+          "Naposledy otevřené položky čekají hned po otevření, bez psaní",
+          "Nový přehled s kartou „co teď?“ — probíhající cesta s dnešním plánem, odpočet do odjezdu, nebo připomínka té poslední",
+          "Připravenost výletu: kolik dní je naplánováno, co je sbaleno, místa na mapě a poznámky — každá položka odkazuje tam, kde ji doplníte",
+          "Dlaždice s klíčovými čísly — rozpočet, vyrovnání, navštívené země a počet cest",
+          "Vyrovnání dluhů se teď počítá napříč všemi výlety a zahrnuje i už zaznamenané platby"
+        ]
+      },
+      "v1_3": {
+        "title": "Mapa míst",
+        "summary": "Vaše cesty teď mají svou mapu. Ukládejte si navštívená i vysněná místa, přiřazujte je ke dnům výletu a mějte celou cestu i všechna svá místa pohromadě na jednom plátně — stejně přehledně na počítači i na mobilu.",
+        "highlights": [
+          "Osobní mapa všech vašich míst napříč výlety",
+          "Mapa přímo v každém výletu, s trasou mezi místy podle dnů",
+          "Přidání místa zaměřovačem nebo vyhledáním adresy",
+          "Rozlište navštívená a vysněná místa a filtrujte podle kategorie či výletu",
+          "Načtení míst přímo z itineráře výletu jedním klikem",
+          "Sjednocené immerzivní ovládání na desktopu i mobilu",
+          "Světlý i tmavý motiv mapy"
+        ]
+      },
+      "v1_2": {
+        "title": "Export výletu do PDF",
+        "summary": "Vezměte si své plány s sebou i offline. Každý výlet teď můžete exportovat do elegantního PDF dokumentu v nezaměnitelném stylu Journeo — ideální k vytištění, sdílení se spolucestovateli nebo do kapsy na cesty.",
+        "highlights": [
+          "Tlačítko Exportovat PDF přímo v hlavičce výletu",
+          "Vyberte přesně, které části (itinerář, balení, odkazy, rozpočet) chcete zahrnout",
+          "PDF zachytí vše, co vidíte na obrazovce výletu: itinerář, balící seznam, odkazy a poznámky i rozpočet",
+          "Itinerář den po dni včetně lokací a vašich plánů",
+          "Balící seznam se zachovaným stavem odškrtnutí",
+          "Kompletní přehled rozpočtu — součty, kategorie, tabulka výdajů a kdo co platil",
+          "U sdílených výletů také vyrovnání a navrhované platby",
+          "Ostrý vektorový výstup ve vašem jazyce (čeština i angličtina)"
+        ]
+      },
+      "v1_1": {
+        "title": "Sdílené rozpočty, dělení a vyrovnání dluhů",
+        "summary": "Cestování ve skupině je teď jednodušší. Rozdělte výdaje mezi lidi, se kterými výlet sdílíte, na první pohled vidíte, kdo komu dluží, a dluhy snadno vyrovnáte — žádné tabulky ani složité počítání.",
+        "highlights": [
+          "Zaznamenejte, kdo každý výdaj zaplatil",
+          "Rozdělte částku rovným dílem nebo vlastními částkami mezi spolupracovníky",
+          "Označte výdaj jako osobní, aby se do dělení nezapočítal",
+          "Přehledné Vyrovnání ukazuje čistý zůstatek každého účastníka",
+          "Vyrovnejte dluhy a označte je jako zaplacené, s potvrzením o vyrovnání",
+          "Uložte si číslo účtu / IBAN, aby vám spolucestující mohli poslat peníze",
+          "Dostanete e-mail, když někdo vyrovná svůj dluh u vás"
+        ]
+      },
+      "v1_0": {
+        "title": "První veřejná verze",
+        "summary": "Journeo je venku. Tahle verze přináší kompletní základ pro plánování cest — od prvního nápadu až po sdílení hotového itineráře s přáteli.",
+        "highlights": [
+          "Plánování výletů s přehledným itinerářem den po dni",
+          "Rozpočet s cílovou částkou a sledováním výdajů",
+          "Přátelé a sdílení výletů přes osobní odkaz s rolemi",
+          "Statistiky vašeho cestování na jednom místě",
+          "Světlý i tmavý režim a čeština s angličtinou"
+        ]
+      }
+    },
+    "versions": "Verze",
+    "version": "Verze {{version}}",
+    "highlights": "Co je nového"
+  },
+  "landing": {
+    "hero": {
+      "title": "Všechny vaše cesty na jednom místě.",
+      "subtitle": "Od nápadu až po cíl. Sestavte si jednoduché itineráře pro své vlastní výlety v čistém a minimalistickém designu.",
+      "cta": "Vytvořit první výlet",
+      "eyebrow": "Journeo — Cestovní společník",
+      "secondary": "Jak to funguje",
+      "microcopy": "Zdarma · Bez platební karty",
+      "note": "vaše další cesta, přehledně",
+      "newBadge": "Novinka ve",
+      "planLabel": "Kam jedeš?",
+      "planPlaceholder": "Kam jedeš? Třeba Lisabon",
+      "planCta": "Naplánovat"
+    },
+    "float": {
+      "packing": {
+        "progress": "Sbaleno 7 z 10",
+        "items": [
+          "Pas",
+          "Foťák",
+          "Žabky"
+        ]
+      },
+      "ticket": {
+        "label": "Palubní vstupenka",
+        "date": "12. říj",
+        "seat": "Sedadlo 14A"
+      },
+      "weather": "24° v Kjótu"
+    },
+    "marquee": [
+      "🇯🇵 Kjóto",
+      "🇵🇹 Lisabon",
+      "🇮🇹 Řím",
+      "🇮🇸 Reykjavík",
+      "🇪🇸 Barcelona",
+      "🇺🇸 New York",
+      "🇮🇩 Bali",
+      "🇫🇷 Paříž",
+      "🇳🇴 Oslo",
+      "🇹🇭 Bangkok"
+    ],
+    "problem": {
+      "label": "Starý způsob",
+      "title": "Chaos.",
+      "titleAlt": "Vždy.",
+      "filename": "Trip_FINAL_v7_REAL_final_ok.xlsx",
+      "col1": "Destinace",
+      "col2": "Odjezd",
+      "col3": "Výdaje",
+      "col4": "Status",
+      "chat": {
+        "name": "Jana 💬",
+        "msg": "počkej, který hotel jsme nakonec objednali??",
+        "ago": "před 2 minutami"
+      },
+      "notes": {
+        "name": "Poznámky 📋",
+        "msg": "opravit ten vzorec v excelu...",
+        "today": "dnes"
+      },
+      "rows": [
+        {
+          "dest": "Japonsko",
+          "date": "12.10.2026",
+          "expense": "#REF!",
+          "status": "❌ Chyba"
+        },
+        {
+          "dest": "Itálie",
+          "date": "03.07.2025",
+          "expense": "28 000 Kč",
+          "status": "✓"
+        },
+        {
+          "dest": "Španělsko",
+          "date": "???",
+          "expense": "32 000 Kč",
+          "status": "⚠️"
+        },
+        {
+          "dest": "Thajsko",
+          "date": "20.12.2025",
+          "expense": "=SUM(???)",
+          "status": "❌"
+        },
+        {
+          "dest": "Francie",
+          "date": "14.02.2026",
+          "expense": "nevím...",
+          "status": "🤔"
+        }
+      ],
+      "body": "Plánování cest dnes žije v tabulkách, skupinových chatech a poznámkách. Termíny se ztrácejí, vzorce se rozbíjejí a nikdo si nepamatuje, který hotel je vlastně zabookovaný.",
+      "body2": "Journeo dává itinerář, rozpočet, balicí seznam i dokumenty na jedno klidné místo — a sdílení zvládnete jedním odkazem."
+    },
+    "solution": {
+      "label": "Nový způsob — Journeo",
+      "destination": "Kjóto, Japonsko",
+      "dates": "12. 10. – 26. 10. 2026",
+      "trip2": "Barcelona, Španělsko",
+      "trip2dates": "15. 04. – 22. 04. 2026",
+      "activities1": "8 aktivit",
+      "activities2": "5 aktivit"
+    },
+    "mobile": {
+      "phase1": {
+        "title": "Svět čeká\nna objevení."
+      },
+      "phase2": {
+        "title": "Zážitky ale\nrychlé pominou."
+      },
+      "phase3": {
+        "title": "Proto si je\nmusíte uchovat."
+      },
+      "phase4": {
+        "title": "Vaše Journeo."
+      },
+      "countdown": {
+        "label": "Další cesta za",
+        "days": "dní"
+      },
+      "yourData": "Vaše data",
+      "countries": "Zemí",
+      "days": "Dní",
+      "activities": "Aktivit:",
+      "open": "Otevřít",
+      "tripDates": "1. 4. — 15. 4. 2026"
+    },
+    "features": {
+      "title": "Vše, co potřebujete pro své cesty.",
+      "subtitle": "Journeo není jen deník. Je to komplexní nástroj pro plánování, zaznamenávání a sdílení vašich dobrodružství.",
+      "map": {
+        "title": "Vaše místa na mapě",
+        "description": "Připínejte si navštívená i vysněná místa — na osobní mapě nebo přímo ve výletu, s trasou mezi zastávkami. Stejně immerzivní na počítači i na mobilu."
+      },
+      "budget": {
+        "title": "Chytrý rozpočet",
+        "description": "Mějte své výdaje pod kontrolou. Sledujte útraty za letenky, ubytování, jídlo i aktivity přímo během cesty a vyhněte se nepříjemným překvapením.",
+        "vignette": {
+          "label": "Zatím utraceno",
+          "total": "31 200 Kč",
+          "limit": "z rozpočtu 50 000 Kč",
+          "cats": [
+            {
+              "name": "Letenky",
+              "amount": "13 500 Kč"
+            },
+            {
+              "name": "Ubytování",
+              "amount": "11 700 Kč"
+            },
+            {
+              "name": "Jídlo a aktivity",
+              "amount": "6 000 Kč"
+            }
+          ]
+        }
+      },
+      "community": {
+        "title": "Cestovatelská komunita",
+        "description": "Sledujte, kam cestují vaši přátelé, inspirujte se, komentujte a sdílejte zážitky.",
+        "shared": "Sdíleno se 4 přáteli"
+      },
+      "stats": {
+        "title": "Detailní statistiky",
+        "description": "Sledujte, kolik zemí jste navštívili a kolik dní jste celkem strávili poznáváním světa.",
+        "countries": "navštívených zemí",
+        "days": "dní na cestách"
+      },
+      "everything": {
+        "title": "Vše na jednom místě",
+        "description": "Spravujte své minulé i plánované cesty v přehledném dashboardu. Každá cesta má svůj vlastní profil plný vzpomínek, fotek a poznámek z cest.",
+        "itinerary": "Itinerář",
+        "budget": "Rozpočet",
+        "packing": "Balicí seznam",
+        "documents": "Dokumenty"
+      }
+    },
+    "story": {
+      "signature": "Petr",
+      "role": "tvůrce Journeo"
+    },
+    "cta": {
+      "title": "Jste připraveni vyrazit?",
+      "subtitle": "Připojte se a začněte tvořit svou osobní mapu světa. Bez závazků, bez zbytečností.",
+      "button": "Začít zdarma",
+      "script": "Kam to bude příště?"
+    },
+    "feedback": {
+      "label": "Zpětná vazba",
+      "title": "Pomozte Journeo růst",
+      "subtitle": "Journeo se pořád vyvíjí. Pokud narazíte na chybu, něco vám nefunguje, nebo vám chybí funkce, kterou byste uvítali — napište mi. Každý podnět si přečtu.",
+      "button": "Napsat e-mail"
+    },
+    "footer": {
+      "madeWith": "Vytvořeno s důrazem na detail.",
+      "privacy": "Ochrana soukromí",
+      "terms": "Podmínky použití",
+      "cookies": "Nastavení cookies"
+    },
+    "changelog": {
+      "title": "Journeo se pořád zlepšuje.",
+      "subtitle": "Nové funkce přibývají pravidelně — tady je, co přinesly poslední verze.",
+      "viewFull": "Kompletní přehled novinek"
+    },
+    "faq": {
+      "title": "Dobré vědět.",
+      "subtitle": "Rychlé odpovědi na to, na co se lidé před prvním výletem ptají nejčastěji.",
+      "items": [
+        {
+          "q": "Je Journeo opravdu zdarma?",
+          "a": "Ano. Journeo je zdarma — bez platební karty a bez zkušební doby, která tiše vyprší. Stačí si vytvořit účet, naplánovat první výlet a je to."
+        },
+        {
+          "q": "Funguje i na mobilu?",
+          "a": "Journeo běží v prohlížeči a přizpůsobí se vašemu zařízení: na počítači plnohodnotné plánování, na cestách přehledné zobrazení itineráře."
+        },
+        {
+          "q": "Můžu sdílet výlet s lidmi, kteří nemají účet?",
+          "a": "Ano. Každý výlet můžete sdílet odkazem, takže si ho přátelé a rodina prohlédnou bez registrace. Sdílený výlet je jen pro čtení — nikdo vám plán nepřepíše."
+        },
+        {
+          "q": "Co všechno se do jednoho výletu vejde?",
+          "a": "Itinerář den po dni, rozpočet a výdaje, balicí seznam i cestovní dokumenty — všechno k jedné cestě na jednom místě, místo pěti aplikací."
+        },
+        {
+          "q": "Jsou moje data v soukromí?",
+          "a": "Vaše výlety jsou ve výchozím stavu soukromé. Ostatní vidí jen to, co sami nasdílíte, a sdílení můžete kdykoli zrušit nebo celý výlet smazat."
+        }
+      ]
+    }
+  },
+  "carousel": {
+    "card1": {
+      "title": "Svět čeká na objevení",
+      "subtitle": "Nenechte své plány jen v hlavě. Zhmotněte je v aplikaci, která vám bude počítat dny do odletu.",
+      "countdownLabel": "Další cesta za",
+      "days": "dní",
+      "destination": "Kjóto, Japonsko",
+      "departure": "Odlet 12. října 2026"
+    },
+    "card2": {
+      "title": "Zážitky rychle pominou",
+      "subtitle": "Všechny trasy, ubytování a místa v jedné mapě. Bez stresu z toho, že na něco zapomenete.",
+      "activities": "Aktivit v okolí: 24",
+      "open": "Otevřít",
+      "destination": "Kjóto den 1.",
+      "place": "Chrám Fushimi Inari"
+    },
+    "card3": {
+      "title": "Proto si je musíte uchovat",
+      "subtitle": "Tvořte si svou osobní kroniku. Vidět, kolik jste už procestovali, je ten nejlepší pocit.",
+      "statsLabel": "Vaše statistiky",
+      "countries": "Zemí",
+      "daysLabel": "Dní na cestách"
+    },
+    "card4": {
+      "title": "Vaše Journeo",
+      "subtitle": "Jediná aplikace, kterou pro své cestování budete kdy potřebovat."
+    }
+  },
+  "errorBoundary": {
+    "title": "Tohle se nepovedlo",
+    "description": "Něco se pokazilo a stránka se nenačetla. O chybě víme a podíváme se na ni. Zkuste stránku obnovit.",
+    "reload": "Obnovit stránku",
+    "home": "Na přehled"
+  },
+  "notFound": {
+    "title": "Mimo mapu",
+    "description": "Vypadá to, že jste zabloudili. Tato destinace neexistuje nebo byla přesunuta."
+  },
+  "auth": {
+    "backHome": "Zpět domů",
+    "title": {
+      "email": "Vítejte v Journeo",
+      "password": "Vítejte zpět",
+      "create": "Vytvořte si účet",
+      "profile": "Jak vám máme říkat?",
+      "forgot": "Zapomenuté heslo",
+      "reset": "Nové heslo",
+      "resetCode": "Ověřte kód"
+    },
+    "subtitle": {
+      "email": "Přihlaste se, nebo si založte účet. Stačí e-mail.",
+      "password": "Zadejte heslo k účtu",
+      "create": "Zatím tu účet nemáte. Nastavte si heslo k",
+      "profile": "Ostatní cestovatelé vás uvidí pod tímto jménem.",
+      "forgot": "Zadejte e-mail pro obnovu hesla.",
+      "reset": "Vymyslete si nové heslo."
+    },
+    "otp": {
+      "checkEmail": "Zkontrolujte si e-mail",
+      "description": "Zadejte 6-místný kód, který jsme zaslali na",
+      "verify": "Ověřit e-mail",
+      "verifying": "Ověřuji...",
+      "resend": "Znovu odeslat kód",
+      "resendWait": "Odeslat znovu lze za {{seconds}} s",
+      "backToLogin": "Použít jiný e-mail",
+      "codeMustBe6": "Kód musí mít 6 číslic."
+    },
+    "forgot": {
+      "emailPlaceholder": "Zadejte svůj e-mail",
+      "submit": "Odeslat odkaz",
+      "submitting": "Zpracovávám...",
+      "backToLogin": "Vrátit se na přihlášení",
+      "enterEmail": "Zadejte prosím e-mail."
+    },
+    "reset": {
+      "codeLabel": "Kód z e-mailu",
+      "newPasswordLabel": "Nové heslo",
+      "newPasswordPlaceholder": "Zadejte nové heslo",
+      "confirmPasswordPlaceholder": "Potvrďte nové heslo",
+      "submit": "Uložit nové heslo",
+      "submitting": "Ukládám...",
+      "backToLogin": "Vrátit se na přihlášení",
+      "verify": "Ověřit kód",
+      "verifying": "Ověřuji..."
+    },
+    "fields": {
+      "firstName": "Jméno",
+      "lastName": "Příjmení",
+      "email": "E-mail",
+      "password": "Heslo"
+    },
+    "forgotPassword": "Zapomněli jste heslo?",
+    "submit": {
+      "continue": "Pokračovat",
+      "login": "Přihlásit se",
+      "create": "Vytvořit účet",
+      "profile": "Hotovo",
+      "loading": "Zpracovávám..."
+    },
+    "or": "Nebo",
+    "google": "Pokračovat přes Google",
+    "googleLoading": "Zpracovávám...",
+    "password": {
+      "hide": "Skrýt heslo",
+      "show": "Zobrazit heslo"
+    },
+    "passwordReq": {
+      "length": "Alespoň 8 znaků",
+      "uppercase": "Obsahuje velké písmeno",
+      "digit": "Obsahuje číslici"
+    },
+    "errors": {
+      "weak": "Heslo nesplňuje bezpečnostní požadavky",
+      "loginError": "Chyba při přihlášení.",
+      "registerError": "Chyba při registraci.",
+      "verifyError": "Chyba při ověřování.",
+      "resendError": "Chyba při odesílání nového kódu.",
+      "forgotError": "Chyba při žádosti o obnovu.",
+      "resetError": "Chyba při změně hesla.",
+      "googleError": "Chyba při přihlášení přes Google.",
+      "googleFailed": "Přihlášení přes Google se nezdařilo.",
+      "checkError": "Nepodařilo se ověřit e-mail. Zkuste to znovu.",
+      "profileError": "Profil se nepodařilo uložit."
+    },
+    "toasts": {
+      "loginSuccess": "Vítejte zpět!",
+      "registerSuccess": "Poslali jsme vám ověřovací kód.",
+      "verifySuccess": "E-mail ověřen!",
+      "resendSuccess": "Nový kód byl úspěšně odeslán.",
+      "resetSuccess": "Heslo bylo úspěšně změněno.",
+      "codeSent": "Účet ještě není ověřený. Poslali jsme vám nový kód."
+    },
+    "scene": {
+      "quote": "Ty nejlepší příběhy se píší na cestách.",
+      "tagline": "Váš itinerář, seznamy na balení a plány — na jednom klidném místě."
+    },
+    "changeEmail": "Změnit",
+    "profile": {
+      "avatarLabel": "Profilovka",
+      "avatarDefault": "Použít iniciály",
+      "skip": "Teď ne, doplním později",
+      "saved": "Vítejte v Journeo!"
+    }
+  },
+  "dashboardLayout": {
+    "nav": {
+      "overview": "Přehled",
+      "myTrips": "Moje výlety",
+      "map": "Mapa",
+      "statistics": "Statistiky",
+      "friends": "Přátelé",
+      "budget": "Výdaje",
+      "createTrip": "Vytvořit výlet",
+      "settings": "Nastavení",
+      "logout": "Odhlásit se",
+      "admin": "Admin Panel"
+    },
+    "theme": {
+      "light": "Světlý",
+      "dark": "Tmavý",
+      "system": "Systém"
+    },
+    "mobile": {
+      "appearance": "Vzhled",
+      "options": "Možnosti",
+      "myProfile": "Můj Profil"
+    },
+    "traveler": "Cestovatel",
+    "dialogs": {
+      "unsaved": {
+        "title": "Máte neuložené změny",
+        "message": "Opravdu chcete odejít? Vaše změny nebudou uloženy.",
+        "confirm": "Odejít bez uložení"
+      },
+      "logout": {
+        "title": "Odhlásit se?",
+        "message": "Opravdu se chcete odhlásit ze svého účtu?",
+        "confirm": "Odhlásit se"
+      }
+    },
+    "navLabel": "Hlavní navigace",
+    "navShort": {
+      "overview": "Přehled",
+      "myTrips": "Výlety",
+      "map": "Mapa",
+      "statistics": "Statistiky",
+      "friends": "Přátelé",
+      "budget": "Výdaje",
+      "create": "Výlet"
+    },
+    "passport": {
+      "countries": "Země",
+      "trips": "Výlety",
+      "days": "Dny",
+      "openMenu": "Účet a nastavení",
+      "nextTrip": "Nejbližší výlet",
+      "ongoing": "Probíhá · den {{n}} z {{total}}",
+      "dayOf": "den z {{total}}",
+      "daysToGo_one": "den do odjezdu",
+      "daysToGo_few": "dny do odjezdu",
+      "daysToGo_many": "dne do odjezdu",
+      "daysToGo_other": "dní do odjezdu"
+    },
+    "logoHome": "Journeo – úvodní stránka"
+  },
+  "spotlight": {
+    "title": "Rychlé hledání",
+    "trigger": "Hledat…",
+    "placeholder": "Hledej výlety, dny, místa, výdaje…",
+    "day": "Den",
+    "packed": "Sbaleno",
+    "pages": {
+      "trash": "Koš"
+    },
+    "groups": {
+      "recent": "Naposledy",
+      "suggested": "Rychlý start",
+      "trip": "Výlety",
+      "day": "Program",
+      "place": "Místa",
+      "expense": "Výdaje",
+      "packing": "Balení",
+      "document": "Poznámky",
+      "friend": "Přátelé",
+      "page": "Stránky",
+      "action": "Akce"
+    },
+    "phase": {
+      "upcoming": "Nadchází",
+      "ongoing": "Právě teď",
+      "past": "Proběhlo"
+    },
+    "actions": {
+      "themeLight": "Přepnout na světlý vzhled",
+      "themeDark": "Přepnout na tmavý vzhled",
+      "themeSystem": "Vzhled podle systému",
+      "language": "Přepnout jazyk"
+    },
+    "empty": {
+      "title": "Nic jsme nenašli",
+      "hint": "Zkus jiné slovo — hledá se i bez diakritiky."
+    },
+    "hints": {
+      "move": "procházet",
+      "open": "otevřít",
+      "count": "{{count}} výsledků"
+    }
+  },
+  "tripsOverview": {
+    "subtitle": "Přehled vašich cest",
+    "title": "Přehled",
+    "countdown": {
+      "label": "Další cesta za",
+      "today": "Dnes",
+      "days": "dní"
+    },
+    "noTrip": {
+      "title": "Zatím žádná cesta",
+      "subtitle": "Vytvořte první výlet a začněte plánovat."
+    },
+    "hero": {
+      "inProgress": "Právě probíhá",
+      "dayOf": "den {{day}} z {{total}}",
+      "today": "Dnes",
+      "noPlanToday": "Na dnešek zatím nemáte žádný plán.",
+      "openItinerary": "Itinerář",
+      "map": "Mapa",
+      "expenses": "Výdaje",
+      "lastTrip": "Poslední cesta",
+      "planNextPrompt": "Kam vyrazíte příště?",
+      "dayCount_one": "{{count}} den",
+      "dayCount_few": "{{count}} dny",
+      "dayCount_other": "{{count}} dní",
+      "placeCount_one": "{{count}} místo",
+      "placeCount_few": "{{count}} místa",
+      "placeCount_other": "{{count}} míst"
+    },
+    "readiness": {
+      "doneCount": "· hotovo {{done}} ze {{total}}",
+      "allDone": "Na cestu je všechno připravené.",
+      "label": "Připravenost",
+      "itinerary": "Naplánováno {{planned}} z {{total}} dní",
+      "packing": "Sbaleno {{packed}} z {{total}}",
+      "packingEmpty": "Zatím žádný seznam věcí",
+      "places_one": "{{count}} místo na mapě",
+      "places_few": "{{count}} místa na mapě",
+      "places_other": "{{count}} míst na mapě",
+      "placesEmpty": "Žádná místa na mapě",
+      "documents_one": "{{count}} dokument",
+      "documents_few": "{{count}} dokumenty",
+      "documents_other": "{{count}} dokumentů",
+      "documentsEmpty": "Žádné dokumenty ani odkazy"
+    },
+    "tiles": {
+      "budget": "Rozpočet",
+      "budgetOf": "z {{target}} · {{pct}} %",
+      "budgetTotal": "Utraceno celkem",
+      "budgetEmpty": "Zatím žádné výdaje",
+      "balance": "Vyrovnání",
+      "balanceSettled": "Vyrovnáno",
+      "balanceSettledSub": "Nikomu nic nedlužíte",
+      "balanceIOwe_one": "Dlužíte {{count}} člověku",
+      "balanceIOwe_few": "Dlužíte {{count}} lidem",
+      "balanceIOwe_other": "Dlužíte {{count}} lidem",
+      "balanceOwedToMe_one": "Dluží vám {{count}} člověk",
+      "balanceOwedToMe_few": "Dluží vám {{count}} lidé",
+      "balanceOwedToMe_other": "Dluží vám {{count}} lidí",
+      "balanceUnknown": "Nelze načíst",
+      "countries": "Země",
+      "countriesEmpty": "Zatím žádná místa",
+      "placesVisited": "{{visited}} navštíveno z {{total}}",
+      "trips": "Cesty",
+      "tripsUpcoming_one": "{{count}} plánovaná",
+      "tripsUpcoming_few": "{{count}} plánované",
+      "tripsUpcoming_other": "{{count}} plánovaných"
+    },
+    "friendRequests_one": "{{count}} nová žádost o přátelství",
+    "friendRequests_few": "{{count}} nové žádosti o přátelství",
+    "friendRequests_other": "{{count}} nových žádostí o přátelství",
+    "yourTrips": "Vaše cesty",
+    "allTrips": "Všechny výlety",
+    "activities": "Aktivit:",
+    "open": "Otevřít",
+    "continuePlanning": "Pokračovat v plánování",
+    "actions": {
+      "newTrip": "Nový výlet"
+    },
+    "error": {
+      "title": "Cesty se nepodařilo načíst",
+      "description": "Zkontrolujte připojení k internetu a zkuste to prosím znovu.",
+      "retry": "Zkusit znovu"
+    },
+    "delete": {
+      "title": "Smazat výlet"
+    },
+    "stats": {
+      "trips": "Výletů",
+      "places": "Míst"
+    }
+  },
+  "tripCard": {
+    "sharedTrip": "Sdílený výlet"
+  },
+  "shareModal": {
+    "title": "Sdílet výlet",
+    "linkSection": "Odkaz jen pro čtení",
+    "linkEnable": "Vytvořit odkaz",
+    "linkDisable": "Zrušit odkaz",
+    "linkCopy": "Kopírovat odkaz",
+    "linkCopied": "Odkaz zkopírován!",
+    "linkHint": "Kdokoli s odkazem uvidí program, balení a odkazy. Upravovat nemůže.",
+    "addSection": "Přidat spolupracovníka",
+    "searchPlaceholder": "Hledat přítele...",
+    "onlyFriendsHint": "Výlet lze sdílet pouze s přijatými přáteli.",
+    "noFriendsFound": "Žádný přítel nenalezen.",
+    "collaboratorsSection": "Spolupracovníci",
+    "noCollaborators": "Zatím žádní spolupracovníci. Pozvěte přítele!",
+    "addedSuccess": "{{name}} byl přidán jako spolupracovník.",
+    "removedSuccess": "Přístup byl odebrán.",
+    "footer": "Vlastník může kdykoli změnit nebo odebrat přístup.",
+    "shareButton": "Sdílet",
+    "roles": {
+      "owner": "Vlastník",
+      "editor": "Editor",
+      "viewer": "Prohlížeč"
+    },
+    "invite": {
+      "section": "Pozvat parťáky",
+      "hint": "Kdo otevře odkaz, může výlet upravovat s tebou. Účet si založí cestou.",
+      "loading": "Připravuju odkaz…",
+      "copy": "Zkopírovat pozvánku",
+      "share": "Sdílet",
+      "revoke": "Zrušit pozvánku",
+      "revoked": "Pozvánka je zrušená. Kdo už se připojil, zůstává.",
+      "create": "Vytvořit pozvánku",
+      "retry": "Zkusit znovu",
+      "copyError": "Zkopírovat se nepovedlo.",
+      "shareText": "Pojď se mnou plánovat výlet {{trip}} v Journeu"
+    },
+    "copy": "Kopírovat",
+    "copied": "Zkopírováno",
+    "people": {
+      "title": "Kdo jede",
+      "you": "ty",
+      "empty": "Zatím jen ty. Pošli parťákům pozvánku, nebo je přidej z přátel.",
+      "roleFor": "Role pro {{name}}",
+      "remove": "Odebrat {{name}}",
+      "newRole": "Role nového spolucestujícího"
+    }
+  },
+  "publicTrip": {
+    "readOnly": "Jen pro čtení",
+    "day": "Den",
+    "days": "dní",
+    "prev": "Předchozí",
+    "next": "Další",
+    "noDayNotes": "Pro tento den nejsou žádné poznámky.",
+    "tabs": {
+      "itinerary": "Itinerář",
+      "packing": "Balení",
+      "documents": "Dokumenty"
+    },
+    "packing": {
+      "empty": "Seznam věcí je prázdný."
+    },
+    "documents": {
+      "empty": "Žádné dokumenty.",
+      "open": "Otevřít odkaz"
+    },
+    "notFound": {
+      "title": "Výlet nenalezen",
+      "desc": "Tento odkaz je neplatný nebo byl zrušen vlastníkem výletu.",
+      "cta": "Přejít na Journeo"
+    },
+    "header": {
+      "login": "Přihlásit se",
+      "signup": "Začít zdarma"
+    },
+    "cta": {
+      "title": "Líbí se ti tenhle plán?",
+      "desc": "Zkopíruj si ho a uprav podle sebe. Journeo je zdarma.",
+      "button": "Vytvořit účet zdarma"
+    },
+    "footer": "Výlet sdílený přes Journeo",
+    "copy": {
+      "cta": "Zkopírovat si výlet",
+      "busy": "Kopíruju…",
+      "hint": "Program, balení a místa se ti zkopírují. Bez registrace, vyzkoušíš to hned.",
+      "done": "Výlet je zkopírovaný. Uprav si ho podle sebe.",
+      "error": "Zkopírovat výlet se nepovedlo."
+    }
+  },
+  "tripDetail": {
+    "backToDashboard": "Zpět na přehled",
+    "backToAll": "Zpět na Moje výlety",
+    "notFound": "Výlet nebyl nalezen.",
+    "backToOverview": "Zpět na přehled",
+    "generating": {
+      "title": "Zakládáme váš výlet...",
+      "description": "Připravujeme prostor pro váš itinerář, rozpočet a seznamy věcí. Hned budete moci začít s plánováním."
+    },
+    "save": {
+      "unsaved": "Uložit změny",
+      "saved": "Uložit plán",
+      "success": "Změny byly úspěšně uloženy!"
+    },
+    "rename": "Přejmenovat",
+    "tabs": {
+      "itinerary": "Itinerář",
+      "tools": "Nástroje",
+      "details": "Detaily",
+      "save": "Uložit"
+    },
+    "tools": {
+      "packing": "Balící seznam",
+      "documents": "Odkazy a poznámky",
+      "diary": "Deník a Galerie",
+      "budget": "Rozpočet",
+      "map": "Mapa"
+    },
+    "info": {
+      "title": "Přehled výletu",
+      "date": "Datum",
+      "days": "Počet dní",
+      "daysValue": "dní",
+      "status": "Status",
+      "statusValue": "Naplánováno",
+      "openDiary": "Otevřít deník"
+    },
+    "mobile": {
+      "packing": "Batoh",
+      "items": "položek",
+      "links": "Odkazy",
+      "records": "záznamů",
+      "budget": "Rozpočet",
+      "budgetEmpty": "Zatím žádné výdaje",
+      "map": "Mapa výletu",
+      "mapHint": "Místa a trasa na mapě"
+    },
+    "packing": {
+      "title": "Balící seznam",
+      "placeholder": "Přidat položku do batohu (stiskněte Enter)",
+      "empty": "Zatím tu nic není. Přidejte první věc do batohu!",
+      "delete": {
+        "title": "Smazat položku?",
+        "message": "Opravdu chcete tuto položku smazat z balícího seznamu?",
+        "confirm": "Smazat"
+      }
+    },
+    "documents": {
+      "title": "Odkazy a poznámky",
+      "titlePlaceholder": "Název (např. Letenky, Airbnb)",
+      "contentPlaceholder": "Vložte URL odkaz nebo libovolnou textovou poznámku...",
+      "save": "Uložit odkaz",
+      "empty": "Zatím žádné uložené odkazy.",
+      "open": "Otevřít odkaz",
+      "delete": {
+        "title": "Smazat odkaz?",
+        "message": "Opravdu chcete smazat tento odkaz či poznámku?",
+        "confirm": "Smazat"
+      }
+    },
+    "diary": {
+      "title": "Deník a Fotogalerie",
+      "description": "Tato funkce se momentálně připravuje! Brzy si zde budete moci zapisovat vzpomínky z cest, hodnotit výlety a vytvářet krásné fotogalerie.",
+      "comingSoon": "Připravujeme (Coming soon)"
+    },
+    "itinerary": {
+      "label": "Itinerář",
+      "locationLabel": "Lokace (Město, Místo)",
+      "locationPlaceholder": "Např. Eiffelova věž, Paříž",
+      "planLabel": "Co máte v plánu?",
+      "planPlaceholder": "Napište si poznámky, aktivity, časy rezervací...",
+      "noLocation": "Bez lokace"
+    },
+    "unsaved": {
+      "title": "Máte neuložené změny",
+      "message": "Opravdu chcete odejít? Vaše změny nebudou uloženy.",
+      "confirm": "Odejít bez uložení"
+    },
+    "viewerBanner": "Tento výlet si prohlížíte pouze pro čtení. Nemůžete provádět změny.",
+    "roles": {
+      "viewer": "Prohlížeč",
+      "editor": "Editor"
+    },
+    "exportPdf": "Exportovat PDF",
+    "notebook": {
+      "program": "Program",
+      "programStatus": "Den {{n}}/{{total}}",
+      "dayOf": "Den {{n}} z {{total}}",
+      "today": "dnes",
+      "dayTitlePlaceholder": "Den {{n}}",
+      "dayTitleAria": "Název dne",
+      "planAria": "Plán dne",
+      "locationAria": "Místo dne",
+      "prevDay": "Předchozí den",
+      "nextDay": "Další den",
+      "days_one": "{{count}} den",
+      "days_few": "{{count}} dny",
+      "days_many": "{{count}} dne",
+      "days_other": "{{count}} dní",
+      "countdown_one": "Odjezd zítra",
+      "countdown_few": "Odjezd za {{count}} dny",
+      "countdown_many": "Odjezd za {{count}} dne",
+      "countdown_other": "Odjezd za {{count}} dní",
+      "departsToday": "Odjezd dnes",
+      "traveling": "Právě cestujete · den {{n}}",
+      "ended": "Výlet skončil",
+      "saving": "Ukládám…",
+      "saved": "Uloženo",
+      "saveError": "Neuloženo · zkusit znovu",
+      "backToProgram": "Zpět na program",
+      "addExpense": "Výdaj",
+      "noExpenses": "Bez výdajů",
+      "mapStatus": "Místa a trasa",
+      "packingProgress": "{{done}} z {{total}} sbaleno",
+      "toPack": "Zbývá zabalit",
+      "packed": "Sbaleno",
+      "allPacked": "Všechno je sbalené.",
+      "packingPlaceholder": "Co si nezapomenout?",
+      "add": "Přidat",
+      "links": "Odkazy",
+      "notes": "Poznámky",
+      "notesEmpty": "Sem si uložte rezervace, vstupenky, letenky nebo cokoli dalšího k výletu.",
+      "composerTitle": "Název, např. Letenky",
+      "composerContent": "Odkaz nebo poznámka",
+      "packingEmpty": "Seznam je prázdný. Začněte doklady a nabíječkou.",
+      "spent": "Utraceno",
+      "of": "z",
+      "packing": "Balení",
+      "searchExpenses": "Hledat výdaj",
+      "edit": "Upravit",
+      "saveEdit": "Uložit",
+      "cancelEdit": "Zrušit",
+      "linkTitle": "Popisek odkazu",
+      "linkUrl": "Adresa odkazu"
+    },
+    "dates": {
+      "edit": "Změnit termín",
+      "pick": "Vyberte první a poslední den výletu",
+      "save": "Uložit termín",
+      "cancel": "Zrušit",
+      "tooLong": "Výlet může mít nejvýš {{max}} dní.",
+      "lost_one": "Den {{days}} má vyplněný program a v novém termínu už nebude. Jeho program se smaže.",
+      "lost_few": "Dny {{days}} mají vyplněný program a v novém termínu už nebudou. Jejich program se smaže.",
+      "lost_many": "Dny {{days}} mají vyplněný program a v novém termínu už nebudou. Jejich program se smaže.",
+      "lost_other": "Dny {{days}} mají vyplněný program a v novém termínu už nebudou. Jejich program se smaže.",
+      "moved": "Program se posune s výletem: 1. den zůstane 1. dnem.",
+      "kept": "Program zůstane u stejných kalendářních dnů.",
+      "confirmTitle": "Zkrátit výlet?",
+      "confirm": "Změnit termín",
+      "pickEnd": "Od {{date}}, teď vyberte poslední den"
+    }
+  },
+  "pdf": {
+    "travelPlan": "Cestovní plán",
+    "selectTitle": "Vyberte, co exportovat",
+    "selectSubtitle": "Vyberte části, které chcete mít ve svém PDF.",
+    "generate": "Vygenerovat PDF",
+    "days": "dní",
+    "stops": "zastávek",
+    "itinerary": "Itinerář",
+    "emptyDay": "Zatím nic v plánu — užijte si volno.",
+    "packing": "Balící seznam",
+    "packed": "Sbaleno {{done}} z {{total}}",
+    "documents": "Odkazy a poznámky",
+    "budget": "Rozpočet",
+    "spent": "Utraceno",
+    "target": "z plánovaných {{amount}}",
+    "colDate": "Datum",
+    "colDescription": "Popis",
+    "colCategory": "Kategorie",
+    "colPaidBy": "Zaplatil(a)",
+    "colAmount": "Částka",
+    "total": "Celkem",
+    "balances": "Vyrovnání",
+    "toSettle": "Navrhované platby",
+    "generatedWith": "Vytvořeno v aplikaci Journeo",
+    "generatedOn": "Exportováno {{date}}",
+    "signOff": "Šťastnou cestu!"
+  },
+  "allTrips": {
+    "startsIn_one": "Za {{count}} den",
+    "startsIn_few": "Za {{count}} dny",
+    "startsIn_other": "Za {{count}} dní",
+    "count_one": "{{count}} výlet",
+    "count_few": "{{count}} výlety",
+    "count_other": "{{count}} výletů",
+    "dayCount_one": "{{count}} den",
+    "dayCount_few": "{{count}} dny",
+    "dayCount_other": "{{count}} dní",
+    "subtitle": "Vše na jednom místě",
+    "title": "Moje výlety",
+    "search": {
+      "placeholder": "Hledat výlet podle názvu..."
+    },
+    "filter": {
+      "all": "Všechny",
+      "ongoing": "Probíhající",
+      "upcoming": "Plánované",
+      "past": "Minulé",
+      "reset": "Resetovat"
+    },
+    "sort": {
+      "dateDesc": "Nejnovější",
+      "dateAsc": "Nejstarší",
+      "nameAz": "A – Z"
+    },
+    "shared": "Sdílený",
+    "days": "dní",
+    "open": "Otevřít",
+    "empty": {
+      "title": "Žádné výlety",
+      "description": "Vašemu vyhledávání neodpovídají žádné výlety. Zkuste změnit filtry."
+    },
+    "noTrips": {
+      "title": "Tady budou všechny tvoje výlety",
+      "description": "Nadcházející, právě probíhající i ty, co už máš za sebou. Na jednom místě, s hledáním a filtry.",
+      "samples": {
+        "upcoming": {
+          "title": "Lisabon",
+          "meta": "12.–18. 11. · 7 dní",
+          "status": "Za 12 dní"
+        },
+        "ongoing": {
+          "title": "Krkonoše",
+          "meta": "25.–27. 10. · 3 dny",
+          "status": "Den 2 ze 3"
+        },
+        "past": {
+          "title": "Vídeň",
+          "meta": "4.–7. 9. · 4 dny",
+          "status": "Proběhlo"
+        }
+      }
+    },
+    "delete": {
+      "title": "Smazat výlet"
+    },
+    "trash": "Koš"
+  },
+  "map": {
+    "title": "Moje mapa",
+    "subtitle_one": "{{count}} uložené místo",
+    "subtitle_few": "{{count}} uložená místa",
+    "subtitle_other": "{{count}} uložených míst",
+    "loading": "Načítám místa…",
+    "categories": {
+      "sight": "Památka",
+      "food": "Jídlo",
+      "stay": "Ubytování",
+      "nature": "Příroda",
+      "activity": "Zážitek",
+      "transport": "Doprava",
+      "other": "Ostatní"
+    },
+    "statuses": {
+      "visited": "Navštíveno",
+      "wishlist": "Chci navštívit"
+    },
+    "filters": {
+      "searchPlaceholder": "Hledat místo…",
+      "locate": "Moje poloha",
+      "toggle": "Filtry",
+      "all": "Vše",
+      "allTrips": "Všechny výlety",
+      "tripLabel": "Filtrovat podle výletu"
+    },
+    "list": {
+      "toggle": "Seznam míst",
+      "edit": "Upravit místo {{name}}"
+    },
+    "sheet": {
+      "newTitle": "Nové místo",
+      "editTitle": "Upravit místo",
+      "nameLabel": "Název",
+      "namePlaceholder": "Např. Vyhlídka nad zátokou",
+      "statusLabel": "Stav",
+      "categoryLabel": "Kategorie",
+      "tripLabel": "Výlet",
+      "noTrip": "Bez výletu (jen moje mapa)",
+      "dayLabel": "Den výletu",
+      "noDay": "Bez konkrétního dne",
+      "dayOption": "Den {{number}}",
+      "noteLabel": "Poznámka",
+      "notePlaceholder": "Co si o tom místě chceš pamatovat?",
+      "save": "Uložit změny",
+      "create": "Uložit místo",
+      "delete": "Smazat místo",
+      "locationLabel": "Poloha",
+      "move": "Přesunout",
+      "moveCancel": "Hotovo",
+      "moveHint": "Klepni do mapy nebo přetáhni špendlík na nové místo.",
+      "draftMoveHint": "Klepnutím do mapy špendlík přesuneš."
+    },
+    "empty": {
+      "title": "Zatím žádná místa",
+      "filtered": "Filtru neodpovídá žádné místo.",
+      "hint": "Klikni kamkoli do mapy a ulož si první místo.",
+      "globalTitle": "Tvoje mapa světa",
+      "globalLead": "Ukládej místa, kam se chceš podívat, a odškrtávej, kde už jsi byl. Z navštívených míst se ti skládají země v pasu.",
+      "tripTitle": "Místa k tomuhle výletu",
+      "tripLead": "Připíchni si ubytování, památky a podniky. Podle dnů z nich vznikne trasa.",
+      "tips": {
+        "search": "Vyhledej místo v poli nahoře",
+        "click": "Nebo klikni kamkoli do mapy",
+        "add": "Případně použij tlačítko Přidat"
+      }
+    },
+    "confirmDelete": {
+      "title": "Smazat místo?",
+      "message": "Místo „{{name}}“ se z mapy odstraní. Tuhle akci nelze vrátit.",
+      "confirm": "Smazat"
+    },
+    "toasts": {
+      "created": "Místo uloženo.",
+      "updated": "Změny uloženy.",
+      "deleted": "Místo smazáno.",
+      "moved": "Poloha upravena — ještě ulož změny."
+    },
+    "errors": {
+      "load": "Nepodařilo se načíst místa.",
+      "save": "Místo se nepodařilo uložit.",
+      "delete": "Místo se nepodařilo smazat.",
+      "geolocationUnsupported": "Tvůj prohlížeč neumí zjistit polohu.",
+      "geolocationDenied": "Polohu se nepodařilo zjistit."
+    },
+    "trip": {
+      "routeSummary": "Trasa přes {{count}} míst · {{distance}}",
+      "noRoute": "Přiřaď místa ke dnům a uvidíš trasu výletu.",
+      "import": "Načíst z itineráře",
+      "importDone_one": "Načteno {{count}} místo z itineráře.",
+      "importDone_few": "Načtena {{count}} místa z itineráře.",
+      "importDone_other": "Načteno {{count}} míst z itineráře.",
+      "importFailed": "Žádnou z lokací se nepodařilo najít na mapě.",
+      "importNothing": "Z itineráře není co načíst.",
+      "importError": "Načtení míst z itineráře se nezdařilo.",
+      "empty": "K tomuhle výletu zatím nejsou žádná místa.",
+      "emptyHint": "Klikni do mapy nebo načti místa z itineráře.",
+      "canvasLabel": "Mapa výletu {{title}}"
+    },
+    "stats": {
+      "countries": "Navštívené země",
+      "cities": "Navštívená města",
+      "places": "Uložená místa",
+      "wishlist": "Na seznamu přání",
+      "empty": "Ulož si první místa na mapě a uvidíš tu svoje země.",
+      "open": "Otevřít mapu"
+    },
+    "mobile": {
+      "back": "Zpět",
+      "menu": "Menu",
+      "addPlace": "Přidat",
+      "placeHere": "Umístit sem",
+      "cancel": "Zrušit",
+      "edit": "Upravit",
+      "move": "Přesunout",
+      "delete": "Smazat místo",
+      "placingHint": "Posuň mapou pod křížek"
+    },
+    "panel": {
+      "collapse": "Sbalit panel",
+      "expand": "Rozbalit panel"
+    }
+  },
+  "budget": {
+    "subtitle": "Rozpočet",
+    "title": "Výdaje a rozpočet",
+    "sketchHint": "Tady si vyber výlet",
+    "addExpense": "Nová útrata",
+    "categories": {
+      "transport": "Doprava",
+      "accommodation": "Ubytování",
+      "food": "Jídlo & Pití",
+      "activities": "Aktivity",
+      "other": "Ostatní",
+      "all": "Všechny kategorie"
+    },
+    "summary": {
+      "total": "Celkové výdaje",
+      "transactions": "Počet transakcí",
+      "tripDates": "Termín výletu",
+      "avgPerDay": "Průměr za den",
+      "overDays": "za {{count}} dní",
+      "used": "použito",
+      "daysLeft": "Dní zbývá",
+      "projected": "Odhadovaný výdaj",
+      "remainingAmount": "{{amount}} zbývá"
+    },
+    "breakdown": "Rozložení podle kategorií",
+    "history": "Historie výdajů",
+    "items": "položek",
+    "search": {
+      "placeholder": "Hledat výdaj podle popisu..."
+    },
+    "filter": {
+      "reset": "Resetovat"
+    },
+    "empty": {
+      "noTrips": "Žádný výlet",
+      "noTripsDesc": "Nejprve si vytvořte výlet v plánovači a pak sem můžete přidat první výdaje.",
+      "noExpenses": "Zatím žádné výdaje. Přidejte první!",
+      "noResults": "Žádné výsledky",
+      "noResultsDesc": "Vašemu vyhledávání neodpovídají žádné výdaje. Zkuste změnit filtry.",
+      "noExpensesDesc": "Sledujte výdaje za pochodu — přidejte první výdaj a začněte.",
+      "title": "Kolik vás výlet vyjde?",
+      "viewerTitle": "Zatím tu nejsou žádné výdaje",
+      "lead": "Zapisuj výdaje během cesty. Journeo je sečte po dnech i podle kategorií, a když platíte za ostatní, spočítá, kdo komu kolik dluží.",
+      "quickStart": "Za co jste platili jako první?",
+      "setLimit": "Nastavit limit rozpočtu",
+      "limitSet": "Limit {{amount}} · upravit",
+      "sample": "Ukázka",
+      "splitWays_one": "pro {{count}}",
+      "splitWays_few": "rozděleno na {{count}}",
+      "splitWays_other": "rozděleno na {{count}}",
+      "sampleSettle": "Tomáš posílá Anně {{amount}}",
+      "samples": {
+        "stay": {
+          "title": "Apartmán na 3 noci",
+          "paidBy": "Platila Anna"
+        },
+        "train": {
+          "title": "Vlak tam a zpět",
+          "paidBy": "Platil jsi ty"
+        },
+        "dinner": {
+          "title": "Večeře u přístavu",
+          "paidBy": "Platil Tomáš"
+        }
+      },
+      "noTripsTitle": "Výdaje a vyrovnání bez tabulek",
+      "noTripsLead": "Jakmile máš výlet, zapisuješ sem útraty. Journeo je sečte po dnech i kategoriích a spočítá, kdo komu kolik dluží."
+    },
+    "delete": {
+      "deleted": "Výdaj smazán · {{amount}}",
+      "restored": "Výdaj je zpátky"
+    },
+    "addModal": {
+      "splitSummaryYou": "Platíš ty · děleno mezi {{count}}",
+      "splitSummaryCustomYou": "Platíš ty · vlastní částky",
+      "forWhatPlaceholder": "Za co? Třeba Večeře u oceánu",
+      "amountError": "Zadej částku.",
+      "today": "Dnes",
+      "yesterday": "Včera",
+      "otherDay": "Jiný den",
+      "tripDay": "{{day}}. den výletu",
+      "splitSummary": "Platí {{name}} · děleno mezi {{count}}",
+      "splitSummaryCustom": "Platí {{name}} · vlastní částky",
+      "submitAmount": "Přidat {{amount}}",
+      "saveAndAddAnother": "Uložit a přidat další",
+      "title": "Přidat výdaj",
+      "descriptionLabel": "Popis",
+      "descriptionPlaceholder": "např. Letenka Praha → Londýn",
+      "amountLabel": "Částka",
+      "categoryLabel": "Kategorie",
+      "dateLabel": "Datum výdaje",
+      "submit": "Přidat výdaj",
+      "success": "Výdaj byl přidán!",
+      "editTitle": "Upravit výdaj",
+      "editSubmit": "Uložit změny",
+      "editSuccess": "Výdaj byl upraven!",
+      "error": "Vyplňte prosím popis a částku.",
+      "paidByLabel": "Kdo zaplatil",
+      "splitLabel": "Rozdělit mezi",
+      "splitTypeLabel": "Způsob rozdělení",
+      "splitEqually": "Rovným dílem",
+      "splitCustom": "Vlastní částky",
+      "personalExpense": "Osobní (bez rozdělení)",
+      "eachOwes": "{{amount}} / osoba",
+      "splitError": "Vyberte alespoň jednu osobu pro rozdělení.",
+      "splitSumError": "Součet částek musí odpovídat celkové částce ({{amount}}).",
+      "selectAll": "Vybrat všechny",
+      "you": "Vy",
+      "close": "Zavřít",
+      "rateLoading": "Načítám kurz…",
+      "rateError": "Kurz ECB se nepodařilo načíst. Zadejte ho ručně.",
+      "rateEcb": "kurz ECB {{date}}",
+      "rateManual": "vlastní kurz",
+      "rateEdit": "Upravit kurz",
+      "rateUseEcb": "Použít kurz ECB",
+      "rateMissing": "Doplňte kurz, ať jde výdaj převést do měny výletu."
+    },
+    "balances": {
+      "title": "Vyrovnání",
+      "subtitle": "Kdo komu dluží",
+      "you": "Vy",
+      "owes": "dluží",
+      "owesYou": "dluží vám",
+      "youOwe": "dlužíte",
+      "getsBack": "dostane zpět",
+      "youGetBack": "dostanete zpět",
+      "net": "Čistý zůstatek",
+      "toSettle": "Navrhované vyrovnání",
+      "settledUp": "Vyrovnáno",
+      "allSettled": "Všichni jsou vyrovnaní 🎉",
+      "empty": "Zatím žádné sdílené výdaje. Přidejte výdaj rozdělený mezi spolupracovníky a uvidíte vyrovnání.",
+      "loadError": "Vyrovnání se nepodařilo načíst."
+    },
+    "settle": {
+      "settleUp": "Vyrovnat",
+      "title": "Vyrovnání dluhu",
+      "youOweAmount": "Dlužíte {{amount}} uživateli {{name}}.",
+      "sendMoneyTo": "Pošlete peníze na",
+      "noBankAccount": "{{name}} zatím nezadal/a číslo účtu.",
+      "copyAccount": "Kopírovat číslo účtu",
+      "accountCopied": "Číslo účtu zkopírováno",
+      "markAsPaid": "Označit jako zaplaceno",
+      "settling": "Vyrovnávám…",
+      "settleSuccess": "Dluh vyrovnán — díky!",
+      "settleError": "Dluh se nepodařilo vyrovnat. Zkuste to znovu."
+    },
+    "sort": {
+      "dateDesc": "Nejnovější",
+      "dateAsc": "Nejstarší",
+      "amountDesc": "Nejvyšší",
+      "amountAsc": "Nejnižší"
+    },
+    "target": {
+      "set": "Nastavit limit",
+      "edit": "Upravit limit",
+      "save": "Uložit",
+      "of": "z {{amount}}",
+      "over": "Přesáhnut limit!",
+      "placeholder": "Zadejte částku"
+    },
+    "expenseEdit": "Upravit",
+    "expenseDelete": "Smazat",
+    "pacing": {
+      "onTrack": "V tempu",
+      "overPace": "Nad tempem"
+    },
+    "groupDate": {
+      "today": "Dnes",
+      "yesterday": "Včera"
+    },
+    "currency": {
+      "changeTitle": "Změnit měnu výletu na {{currency}}?",
+      "changeMessage": "Částky výdajů, vyrovnání i limit můžu přepočítat z {{from}} na {{to}} dnešním kurzem ECB. Výdaje zadané přímo v {{to}} se vrátí na přesnou původní částku. Pokud jste jen na začátku vybrali špatnou měnu, zvolte „Jen změnit měnu“ a částky zůstanou stejné.",
+      "convert": "Přepočítat",
+      "relabel": "Jen změnit měnu",
+      "converted": "Výlet je teď v {{currency}}, částky jsou přepočítané",
+      "changed": "Měna výletu změněna na {{currency}}"
+    }
+  },
+  "statistics": {
+    "subtitle": "Přehled",
+    "title": "Statistiky cestování",
+    "loading": "Načítám vaše data…",
+    "empty": "Zatím nemáte žádné výlety. Zkuste si nějaký vytvořit!",
+    "metrics": {
+      "trips": "Celkem výletů",
+      "days": "Dní na cestách",
+      "places": "Unikátních míst",
+      "likes": "Celkem lajků"
+    },
+    "financial": {
+      "label": "Celkové výdaje",
+      "mostExpensive": "Nejdražší výlet:"
+    },
+    "highlights": {
+      "longestTrip": "Nejdelší výlet",
+      "longestTripDays": "dní",
+      "packing": "Balící disciplína",
+      "packingOf": "z",
+      "packingItems": "věcí",
+      "packingNoItems": "Žádné položky",
+      "favoriteMonth": "Oblíbený měsíc",
+      "tripCount": "výlet",
+      "tripCountFew": "výlety",
+      "tripCountMany": "výletů",
+      "mostPopular": "Nejpopulárnější",
+      "likes": "lajků",
+      "empty": "—"
+    },
+    "error": {
+      "title": "Statistiky se nepodařilo načíst",
+      "subtitle": "Při načítání dat došlo k chybě.",
+      "retry": "Zkusit znovu"
+    },
+    "emptyState": {
+      "title": "Tvoje cestování v číslech",
+      "lead": "Po prvním výletu tu uvidíš, kolik dní jsi strávil na cestách, kolik zemí máš za sebou, kdy jezdíš nejčastěji a kolik tě to stálo.",
+      "samples": {
+        "countries": {
+          "value": "3",
+          "label": "Země"
+        },
+        "trips": {
+          "value": "5",
+          "label": "Výletů"
+        },
+        "days": {
+          "value": "26",
+          "label": "Dní na cestách"
+        },
+        "byMonth": "Výlety po měsících",
+        "peak": "Nejčastěji cestuješ v srpnu."
+      }
+    }
+  },
+  "settings": {
+    "title": "Nastavení",
+    "status": {
+      "saving": "Ukládám…",
+      "saved": "Uloženo",
+      "error": "Neuloženo · zkusit znovu"
+    },
+    "profile": {
+      "title": "Váš pas",
+      "description": "Takhle vás vidí přátelé a spolucestující.",
+      "firstName": "Jméno",
+      "firstNamePlaceholder": "Jan",
+      "lastName": "Příjmení",
+      "lastNamePlaceholder": "Novák",
+      "bio": "O mně",
+      "bioPlaceholder": "Milovník hor a dobrodružství…",
+      "avatarLabel": "Obrázek",
+      "avatars": {
+        "none": "Iniciály",
+        "mountain": "Hory",
+        "beach": "Pláž",
+        "city": "Kompas",
+        "forest": "Mapa",
+        "travel": "Letadlo",
+        "photography": "Fotoaparát"
+      },
+      "charsLeft": "Zbývá {{count}} znaků",
+      "saveError": "Profil se nepodařilo uložit."
+    },
+    "settle": {
+      "title": "Vyrovnání",
+      "bankAccount": "Číslo účtu nebo IBAN",
+      "bankAccountPlaceholder": "123456789/0100",
+      "bankAccountHint": "Aby vám spolucestující mohli poslat peníze, až se budete vyrovnávat."
+    },
+    "preferences": {
+      "title": "Předvolby"
+    },
+    "emails": {
+      "title": "E-mailová upozornění",
+      "note": "Kódy pro přihlášení a obnovení hesla chodí vždy.",
+      "tripReminders": "Připomínka před cestou",
+      "tripRemindersHint": "3 dny před odjezdem: co zbývá sbalit, naplánovat a mít po ruce.",
+      "friendRequests": "Žádosti o přátelství",
+      "friendRequestsHint": "Když vás někdo přidá do přátel.",
+      "settlements": "Vyrovnané dluhy",
+      "settlementsHint": "Když vám někdo ve výletu pošle, co dlužil.",
+      "tripTransfers": "Předané výlety",
+      "tripTransfersHint": "Když vám někdo před smazáním účtu předá výlet.",
+      "error": "Nastavení e-mailů se nepodařilo uložit."
+    },
+    "currency": {
+      "title": "Hlavní měna",
+      "subtitle": "Nové výlety se zakládají v této měně a v ní se sčítají souhrny napříč výlety. Každý výlet má vlastní měnu (mění se v jeho rozpočtu) a výdaj jde zadat v libovolné měně.",
+      "changed": "Hlavní měna je teď {{currency}}. Stávající výlety zůstávají ve své měně."
+    },
+    "appearance": {
+      "title": "Vzhled",
+      "subtitle": "Systémový se řídí nastavením zařízení."
+    },
+    "theme": {
+      "light": "Světlý",
+      "dark": "Tmavý",
+      "system": "Systémový"
+    },
+    "language": {
+      "title": "Jazyk",
+      "subtitle": "Jazyk rozhraní aplikace.",
+      "cs": "Čeština",
+      "en": "English"
+    },
+    "account": {
+      "title": "Účet",
+      "email": "E-mail",
+      "emailHint": "E-mail nejde změnit.",
+      "logout": "Odhlásit se",
+      "logoutHint": "Odhlásí vás na tomto zařízení."
+    },
+    "password": {
+      "title": "Heslo",
+      "subtitle": "Po změně zůstanete na tomto zařízení přihlášeni.",
+      "open": "Změnit heslo",
+      "cancel": "Zrušit",
+      "current": "Současné heslo",
+      "new": "Nové heslo",
+      "confirm": "Nové heslo znovu",
+      "submit": "Uložit nové heslo",
+      "submitting": "Ukládám…",
+      "mismatch": "Hesla se neshodují.",
+      "weak": "Nové heslo nesplňuje požadavky níže.",
+      "req": {
+        "length": "Alespoň 8 znaků",
+        "uppercase": "Velké písmeno",
+        "digit": "Číslice"
+      },
+      "reqMet": "splněno",
+      "reqUnmet": "nesplněno"
+    },
+    "delete": {
+      "title": "Smazat účet",
+      "description": "Trvale smaže váš účet, přátele, oznámení a nastavení. Výlety, které vlastníte a sdílíte s někým, kdo je může upravovat, se předají jemu. Ostatní vaše výlety se smažou i lidem, kteří je mohou jen číst. Výdaje, které jste platili ve výletech jiných lidí, v nich zůstanou bez vašeho jména. Nelze vzít zpět.",
+      "button": "Smazat účet…",
+      "confirmTitle": "Opravdu smazat účet?",
+      "confirmMessage": "Účet a všechna vaše data budou nenávratně smazána a budete odhlášeni.",
+      "confirmLabel": "Pro potvrzení napište svůj e-mail",
+      "confirmBtn": "Trvale smazat účet",
+      "successMessage": "Váš účet byl smazán.",
+      "error": "Účet se nepodařilo smazat."
+    }
+  },
+  "friends": {
+    "title": "Přátelé",
+    "defaultName": "tohoto uživatele",
+    "search": {
+      "label": "Najít přítele",
+      "placeholder": "Jméno nebo e-mail…",
+      "clear": "Vymazat hledání",
+      "noResults": "Nikoho takového jsme nenašli."
+    },
+    "invite": {
+      "title": "Váš zvací odkaz",
+      "description": "Pošlete tento odkaz někomu, koho znáte — kdokoliv, kdo ho po přihlášení otevře, vás může jedním klikem přidat jako přítele.",
+      "copy": "Zkopírovat odkaz",
+      "copyShort": "Kopírovat",
+      "copied": "Zkopírováno",
+      "copyError": "Odkaz se nepodařilo zkopírovat.",
+      "hint": "Pošlete ho komukoliv — po přihlášení vás přidá jedním klikem.",
+      "regenerate": "Vygenerovat nový odkaz",
+      "regenerateTitle": "Vygenerovat nový odkaz?",
+      "regenerateMessage": "Stávající zvací odkaz přestane fungovat. Kdokoliv, kdo ho má, vás přes něj už nepřidá.",
+      "regenerateConfirm": "Vygenerovat nový odkaz",
+      "regenerateSuccess": "Nový zvací odkaz byl vygenerován.",
+      "regenerateError": "Chyba při generování nového odkazu.",
+      "linkCopied": "Odkaz zkopírován do schránky!"
+    },
+    "status": {
+      "friends": "Přátelé",
+      "alreadyFriends": "Přátelé",
+      "requestSent": "Žádost odeslána",
+      "pendingReceived": "Čeká na přijetí",
+      "addButton": "Přidat",
+      "waitingConfirm": "Čeká na potvrzení",
+      "accept": "Přijmout",
+      "decline": "Odmítnout",
+      "remove": "Odebrat",
+      "profile": "Profil"
+    },
+    "remove": {
+      "title": "Odebrat přítele?",
+      "message": "Opravdu chcete odebrat {{name}} ze seznamu přátel? Ztratíte vzájemný přístup k výletům.",
+      "confirm": "Odebrat"
+    },
+    "toasts": {
+      "requestSent": "Žádost o přátelství odeslána!",
+      "accepted": "Přátelství přijato!",
+      "removed": "Přítel odebrán.",
+      "requestError": "Chyba při odesílání žádosti.",
+      "acceptError": "Chyba při přijímání žádosti.",
+      "declineError": "Chyba při odmítání žádosti.",
+      "removeError": "Chyba při odebírání přítele.",
+      "requestNotFound": "Tahle žádost už byla vyřízena."
+    },
+    "summary": {
+      "friends_one": "{{count}} spolucestující",
+      "friends_few": "{{count}} spolucestující",
+      "friends_many": "{{count}} spolucestujících",
+      "friends_other": "{{count}} spolucestujících",
+      "countries_one": "{{count}} společná země",
+      "countries_few": "{{count}} společné země",
+      "countries_many": "{{count}} společné země",
+      "countries_other": "{{count}} společných zemí"
+    },
+    "inviteButton": "Pozvat odkazem",
+    "requests": {
+      "title": "Žádosti o přátelství",
+      "message": "<0>{{name}}</0> vám poslal(a) žádost o přátelství"
+    },
+    "card": {
+      "since": "Přátelé od {{date}}",
+      "trips_one": "výlet spolu",
+      "trips_few": "výlety spolu",
+      "trips_many": "výletu spolu",
+      "trips_other": "výletů spolu",
+      "countries_one": "země",
+      "countries_few": "země",
+      "countries_many": "země",
+      "countries_other": "zemí",
+      "days_one": "den na cestě",
+      "days_few": "dny na cestě",
+      "days_many": "dne na cestě",
+      "days_other": "dní na cestě",
+      "nextTrip": "Příští společný výlet",
+      "daysToGo_one": "den",
+      "daysToGo_few": "dny",
+      "daysToGo_many": "dne",
+      "daysToGo_other": "dní",
+      "ongoing": "Právě spolu na cestě",
+      "nothingPlanned": "Zatím nic naplánovaného",
+      "neverTraveled": "Zatím jste spolu nikam nejeli",
+      "owesYou": "Dluží vám {{amount}}",
+      "youOwe": "Dlužíte {{amount}}",
+      "settled": "Jste vyrovnaní",
+      "profile": "Profil",
+      "menu": "Další akce pro {{name}}",
+      "remove": "Odebrat z přátel"
+    },
+    "listTitle": "Vaši spolucestující",
+    "loadError": "Přátele se nepodařilo načíst.",
+    "retry": "Zkusit znovu",
+    "inviteCard": {
+      "title": "Kdo jede příště?",
+      "description": "Pošlete svůj odkaz komukoli. Po přihlášení vás přidá jedním klikem a hned spolu můžete plánovat a dělit výdaje.",
+      "emptyTitle": "Pozvěte první spolucestující",
+      "emptyDescription": "S přáteli sdílíte výlety, plánujete spolu a na konci se jedním klikem vyrovnáte."
+    }
+  },
+  "notifications": {
+    "title": "Notifikace",
+    "markAllRead": "Přečíst vše",
+    "empty": "Žádné notifikace",
+    "accept": "Přijmout",
+    "decline": "Odmítnout",
+    "toasts": {
+      "accepted": "Žádost o přátelství přijata!",
+      "acceptError": "Chyba při přijímání žádosti.",
+      "declineError": "Chyba při odmítání žádosti.",
+      "markError": "Chyba při označování notifikací.",
+      "loadError": "Nepodařilo se načíst notifikace."
+    },
+    "timeAgo": {
+      "justNow": "právě teď",
+      "minutesAgo": "před {{count}} min",
+      "hoursAgo": "před {{count}} h",
+      "daysAgo": "před {{count}} d",
+      "weeksAgo": "před {{count}} týd."
+    },
+    "messages": {
+      "friendRequest": "{{name}} vám poslal/a žádost o přátelství.",
+      "friendAccepted": "{{name}} přijal/a vaši žádost o přátelství.",
+      "tripTransferred": "{{name}} smazal/a svůj účet a výlet „{{trip}}“ teď patří vám.",
+      "tripJoined": "{{name}} se připojil/a k výletu „{{trip}}“."
+    },
+    "deletedUser": "Smazaný uživatel",
+    "deletedTrip": "smazaný výlet"
+  },
+  "friendProfile": {
+    "loading": "Načítám profil...",
+    "backToDashboard": "Zpět na přehled",
+    "backToFriends": "Zpět na přátele",
+    "addFriend": "Přidat přítele",
+    "requestSent": "Žádost odeslána",
+    "acceptRequest": "Přijmout",
+    "declineRequest": "Odmítnout",
+    "removeFriend": "Odebrat přítele",
+    "noTrips": "Žádné sdílené výlety",
+    "privateProfile": {
+      "title": "Soukromý profil",
+      "description": "Výlety tohoto uživatele nejsou veřejné. Pošlete mu žádost o přátelství."
+    },
+    "openTrip": "Otevřít výlet",
+    "backToFriendsList": "Zpět na přátele",
+    "yourTrips": "Vaše výlety",
+    "tripsTitle": "Výlety",
+    "tripsTotal": "{{count}} celkem",
+    "activities": "Aktivit: {{count}}",
+    "viewTrip": "Zobrazit",
+    "noTripsTitle": "Žádné výlety",
+    "noTripsSelf": "Zatím nemáte žádné výlety.",
+    "noTripsOther": "Tento uživatel zatím nemá žádné výlety.",
+    "waitingConfirm": "Čeká na potvrzení",
+    "memberSince": "Od",
+    "toasts": {
+      "requestSent": "Žádost o přátelství odeslána!",
+      "accepted": "Přátelství přijato!",
+      "declined": "Žádost odmítnuta.",
+      "removed": "Přítel odebrán."
+    }
+  },
+  "addFriendInvite": {
+    "loading": "Načítám pozvánku...",
+    "backToFriends": "Zpět na přátele",
+    "invalid": {
+      "title": "Zvací odkaz není platný",
+      "description": "Tento zvací odkaz už neexistuje, nebo jej jeho majitel obnovil novým."
+    },
+    "self": {
+      "title": "Toto je váš vlastní zvací odkaz",
+      "description": "Sdílejte ho s někým jiným, aby vás mohl přidat jako přítele. Správa odkazu je na stránce Přátelé."
+    },
+    "subtitle": "Chce být vaším přítelem",
+    "addButton": "Přidat jako přítele",
+    "alreadyFriends": "Už jste přátelé",
+    "requestSent": "Žádost o přátelství odeslána",
+    "pendingReceived": "Tento uživatel vám už poslal žádost",
+    "pendingReceivedAction": "Zobrazit žádost",
+    "viewProfile": "Zobrazit profil",
+    "goToFriends": "Přejít na přátele",
+    "toasts": {
+      "requestSent": "Žádost o přátelství odeslána!",
+      "requestError": "Chyba při odesílání žádosti o přátelství."
+    }
+  },
+  "readOnlyTrip": {
+    "backToProfile": "Zpět na profil",
+    "notFound": "Výlet nebyl nalezen nebo nemáte přístup.",
+    "readOnly": "Pouze ke čtení",
+    "tabs": {
+      "itinerary": "Itinerář",
+      "tools": "Nástroje",
+      "details": "Detaily"
+    },
+    "tools": {
+      "packing": "Balící seznam",
+      "documents": "Odkazy a poznámky"
+    },
+    "info": {
+      "title": "Přehled výletu",
+      "date": "Datum",
+      "days": "Počet dní",
+      "daysValue": "dní",
+      "status": "Naplánováno",
+      "openDiary": "Otevřít deník",
+      "author": "Autor",
+      "mode": "Režim"
+    },
+    "packing": {
+      "title": "Balící seznam",
+      "empty": "Zatím tu nic není.",
+      "noItems": "Žádné položky v balícím seznamu."
+    },
+    "documents": {
+      "title": "Odkazy a poznámky",
+      "open": "Otevřít odkaz",
+      "empty": "Žádné uložené odkazy."
+    },
+    "noLocation": "Bez lokace",
+    "dayPlan": "Plán na den",
+    "noDayNotes": "Žádné poznámky pro tento den.",
+    "loadError": "Nepodařilo se načíst výlet.",
+    "restricted": {
+      "title": "Detail vidí jen spolucestující",
+      "text": "{{name}} tento výlet s tebou nesdílí, takže vidíš jen název a termín. Program, balení a dokumenty uvidíš, až tě do výletu přidá."
+    }
+  },
+  "likeButton": {
+    "error": "Chyba při zpracování lajku.",
+    "unlike": "Odebrat To se mi líbí",
+    "like": "To se mi líbí"
+  },
+  "dialog": {
+    "defaultTitle": "Potvrdit akci",
+    "defaultInputLabel": "Zadejte text pro potvrzení",
+    "cancel": "Zrušit",
+    "confirm": "Potvrdit",
+    "typeExactly": "Napište přesně:"
+  },
+  "dashboardHome": {
+    "loadError": "Nepodařilo se načíst výlety.",
+    "createError": "Nepodařilo se vytvořit výlet.",
+    "deleteError": "Nepodařilo se smazat výlet.",
+    "updateError": "Nepodařilo se aktualizovat výlet.",
+    "conflict": "Výlet mezitím upravil někdo jiný. Načetli jsme jeho verzi a tvoje poslední úprava se neuložila, zkus ji prosím zopakovat.",
+    "currencyError": "Chyba při přepočtu měny.",
+    "tripDeleted": "Výlet byl přesunut do koše",
+    "undo": "Vrátit zpět",
+    "tripRestored": "Výlet byl obnoven",
+    "restoreError": "Nepodařilo se obnovit výlet."
+  },
+  "admin": {
+    "nav": {
+      "overview": "Přehled",
+      "users": "Uživatelé",
+      "trips": "Výlety",
+      "analytics": "Analytika",
+      "errors": "Chyby"
+    },
+    "logout": "Odhlásit se",
+    "backToDashboard": "Zpět do dashboardu",
+    "administrator": "Administrátor",
+    "dashboard": {
+      "title": "Admin",
+      "subtitle": "Statistiky a přehledy celé platformy Journeo",
+      "overview": "Přehled",
+      "loadError": "Nepodařilo se načíst data.",
+      "stats": {
+        "users": "Uživatelé",
+        "trips": "Výlety",
+        "expenses": "Celkové výdaje",
+        "friendships": "Přátelství",
+        "newThisWeek": "+{{count}} tento týden",
+        "usersPerMonth": "+{{count}} uživatelů za měsíc",
+        "expenseItems": "{{count}} položek",
+        "tripCount": "výletů"
+      },
+      "tripsChart": {
+        "title": "Výlety za měsíc",
+        "subtitle": "Posledních 6 měsíců",
+        "noData": "Žádná data"
+      },
+      "topUsers": {
+        "title": "Top uživatelé",
+        "subtitle": "Podle počtu výletů"
+      },
+      "recentUsers": {
+        "title": "Poslední registrace",
+        "subtitle": "10 nejnovějších uživatelů",
+        "cols": {
+          "user": "Uživatel",
+          "email": "E-mail",
+          "role": "Role",
+          "trips": "Výlety",
+          "registration": "Registrace"
+        }
+      }
+    },
+    "users": {
+      "title": "Správa uživatelů",
+      "subtitle": "Přehled všech registrovaných uživatelů",
+      "searchPlaceholder": "Hledat e-mail, jméno...",
+      "searchButton": "Hledat",
+      "total": "Celkem {{count}} uživatelů",
+      "notFound": "Žádní uživatelé nenalezeni.",
+      "you": "ty",
+      "tooltips": {
+        "viewUser": "Detail uživatele",
+        "grantAdmin": "Udělit admin práva",
+        "revokeAdmin": "Odebrat admin práva",
+        "deleteUser": "Smazat uživatele"
+      },
+      "table": {
+        "user": "Uživatel",
+        "email": "E-mail",
+        "role": "Role",
+        "trips": "Výlety",
+        "friends": "Přátelé",
+        "registration": "Registrace",
+        "actions": "Akce"
+      },
+      "pageMeta": "Stránka {{page}} z {{pages}} · {{count}} uživatelů",
+      "prevPage": "← Předchozí",
+      "nextPage": "Další →",
+      "dialog": {
+        "grantTitle": "Udělit admin práva?",
+        "grantMessage": "Tento uživatel bude mít plný přístup k admin panelu.",
+        "grantConfirm": "Udělit",
+        "revokeTitle": "Odebrat admin práva?",
+        "revokeMessage": "Tento uživatel ztratí přístup k admin panelu.",
+        "revokeConfirm": "Odebrat",
+        "deleteTitle": "Smazat uživatele?",
+        "deleteMessage": "Opravdu chcete smazat uživatele \"{{email}}\"? Všechna jeho data budou nenávratně smazána.",
+        "deleteConfirm": "Smazat navždy"
+      },
+      "toast": {
+        "granted": "Admin práva udělena.",
+        "revoked": "Admin práva odebrána.",
+        "deleted": "Uživatel byl smazán.",
+        "roleError": "Chyba při změně role.",
+        "deleteError": "Chyba při mazání uživatele.",
+        "loadError": "Nepodařilo se načíst uživatele.",
+        "detailError": "Nepodařilo se načíst detail uživatele."
+      },
+      "detail": {
+        "noName": "Bez jména",
+        "trips": "Výlety",
+        "friends": "Přátelé",
+        "totalCzk": "Kč celkem",
+        "noTrips": "Tento uživatel nemá žádné výlety",
+        "noFriends": "Tento uživatel nemá žádné přátele",
+        "dialogLabel": "Detail uživatele"
+      }
+    },
+    "trips": {
+      "title": "Správa výletů",
+      "subtitle": "Přehled všech výletů na platformě",
+      "searchPlaceholder": "Hledat výlety...",
+      "searchButton": "Hledat",
+      "total": "Celkem {{count}} výletů",
+      "notFound": "Žádné výlety nenalezeny.",
+      "tooltips": {
+        "viewTrip": "Detail výletu",
+        "deleteTrip": "Smazat výlet"
+      },
+      "table": {
+        "trip": "Výlet",
+        "user": "Uživatel",
+        "period": "Období",
+        "days": "Dní",
+        "activities": "Aktivity",
+        "expenses": "Výdaje",
+        "likes": "Likes",
+        "actions": "Akce"
+      },
+      "pageMeta": "Stránka {{page}} z {{pages}} · {{count}} výletů",
+      "prevPage": "← Předchozí",
+      "nextPage": "Další →",
+      "dialog": {
+        "deleteTitle": "Smazat výlet?",
+        "deleteMessage": "Opravdu chcete smazat výlet \"{{title}}\"? Budou smazány i všechny aktivity, výdaje a dokumenty.",
+        "deleteConfirm": "Smazat navždy"
+      },
+      "toast": {
+        "deleted": "Výlet byl smazán.",
+        "deleteError": "Chyba při mazání výletu.",
+        "loadError": "Nepodařilo se načíst výlety.",
+        "detailError": "Nepodařilo se načíst detail výletu."
+      },
+      "detail": {
+        "daysLabel": "Dní",
+        "packingLabel": "Balení",
+        "notesLabel": "Poznámky",
+        "deleteButton": "Smazat tento výlet",
+        "empty": "Tento výlet zatím nemá žádný obsah.",
+        "dialogLabel": "Detail výletu"
+      }
+    },
+    "close": "Zavřít",
+    "v2": {
+      "title": "Admin",
+      "thisWeek": "Tento týden",
+      "newUsers": "Noví uživatelé",
+      "newTrips": "Nové výlety",
+      "active30": "Aktivní za 30 dní",
+      "active30Hint": "upravili výlet",
+      "totalUsers": "Uživatelé",
+      "totalTrips": "Výlety",
+      "friendships": "Přátelství",
+      "unverified": "Neověřené účty",
+      "chartTitle": "Registrace a výlety po týdnech",
+      "chartRange": "Posledních 12 týdnů",
+      "signups": "Registrace",
+      "trips": "Výlety",
+      "weekOf": "Týden od {{date}}",
+      "chartTable": "Tabulka hodnot",
+      "newest": "Nejnovější uživatelé",
+      "mostActive": "Nejvíc výletů",
+      "allUsers": "Všichni uživatelé",
+      "sortNewest": "Nejnovější",
+      "sortName": "Jméno",
+      "sortEmail": "E-mail",
+      "sortLabel": "Řazení",
+      "loadMore": "Načíst další",
+      "selectUser": "Vyber uživatele ze seznamu.",
+      "selectTrip": "Vyber výlet ze seznamu.",
+      "back": "Zpět na seznam",
+      "registered": "Registrace {{date}}",
+      "verified": "Ověřený e-mail",
+      "unverifiedEmail": "Neověřený e-mail",
+      "unverifiedShort": "neověřený",
+      "self": "Tohle je tvůj účet — nemůžeš si ho smazat ani odebrat práva.",
+      "deleteAccount": "Smazat účet",
+      "makeAdmin": "Udělit admin práva",
+      "removeAdmin": "Odebrat admin práva",
+      "inTrash": "v koši",
+      "owner": "Vlastník",
+      "days": "Dny programu",
+      "expenses": "Výdaje",
+      "packing": "Balení",
+      "documents": "Dokumenty",
+      "likes": "Lajky",
+      "itinerary": "Program",
+      "noItinerary": "Program je prázdný.",
+      "deleteTrip": "Smazat výlet",
+      "dayN": "Den {{n}}",
+      "tripCount": "Výlety",
+      "friendCount": "Přátelé",
+      "searchTrips": "Hledat výlet…",
+      "searchUsers": "Hledat jméno nebo e-mail…",
+      "guestsActive": "Zkoušejí bez registrace",
+      "guestsConverted": "Ze zkoušky registrace · 30 d"
+    },
+    "analytics": {
+      "intro": "Vlastní měření bez cookies. Návštěvníci se počítají za den, admini a jejich zařízení se nepočítají.",
+      "range": "Období",
+      "days_one": "{{count}} den",
+      "days_few": "{{count}} dny",
+      "days_other": "{{count}} dní",
+      "kpi": {
+        "visitors": "Návštěvníci",
+        "pageviews": "Zobrazení stránek",
+        "activeUsers": "Aktivní uživatelé",
+        "signups": "Registrace",
+        "trips": "Nové výlety"
+      },
+      "kpiNote": "Procenta = srovnání s předchozím stejně dlouhým obdobím. Návštěvníci = součet unikátních návštěvníků po dnech.",
+      "series": {
+        "visitors": "Návštěvníci",
+        "activeUsers": "Přihlášení uživatelé",
+        "pageviews": "Zobrazení",
+        "signups": "Registrace"
+      },
+      "chartTitle": "Návštěvnost po dnech",
+      "day": "Den",
+      "funnel": {
+        "visitorsTitle": "Od návštěvy k registraci",
+        "visitorsHint": "návštěvník za den",
+        "newUsersTitle": "Co udělali noví uživatelé",
+        "newUsersHint": "registrovaní v období",
+        "visitors": {
+          "visited": "Navštívili web",
+          "landing": "Viděli úvodní stránku",
+          "auth": "Otevřeli přihlášení",
+          "signup": "Zaregistrovali se"
+        },
+        "newUsers": {
+          "signedUp": "Registrovaní",
+          "hasTrip": "Mají výlet",
+          "hasContent": "Naplnili výlet (plán, místa, výdaje)",
+          "invited": "Pozvali parťáka",
+          "returned": "Vrátili se jiný den"
+        }
+      },
+      "featuresTitle": "Co lidé dělají",
+      "featuresHint": "akce v období",
+      "action": "Akce",
+      "count": "Počet",
+      "users": "Uživatelé",
+      "pagesTitle": "Nejnavštěvovanější stránky",
+      "byVisitors": "podle návštěvníků",
+      "referrersTitle": "Odkud přišli",
+      "utmTitle": "Kampaně (UTM)",
+      "devicesTitle": "Zařízení",
+      "countriesTitle": "Země",
+      "noReferrers": "Zatím jen přímé návštěvy.",
+      "noData": "Zatím žádná data.",
+      "liveTitle": "Právě teď",
+      "refresh": "Obnovit",
+      "anonymous": "Nepřihlášený návštěvník",
+      "noEvents": "Zatím žádné události. Sběr začne po nasazení.",
+      "userActivity": "Aktivita",
+      "noUserActivity": "Zatím žádná zaznamenaná aktivita.",
+      "lastSeen": "Naposledy {{when}}",
+      "activeDays_one": "aktivní {{count}} den",
+      "activeDays_few": "aktivní {{count}} dny",
+      "activeDays_other": "aktivní {{count}} dní",
+      "showAll": "Zobrazit vše ({{count}})",
+      "events": {
+        "signup": "Registrace",
+        "login": "Přihlášení",
+        "account_deleted": "Smazal účet",
+        "trip_created": "Vytvořil výlet",
+        "trip_joined": "Připojil se k výletu přes pozvánku",
+        "collaborator_added": "Přidal parťáka do výletu",
+        "share_link_created": "Vytvořil veřejný odkaz",
+        "share_link_copied": "Zkopíroval veřejný odkaz",
+        "invite_link_created": "Vytvořil pozvánku do výletu",
+        "invite_link_shared": "Poslal pozvánku do výletu",
+        "place_added": "Přidal místo",
+        "expense_added": "Přidal výdaj",
+        "settlement": "Vyrovnal dluh",
+        "pdf_exported": "Exportoval PDF",
+        "friend_request_sent": "Poslal žádost o přátelství",
+        "friend_accepted": "Přijal přátelství",
+        "friend_invite_copied": "Zkopíroval odkaz pro přátele",
+        "landing_plan_submitted": "Zadal cíl na úvodní stránce",
+        "pwa_prompt_shown": "Viděl nabídku „Přidat na plochu“",
+        "pwa_install_opened": "Otevřel instalaci aplikace",
+        "pwa_installed": "Nainstaloval aplikaci na plochu",
+        "pwa_prompt_declined": "Odmítl instalaci",
+        "pwa_card_dismissed": "Zavřel nabídku instalace",
+        "guest_started": "Spustil zkušební režim",
+        "guest_converted": "Zaregistroval se ze zkušebního režimu",
+        "guest_trial_clicked": "Klikl na „Vyzkoušet bez registrace“",
+        "guest_upsell_shown": "Viděl nabídku registrace (host)",
+        "guest_upgrade_clicked": "Klikl na uložení účtu (host)"
+      },
+      "device": {
+        "mobile": "Mobil",
+        "tablet": "Tablet",
+        "desktop": "Počítač"
+      }
+    },
+    "errors": {
+      "title": "Chyby",
+      "intro": "Chyby z prohlížečů uživatelů i ze serveru. Stejná chyba je jeden řádek s počtem výskytů. Vyřešená se znovu otevře, když se objeví znovu.",
+      "open": "Otevřené",
+      "resolvedTab": "Vyřešené",
+      "openTitle": "Otevřené chyby",
+      "resolvedTitle": "Vyřešené chyby",
+      "last24h_one": "{{count}} za posledních 24 h",
+      "last24h_few": "{{count}} za posledních 24 h",
+      "last24h_other": "{{count}} za posledních 24 h",
+      "source": {
+        "client": "Prohlížeč",
+        "server": "Server"
+      },
+      "occurrences_one": "{{count}}× výskyt",
+      "occurrences_few": "{{count}}× výskyt",
+      "occurrences_other": "{{count}}× výskyt",
+      "usersAffected_one": "{{count}} uživatel",
+      "usersAffected_few": "{{count}} uživatelé",
+      "usersAffected_other": "{{count}} uživatelů",
+      "lastSeen": "naposledy {{when}}",
+      "firstSeen": "Poprvé",
+      "lastSeenAt": "Naposledy",
+      "lastUser": "Poslední uživatel",
+      "browser": "Prohlížeč",
+      "resolve": "Označit jako vyřešené",
+      "reopen": "Znovu otevřít",
+      "resolved": "Chyba označena jako vyřešená.",
+      "reopened": "Chyba znovu otevřena.",
+      "updateError": "Chybu se nepodařilo upravit.",
+      "emptyOpen": "Žádné otevřené chyby. 🎉",
+      "emptyResolved": "Zatím žádné vyřešené chyby."
+    }
+  },
+  "common": {
+    "loading": "Načítám...",
+    "error": "Něco se pokazilo.",
+    "save": "Uložit",
+    "cancel": "Zrušit",
+    "delete": "Smazat",
+    "close": "Zavřít",
+    "back": "Zpět",
+    "open": "Otevřít",
+    "search": "Hledat"
+  },
+  "privacyPolicy": {
+    "back": "Zpět na hlavní stránku",
+    "title": "Zásady ochrany osobních údajů",
+    "effectiveDate": "Datum účinnosti: 2. listopadu 2026",
+    "section1": {
+      "title": "1. Jaké údaje shromažďujeme",
+      "content": "Shromažďujeme údaje, které nám poskytnete při registraci (jméno, e-mail), a údaje o vašich cestách, které do aplikace sami vložíte (lokace, data, výdaje, poznámky, fotografie). Ve zkušebním režimu bez registrace nepotřebujeme žádné osobní údaje: výlety jsou vázané jen na tento prohlížeč, po 3 dnech zkoušky a dalším dni na prohlížení je smažeme, pokud se nezaregistrujete."
+    },
+    "section2": {
+      "title": "2. Jak údaje využíváme",
+      "content": "Získané údaje používáme výhradně k poskytování služeb aplikace Journeo, synchronizaci vašich zařízení a vylepšování uživatelského zážitku. Vaše cesty nejsou veřejné, pokud se je nerozhodnete sdílet s přáteli v rámci komunitních funkcí."
+    },
+    "section3": {
+      "title": "3. Sdílení údajů s třetími stranami",
+      "content": "Vaše osobní údaje neprodáváme. Údaje sdílíme s poskytovateli technické infrastruktury (hosting Vercel, databáze, e-mailová služba), kteří jsou vázáni mlčenlivostí. Pokud udělíte souhlas s marketingovými cookies, zpracovává partner Travelpayouts (Travelpayouts Ltd.) technické údaje o vašem prohlížeči a o tom, jak procházíte stránku, aby mohl přiřadit provize za partnerské odkazy. Tento partner se může dostat i k obsahu zobrazené stránky."
+    },
+    "section4": {
+      "title": "4. Cookies a partnerské odkazy",
+      "content": "Nezbytné úložiště (localStorage) používáme pro přihlášení, jazyk, motiv a uložení vaší volby cookies; souhlas k němu není potřeba. Návštěvnost a používání aplikace měříme přes Vercel Web Analytics a vlastní měření, obojí bez cookies. Vlastní měření ukládá navštívené stránky aplikace a akce (např. vytvoření výletu nebo přidání výdaje), u přihlášených s vazbou na účet, abychom aplikaci mohli zlepšovat (oprávněný zájem). IP adresu neukládáme; nepřihlášeného návštěvníka rozlišíme jen v rámci jednoho dne. Záznamy mažeme po 13 měsících a po smazání účtu se od něj oddělí. Technické chyby aplikace ukládáme kvůli jejich opravě. Marketingové cookies partnera Travelpayouts se načtou jen s vaším souhlasem. Slouží ke sledování partnerských (affiliate) odkazů na služby jako Booking.com nebo GetYourGuide: když přes ně něco rezervujete, dostane Journeo provizi, cena pro vás zůstává stejná. Souhlas můžete kdykoli odvolat.",
+      "cookieSettings": true
+    },
+    "section5": {
+      "title": "5. Vaše práva (GDPR)",
+      "content": "Máte právo na přístup k vašim osobním údajům, jejich opravu, výmaz (\"právo být zapomenut\"), přenositelnost a odvolání souhlasu. Účet můžete smazat sami v nastavení. Pro uplatnění dalších práv nás kontaktujte."
+    },
+    "section6": {
+      "title": "6. Kontakt",
+      "content": "Pokud máte otázky ohledně těchto zásad, kontaktujte nás na e-mailu petr@vorlos.eu."
+    }
+  },
+  "termsOfService": {
+    "back": "Zpět na hlavní stránku",
+    "title": "Obchodní podmínky",
+    "effectiveDate": "Datum účinnosti: 12. října 2026",
+    "section1": {
+      "title": "1. Přijetí podmínek",
+      "content": "Používáním aplikace Journeo (\"Služba\") souhlasíte s těmito Obchodními podmínkami. Pokud s nimi nesouhlasíte, nepoužívejte prosím tuto aplikaci."
+    },
+    "section2": {
+      "title": "2. Uživatelské účty",
+      "content": "Při vytváření účtu musíte poskytnout přesné a úplné informace. Jste zodpovědní za zabezpečení svého hesla a za veškerou aktivitu, která se na vašem účtu odehrává."
+    },
+    "section3": {
+      "title": "3. Uživatelský obsah",
+      "content": "Vlastníte veškerá práva k obsahu, který do Služby nahrajete (včetně fotografií a poznámek z cest). Nahráním obsahu nám udělujete nevýhradní licenci k zobrazení tohoto obsahu za účelem poskytování Služby. Nesmíte nahrávat nezákonný, urážlivý nebo škodlivý obsah."
+    },
+    "section4": {
+      "title": "4. Dostupnost Služby",
+      "content": "Službu poskytujeme \"tak jak je\". Nezaručujeme, že bude vždy bez chyb, bezpečná nebo bez výpadků. Vyhrazujeme si právo Službu kdykoli pozastavit, upravit nebo ukončit."
+    },
+    "section5": {
+      "title": "5. Ukončení",
+      "content": "Váš účet můžeme zrušit nebo pozastavit bez předchozího upozornění, pokud porušíte tyto Obchodní podmínky. Zrušením účtu budou vaše data smazána v souladu s našimi Zásadami ochrany osobních údajů."
+    },
+    "section6": {
+      "title": "6. Partnerské odkazy",
+      "content": "Journeo je zdarma. Některé odkazy ve Službě (např. na ubytování, zážitky, eSIM nebo pojištění) jsou partnerské (affiliate): když přes ně nakoupíte, můžeme dostat provizi. Cenu pro vás to nemění. Za služby partnerů odpovídají jejich provozovatelé a řídí se jejich podmínkami."
+    },
+    "section7": {
+      "title": "7. Kontakt",
+      "content": "Pro jakékoli dotazy ohledně těchto podmínek nás kontaktujte na petr@vorlos.eu."
+    }
+  },
+  "trash": {
+    "count_one": "{{count}} výlet",
+    "count_few": "{{count}} výlety",
+    "count_other": "{{count}} výletů",
+    "title": "Koš",
+    "subtitle": "Smazané výlety tu zůstanou 30 dní, pak se trvale odstraní.",
+    "backToTrips": "Moje výlety",
+    "emptyTrash": "Vysypat koš",
+    "restore": "Obnovit",
+    "deleteForever": "Smazat trvale",
+    "deletedOn": "Smazáno {{date}}",
+    "daysLeft_one": "zbývá {{count}} den",
+    "daysLeft_few": "zbývají {{count}} dny",
+    "daysLeft_other": "zbývá {{count}} dní",
+    "empty": {
+      "title": "Koš je prázdný",
+      "description": "Smazané výlety tu zůstanou 30 dní, než se trvale odstraní."
+    },
+    "confirmForever": {
+      "title": "Smazat trvale?",
+      "message": "Výlet „{{title}}“ bude trvale smazán včetně všech aktivit, výdajů a dokumentů. Tato akce nelze vrátit zpět.",
+      "confirm": "Smazat trvale"
+    },
+    "confirmEmpty": {
+      "title": "Vysypat koš?",
+      "message": "Všechny výlety v koši budou trvale smazány. Tato akce nelze vrátit zpět.",
+      "confirm": "Vysypat koš"
+    },
+    "restored": "Výlet byl obnoven",
+    "deletedForever": "Výlet byl trvale smazán",
+    "emptied": "Koš byl vysypán",
+    "loadError": "Nepodařilo se načíst koš.",
+    "error": "Něco se pokazilo."
+  },
+  "cookies": {
+    "title": "Cookies a soukromí",
+    "text": "Nezbytné úložiště používáme, aby appka fungovala (přihlášení, jazyk, motiv). Se souhlasem používáme i marketingové cookies partnera Travelpayouts, díky kterým dostaneme malou provizi, když přes Journeo rezervujete ubytování nebo zážitek. Vás to nic nestojí.",
+    "policyLink": "Více v zásadách",
+    "necessary": {
+      "title": "Nezbytné",
+      "desc": "Přihlášení, jazyk, motiv a uložení této volby. Bez nich appka nefunguje."
+    },
+    "measurement": {
+      "title": "Měření používání",
+      "desc": "Bez cookies a bez ukládání IP: které stránky a funkce se používají, abychom věděli, co zlepšit. Nepřihlášené návštěvníky nerozlišujeme déle než den."
+    },
+    "marketing": {
+      "title": "Marketingové",
+      "desc": "Travelpayouts: sledování partnerských odkazů (Booking, GetYourGuide aj.) pro výpočet provizí."
+    },
+    "acceptAll": "Přijmout vše",
+    "rejectAll": "Jen nezbytné",
+    "save": "Uložit volbu",
+    "customize": "Nastavení",
+    "openSettings": "Změnit nastavení cookies"
+  },
+  "onboarding": {
+    "greeting": "Vítej v Journeu",
+    "greetingName": "Vítej v Journeu, {{name}}",
+    "title": "Kam to bude?",
+    "subtitle": "Napiš, kam jedeš, a za minutu máš výlet připravený: program po dnech, seznam na balení i místo na mapě.",
+    "destinationLabel": "Kam jedeš",
+    "destinationPlaceholder": "Lisabon, Krkonoše, Chorvatsko…",
+    "whenLabel": "Kdy?",
+    "dates": {
+      "thisWeekend": "Tento víkend",
+      "nextWeekend": "Příští víkend",
+      "inMonth": "Za měsíc na týden",
+      "custom": "Vlastní termín",
+      "from": "Od",
+      "to": "Do",
+      "tooLong": "Výlet může mít nejvýš {{max}} dní."
+    },
+    "dayCount_one": "{{count}} den",
+    "dayCount_few": "{{count}} dny",
+    "dayCount_other": "{{count}} dní",
+    "typeLabel": "Předvyplnit balení?",
+    "types": {
+      "city": "Město",
+      "mountains": "Hory",
+      "sea": "Moře",
+      "roadtrip": "Roadtrip",
+      "own": "Sbalím si sám"
+    },
+    "submit": "Naplánovat výlet",
+    "changeLater": "Všechno půjde kdykoli změnit.",
+    "error": "Nepovedlo se to, zkus to prosím znovu.",
+    "progress": {
+      "title": "Chystám výlet: {{place}}",
+      "trip": "Zakládám výlet",
+      "days_one": "Připravuju program na {{count}} den",
+      "days_few": "Připravuju program na {{count}} dny",
+      "days_other": "Připravuju program na {{count}} dní",
+      "packing": "Předvyplňuju seznam na balení",
+      "map": "Přidávám {{place}} na mapu"
+    },
+    "days": {
+      "arrival": "Příjezd",
+      "departure": "Cesta domů",
+      "day": "Den {{n}}"
+    },
+    "packing": {
+      "base": [
+        "Občanka nebo pas",
+        "Platební karta a trocha hotovosti",
+        "Nabíječka a powerbanka",
+        "Léky a náplasti",
+        "Kartáček a pasta",
+        "Spodní prádlo a ponožky",
+        "Pohodlné boty"
+      ],
+      "city": [
+        "Jízdenky nebo rezervace",
+        "Lehká bunda",
+        "Malý batoh na den"
+      ],
+      "mountains": [
+        "Turistické boty",
+        "Bunda do deště",
+        "Fleecová mikina",
+        "Čepice a rukavice",
+        "Láhev na vodu",
+        "Mapa nebo offline mapy"
+      ],
+      "sea": [
+        "Plavky",
+        "Opalovací krém",
+        "Sluneční brýle",
+        "Ručník na pláž",
+        "Žabky",
+        "Pokrývka hlavy"
+      ],
+      "roadtrip": [
+        "Řidičák a doklady od auta",
+        "Dálniční známky",
+        "Nabíječka do auta",
+        "Svačiny a voda na cestu",
+        "Playlist na cestu"
+      ]
+    },
+    "checklist": {
+      "title": "Výlet je připravený. Ještě pár rychlých kroků",
+      "titleCopy": "Výlet je tvůj. Uprav si ho podle sebe",
+      "progress": "{{done}} ze {{total}} hotovo",
+      "created": "Výlet je založený",
+      "copied": "Výlet je zkopírovaný",
+      "packing": "Odškrtni, co už máš sbalené",
+      "plan": "Napiš, co chceš dělat první den",
+      "invite": "Pozvi parťáky",
+      "done": "hotovo",
+      "doneTitle": "Hotovo, máš to pohromadě",
+      "doneSubtitle": "Program, balení i parta jsou na jednom místě. Další dny dopiš, až budeš chtít.",
+      "packingOwn": "Napiš, co si zabalit"
+    },
+    "pickDates": "Vyber, kdy jedeš.",
+    "preview": {
+      "label": "Náhled výletu",
+      "untitled": "Tvůj další výlet",
+      "days": "Program po dnech",
+      "packing": "Balení",
+      "more_one": "a {{count}} další věc",
+      "more_few": "a {{count}} další věci",
+      "more_other": "a {{count}} dalších věcí",
+      "mapEmpty": "Místo na mapě",
+      "mapHint": "Vyber destinaci z návrhů a připíchneme ji",
+      "packingOwn": "Seznam si napíšeš sám"
+    },
+    "newEyebrow": "Nový výlet",
+    "newTitle": "Kam pojedeš příště?",
+    "back": "Zpět"
+  },
+  "joinTrip": {
+    "invitedBy": "{{name}} tě zve na výlet",
+    "someone": "Kamarád",
+    "days_one": "{{count}} den",
+    "days_few": "{{count}} dny",
+    "days_other": "{{count}} dní",
+    "countdown_one": "za {{count}} den",
+    "countdown_few": "za {{count}} dny",
+    "countdown_other": "za {{count}} dní",
+    "crew_one": "{{name}} a {{count}} další už jsou v partě",
+    "crew_few": "{{name}} a {{count}} další už jsou v partě",
+    "crew_other": "{{name}} a {{count}} dalších už jsou v partě",
+    "crewSolo": "Zatím jen {{name}}. Buď první, kdo se přidá.",
+    "stats": {
+      "plannedDays_one": "{{count}} den s programem",
+      "plannedDays_few": "{{count}} dny s programem",
+      "plannedDays_other": "{{count}} dní s programem",
+      "places_one": "{{count}} místo na mapě",
+      "places_few": "{{count}} místa na mapě",
+      "places_other": "{{count}} míst na mapě",
+      "packing_one": "{{count}} věc na balení",
+      "packing_few": "{{count}} věci na balení",
+      "packing_other": "{{count}} věcí na balení",
+      "expenses_one": "{{count}} výdaj",
+      "expenses_few": "{{count}} výdaje",
+      "expenses_other": "{{count}} výdajů"
+    },
+    "pitch": "Plánujte spolu: program po dnech, mapa míst, kdo co veze a rozpočet, který sám spočítá, kdo komu kolik dluží.",
+    "cta": "Připojit se k výletu",
+    "joining": "Připojuju…",
+    "microcopy": "Zdarma. Účet si založíš za pár vteřin.",
+    "signedInAs": "Účet: {{email}}",
+    "joined": "Jsi v partě! Výlet „{{trip}}“ teď plánujete spolu.",
+    "error": "Připojit se k výletu se nepovedlo.",
+    "invalid": {
+      "title": "Pozvánka už neplatí",
+      "desc": "Odkaz je neplatný, nebo ho vlastník výletu zrušil. Požádej o nový.",
+      "cta": "Přejít na Journeo"
+    }
+  },
+  "emptyStates": {
+    "sample": "Ukázka",
+    "planFirst": "Naplánovat první výlet"
+  },
+  "currencyPicker": {
+    "search": "Hledat měnu",
+    "frequent": "Často používané",
+    "all": "Všechny měny",
+    "noResults": "Žádná měna neodpovídá.",
+    "change": "Měna výdaje: {{currency}}, změnit",
+    "tripCurrency": "Měna výletu · {{currency}}"
+  },
+  "pwa": {
+    "menu": "Přidat na plochu",
+    "card": {
+      "title": "Měj Journeo po ruce",
+      "text": "Přidej si ho na plochu. Otevře se jako aplikace, bez adresního řádku, jedním klepnutím.",
+      "cta": "Přidat na plochu",
+      "ctaInApp": "Jak na to",
+      "dismiss": "Teď ne"
+    },
+    "settings": {
+      "group": "Aplikace",
+      "title": "Journeo na ploše",
+      "hint": "Otevírej Journeo jako aplikaci, jedním klepnutím z plochy.",
+      "installedHint": "Journeo máš na ploše, otevírá se jako aplikace.",
+      "installed": "Nainstalováno"
+    },
+    "sheet": {
+      "title": "Přidej si Journeo na plochu",
+      "subtitle": "Pak ho otevřeš jedním klepnutím, celé přes obrazovku jako aplikaci.",
+      "ios": {
+        "step1": "Klepni na Sdílet",
+        "step1Hint": "Ikona čtverečku se šipkou. V Safari dole, případně schovaná pod ⋯.",
+        "step2": "Vyber „Přidat na plochu“",
+        "step2Hint": "Když ji nevidíš, sjeď v nabídce níž.",
+        "step3": "Potvrď „Přidat“",
+        "step3Hint": "Journeo se objeví mezi aplikacemi."
+      },
+      "android": {
+        "step1": "Otevři menu prohlížeče",
+        "step1Hint": "Tři tečky ⋮ vpravo nahoře.",
+        "step2": "Zvol „Přidat na plochu“",
+        "step2Hint": "Někde se to jmenuje „Instalovat aplikaci“.",
+        "step3": "Potvrď",
+        "step3Hint": "Journeo se objeví mezi aplikacemi."
+      },
+      "inapp": {
+        "title": "{{app}} aplikace instalovat neumí",
+        "thisApp": "Tenhle prohlížeč",
+        "subtitle": "Otevři Journeo v prohlížeči {{browser}} a tam si ho přidej na plochu.",
+        "step1": "Klepni na ⋯ nebo ⋮ vpravo nahoře",
+        "step1Hint": "V menu aplikace, ve které se ti odkaz otevřel.",
+        "step2": "Zvol „Otevřít v prohlížeči“ ({{browser}})",
+        "step2Hint": "Nebo zkopíruj odkaz níž a vlož ho do prohlížeče.",
+        "step3": "Tam zvol „Přidat na plochu“",
+        "step3Hint": "Přes Sdílet (iPhone) nebo menu ⋮ (Android).",
+        "copy": "Zkopírovat odkaz",
+        "copied": "Odkaz zkopírován, vlož ho do {{browser}}.",
+        "copyError": "Odkaz se nepodařilo zkopírovat."
+      }
+    }
+  },
+  "guest": {
+    "name": "Host",
+    "subtitle": "Zkušební režim",
+    "try": "Vyzkoušet bez registrace",
+    "tryAuth": "Nebo si to nejdřív vyzkoušej bez registrace →",
+    "endedNotice": "Zkušební režim skončil a výlety z něj jsme smazali. Zaregistruj se a začni znovu, je to zdarma.",
+    "claimed_one": "Účet je uložený i s {{count}} výletem ze zkoušky.",
+    "claimed_few": "Účet je uložený i se {{count}} výlety ze zkoušky.",
+    "claimed_other": "Účet je uložený i s {{count}} výlety ze zkoušky.",
+    "logoutWarning": "Jsi ve zkušebním režimu bez účtu. Po odhlášení se k výletům už nedostaneš. Chceš si je radši uložit registrací?",
+    "time": {
+      "days_one": "{{count}} den",
+      "days_few": "{{count}} dny",
+      "days_other": "{{count}} dní",
+      "hours_one": "{{count}} hodina",
+      "hours_few": "{{count}} hodiny",
+      "hours_other": "{{count}} hodin",
+      "minutes_one": "{{count}} minuta",
+      "minutes_few": "{{count}} minuty",
+      "minutes_other": "{{count}} minut"
+    },
+    "banner": {
+      "title": "Zkušební režim · zbývá {{time}}",
+      "local": "Uloženo jen v tomto prohlížeči",
+      "save": "Uložit si účet",
+      "expiredTitle": "Zkušební režim skončil",
+      "expiredText": "Výlety si můžeš prohlížet a stáhnout v PDF ještě {{time}}, pak je smažeme. Registrací si je necháš.",
+      "keep": "Zaregistrovat se a ponechat výlety",
+      "pdf": "Stáhnout PDF"
+    },
+    "upsell": {
+      "limit": {
+        "title": "Další výlet po registraci",
+        "text": "Ve zkušebním režimu máš jeden vlastní výlet a ukázku. Zaregistruj se a plánuj, kolik chceš."
+      },
+      "expired": {
+        "title": "Zkušební režim skončil",
+        "text": "Výlety si ještě chvíli prohlédneš. Upravovat je můžeš po registraci, všechno ti zůstane."
+      },
+      "friends": {
+        "title": "Přátelé po registraci",
+        "text": "Přidávat přátele a vidět jejich výlety jde jen s účtem."
+      },
+      "share": {
+        "title": "Sdílení po registraci",
+        "text": "Pozvat parťáky do výletu nebo ho sdílet odkazem jde jen s účtem."
+      },
+      "locked": {
+        "title": "Tohle odemkneš registrací",
+        "text": "Ve zkušebním režimu je tahle funkce zamčená."
+      },
+      "benefits": {
+        "keep": "Všechno, co sis vyzkoušel, ti zůstane",
+        "trips": "Neomezeně výletů na všech zařízeních",
+        "friends": "Pozvi parťáky a plánujte spolu"
+      },
+      "cta": "Zaregistrovat se zdarma",
+      "later": "Teď ne"
+    },
+    "locked": {
+      "friends": {
+        "title": "Přátelé po registraci",
+        "text": "S účtem si přidáš přátele, uvidíš jejich výlety a pozveš je do svých. Výlety ze zkoušky ti zůstanou."
+      }
+    },
+    "settings": {
+      "group": "Zkušební účet",
+      "title": "Ulož si účet",
+      "hint": "Zbývá {{time}}. Výlety jsou zatím uložené jen v tomto prohlížeči.",
+      "expiredHint": "Zkouška skončila. Výlety smažeme za {{time}}, pokud se nezaregistruješ.",
+      "deleteTitle": "Smazat zkušební data",
+      "deleteHint": "Smaže výlety ze zkoušky hned, nečeká se na konec.",
+      "deleteButton": "Smazat data",
+      "deleteConfirmTitle": "Smazat zkušební data?",
+      "deleteConfirmMessage": "Výlety ze zkušebního režimu se nevratně smažou."
+    },
+    "auth": {
+      "title": "Ulož si svůj výlet",
+      "subtitle": "Zadej e-mail. Všechno ze zkoušky ti zůstane."
+    },
+    "sample": {
+      "badge": "Ukázkový výlet · klidně ho upravuj",
+      "short": "Ukázka",
+      "eyebrow": "Nejdřív se jen rozhlédnout?",
+      "cta": "Prohlédnout si ukázku: {{title}}"
+    }
+  }
+}

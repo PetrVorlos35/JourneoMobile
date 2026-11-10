@@ -1,0 +1,2511 @@
+{
+  "nav": {
+    "open": "Open Journeo",
+    "dashboard": "Go to dashboard"
+  },
+  "changelog": {
+    "open": "What's new",
+    "newBadge": "New release",
+    "title": "What's new",
+    "subtitle": "What's new in Journeo",
+    "current": "Current version",
+    "empty": "There are no release notes yet.",
+    "releases": {
+      "v1_8": {
+        "title": "Journeo on your home screen",
+        "summary": "You can now add Journeo to your phone's home screen and open it in one tap, full screen like an app. Plus a polished iPhone app, optional emails and smoother loading.",
+        "highlights": [
+          "Add Journeo to your home screen: one tap on Android, a short step-by-step guide on iPhone",
+          "Opened the link in Instagram or Facebook? We show how to open Journeo in Safari or Chrome",
+          "The app launched from the iPhone home screen no longer hides its top bar under the clock",
+          "Turn off the emails you don't want in Settings: friend requests, settled debts and handed-over trips. Sign-in codes are always sent",
+          "Shared trips open in light mode; visitors can switch to dark themselves",
+          "Instead of spinners you see the outline of the content that's loading",
+          "The “Where to?” field on the landing page is properly sized on phones again",
+          "The Countries tile on the overview counts visited countries only, like your profile",
+          "Notifications from deleted accounts say “Deleted user” instead of a question mark",
+          "The logo in the top left takes you to the home page"
+        ]
+      },
+      "v1_7": {
+        "title": "Expenses in any currency",
+        "summary": "Every trip now has its own currency, and you enter each expense in the currency you paid in. Journeo converts it at the ECB rate for that day and keeps the original amount. Plus editable trip dates, editable links and a snappier budget.",
+        "highlights": [
+          "Enter an expense in any of 30 currencies; it’s converted at the ECB rate for that day and the original amount stays visible",
+          "Override the rate with your own, e.g. from the exchange office or your card statement",
+          "The form remembers your last currency per trip, so you don’t switch every time abroad",
+          "Each trip has its own currency, so shared trips look the same for everyone; change it in the budget, with conversion",
+          "Settings now have a “Main currency”: new trips start in it and totals across trips use it",
+          "Change a trip’s dates by clicking the date in its header; the plan stays on the right days",
+          "Links and notes can be edited, including the link label",
+          "Delete an expense without a confirmation and bring it back from the toast or with Cmd/Ctrl+Z",
+          "Added, edited and deleted expenses show up instantly, without waiting for the save",
+          "Pick currencies with the arrow keys, and Esc closes one layer at a time"
+        ]
+      },
+      "v1_6": {
+        "title": "Quick start and trip invites",
+        "summary": "Start a new trip in a minute: type where you’re going, pick the dates and watch the trip take shape. Invite your crew with one link, even before they have an account, and copy someone’s shared trip into your own. Plus a new share window, a new What’s new and friendlier empty screens.",
+        "highlights": [
+          "Creating a trip is now a full page: destination, quick dates (this weekend, next weekend…) and a live preview of the days, packing and map pin",
+          "New trips start filled in: named days and the destination pinned on the map",
+          "Pre-fill the packing list by trip type (city, mountains, seaside, road trip), or write it yourself",
+          "Trip invite link: whoever opens it joins as an editor, creating an account on the way if needed",
+          "You get a notification when someone joins your trip",
+          "Copy a shared trip into your account with one button: plan, packing and places",
+          "New share window: who’s going on the left, the invite and a read-only link toggle on the right",
+          "New users start with “Where to?” and a short checklist of first steps",
+          "You can type a destination on the home page before signing up",
+          "Empty budget, trips, statistics and map now show what you’ll see there and offer a first step",
+          "Redesigned What’s new window with every release at a glance",
+          "Close trip creation with Esc, and new accounts start in light mode"
+        ]
+      },
+      "v1_5": {
+        "title": "A new trip page and navigation",
+        "summary": "A trip is now a notebook: every day has its own page, you flip between days with the date strip, arrow keys or a swipe, and packing, links, map and budget sit as tabs on the page edge. Everything saves by itself, logging an expense on mobile is one tap away, and the whole app got new, unified navigation.",
+        "highlights": [
+          "A day page with its title, place and plan on ruled paper — edit everything in place",
+          "A date strip with each day's place and today marked; flip days with ← → or a swipe",
+          "Autosave — no Save button, the header shows “Saving…” and “Saved”",
+          "Packing, Links & notes, Map and Budget tabs with live status (4/9, CZK 34,040)",
+          "A new mobile bar with a big + Expense button in the middle",
+          "Packing split into “Still to pack” and “Packed” with a progress bar",
+          "Links and notes sort themselves, links show their domain",
+          "The trip budget on one clear page: what's spent, on what, and expenses by trip day",
+          "A light-mode share dialog and easier-to-read labels across the app",
+          "A new sidebar with your “passport” — countries visited, trips and days on the road, plus a countdown to your next trip",
+          "On mobile, one bottom bar with a + in the middle and your avatar instead of a menu — it opens your profile, settings and appearance"
+        ]
+      },
+      "v1_4": {
+        "title": "Quick search and a new overview",
+        "summary": "The overview now opens with an answer to “what now?” — one card that adapts to whether a trip is under way, still coming, or already behind you, plus how ready it is and your key numbers at a glance. And anywhere in the app, ⌘K finds a trip, a day of the itinerary, an expense, a packing item, a note, a place on the map, or a friend.",
+        "highlights": [
+          "Quick search with ⌘K (Ctrl+K) — trips, days, expenses, packing, notes, places and friends in one place",
+          "Accents don't matter and typos are forgiven — “londyn” finds Londýn",
+          "Every result lands where it belongs: a place is focused on the map, a day opens in the itinerary",
+          "Quick actions straight from search — new trip, appearance and language",
+          "Recently opened items are waiting the moment you open it, before you type",
+          "A new overview built around “what now?” — the trip under way with today's plan, a countdown to departure, or a look back at the last one",
+          "Trip readiness: days planned, what's packed, places pinned and notes written — each one links to where you finish it",
+          "Metric tiles for your key numbers — budget, settle-up, countries visited and trip count",
+          "Settle-up is now calculated across every trip and accounts for payments already recorded"
+        ]
+      },
+      "v1_3": {
+        "title": "Places map",
+        "summary": "Your travels now have a map. Save the places you've visited and the ones on your wishlist, pin them to the days of a trip, and keep your whole journey — and every place you love — together on one canvas, as clear on desktop as on your phone.",
+        "highlights": [
+          "A personal map of all your places across every trip",
+          "A map inside each trip, with a route drawn between places by day",
+          "Add a place with the crosshair or by searching an address",
+          "Tell visited from wishlist places and filter by category or trip",
+          "Pull places straight from a trip's itinerary in one click",
+          "One immersive experience, unified across desktop and mobile",
+          "Light and dark map themes"
+        ]
+      },
+      "v1_2": {
+        "title": "Export your trip as a PDF",
+        "summary": "Take your plans offline. Any trip can now be exported as a polished PDF document in Journeo's signature look — perfect for printing, sharing with fellow travellers, or keeping in your pocket on the road.",
+        "highlights": [
+          "One-tap Export PDF button right in the trip header",
+          "Pick exactly which sections (itinerary, packing, links, budget) to include",
+          "The PDF captures everything you see on the trip screen: itinerary, packing list, links & notes, and the budget",
+          "Day-by-day itinerary with locations and your plans",
+          "Packing list with the checked-off state preserved",
+          "Full budget breakdown — totals, categories, expense table, and who paid what",
+          "Balances and suggested settlements included for shared trips",
+          "Crisp vector output in your language (English & Czech)"
+        ]
+      },
+      "v1_1": {
+        "title": "Shared budgets, splitting & settling up",
+        "summary": "Travelling together just got easier. Split expenses with the people you share a trip with, see at a glance who owes whom, and settle up — no more spreadsheets or awkward math.",
+        "highlights": [
+          "Record who paid for each expense",
+          "Split a cost equally or with custom amounts among collaborators",
+          "Mark an expense as personal to keep it out of the split",
+          "A clean Balances overview showing every member's net balance",
+          "Settle up debts and mark them as paid, with an all-settled confirmation",
+          "Save your bank account / IBAN so trip mates can pay you back",
+          "Get an email when someone settles their debt with you"
+        ]
+      },
+      "v1_0": {
+        "title": "First public release",
+        "summary": "Journeo is live. This release brings the complete foundation for planning your trips — from the first idea all the way to sharing a finished itinerary with friends.",
+        "highlights": [
+          "Trip planning with a clear day-by-day itinerary",
+          "Budget with a target amount and expense tracking",
+          "Friends and trip sharing via a personal link with roles",
+          "Travel statistics gathered in one place",
+          "Light and dark mode, available in English and Czech"
+        ]
+      }
+    },
+    "versions": "Versions",
+    "version": "Version {{version}}",
+    "highlights": "What changed"
+  },
+  "landing": {
+    "hero": {
+      "title": "All your journeys in one place.",
+      "subtitle": "From idea to destination. Build simple itineraries for your trips in a clean and minimalist design.",
+      "cta": "Create your first trip",
+      "eyebrow": "Journeo — Your travel companion",
+      "secondary": "See how it works",
+      "microcopy": "Free to use · No credit card needed",
+      "note": "your next trip, sorted",
+      "newBadge": "New in",
+      "planLabel": "Where are you going?",
+      "planPlaceholder": "Where to? Lisbon, maybe",
+      "planCta": "Plan it"
+    },
+    "float": {
+      "packing": {
+        "progress": "7 of 10 packed",
+        "items": [
+          "Passport",
+          "Camera",
+          "Flip flops"
+        ]
+      },
+      "ticket": {
+        "label": "Boarding pass",
+        "date": "Oct 12",
+        "seat": "Seat 14A"
+      },
+      "weather": "24° in Kyoto"
+    },
+    "marquee": [
+      "🇯🇵 Kyoto",
+      "🇵🇹 Lisbon",
+      "🇮🇹 Rome",
+      "🇮🇸 Reykjavík",
+      "🇪🇸 Barcelona",
+      "🇺🇸 New York",
+      "🇮🇩 Bali",
+      "🇫🇷 Paris",
+      "🇳🇴 Oslo",
+      "🇹🇭 Bangkok"
+    ],
+    "problem": {
+      "label": "The old way",
+      "title": "Chaos.",
+      "titleAlt": "Every time.",
+      "filename": "Trip_FINAL_v7_REAL_final_ok.xlsx",
+      "col1": "Destination",
+      "col2": "Departure",
+      "col3": "Expenses",
+      "col4": "Status",
+      "chat": {
+        "name": "Jana 💬",
+        "msg": "wait, which hotel did we end up booking??",
+        "ago": "2 minutes ago"
+      },
+      "notes": {
+        "name": "Notes 📋",
+        "msg": "fix that formula in excel...",
+        "today": "today"
+      },
+      "rows": [
+        {
+          "dest": "Japan",
+          "date": "10/12/2026",
+          "expense": "#REF!",
+          "status": "❌ Error"
+        },
+        {
+          "dest": "Italy",
+          "date": "07/03/2025",
+          "expense": "$1,100",
+          "status": "✓"
+        },
+        {
+          "dest": "Spain",
+          "date": "???",
+          "expense": "$1,300",
+          "status": "⚠️"
+        },
+        {
+          "dest": "Thailand",
+          "date": "12/20/2025",
+          "expense": "=SUM(???)",
+          "status": "❌"
+        },
+        {
+          "dest": "France",
+          "date": "02/14/2026",
+          "expense": "no idea...",
+          "status": "🤔"
+        }
+      ],
+      "body": "Trip planning today lives in spreadsheets, group chats and notes apps. Dates get lost, formulas break, and nobody remembers which hotel was actually booked.",
+      "body2": "Journeo brings the itinerary, budget, packing list and documents into one calm place — and sharing it takes one link."
+    },
+    "solution": {
+      "label": "The new way — Journeo",
+      "destination": "Kyoto, Japan",
+      "dates": "Oct 12 – Oct 26, 2026",
+      "trip2": "Barcelona, Spain",
+      "trip2dates": "Apr 15 – Apr 22, 2026",
+      "activities1": "8 activities",
+      "activities2": "5 activities"
+    },
+    "mobile": {
+      "phase1": {
+        "title": "The world waits\nto be explored."
+      },
+      "phase2": {
+        "title": "But experiences\nfade quickly."
+      },
+      "phase3": {
+        "title": "So you need\nto capture them."
+      },
+      "phase4": {
+        "title": "Your Journeo."
+      },
+      "countdown": {
+        "label": "Next trip in",
+        "days": "days"
+      },
+      "yourData": "Your data",
+      "countries": "Countries",
+      "days": "Days",
+      "activities": "Activities:",
+      "open": "Open",
+      "tripDates": "Apr 1 — Apr 15, 2026"
+    },
+    "features": {
+      "title": "Everything you need for your travels.",
+      "subtitle": "Journeo isn't just a diary. It's a comprehensive tool for planning, recording, and sharing your adventures.",
+      "map": {
+        "title": "Your places on the map",
+        "description": "Pin the places you've visited and the ones you dream of, on a personal map or right inside a trip — with a route drawn between your stops, the same immersive way on desktop and mobile."
+      },
+      "budget": {
+        "title": "Smart budget",
+        "description": "Keep your expenses under control. Track spending on flights, accommodation, food, and activities during your trip and avoid unpleasant surprises.",
+        "vignette": {
+          "label": "Spent so far",
+          "total": "$1,240",
+          "limit": "of $2,000 budget",
+          "cats": [
+            {
+              "name": "Flights",
+              "amount": "$540"
+            },
+            {
+              "name": "Accommodation",
+              "amount": "$460"
+            },
+            {
+              "name": "Food & activities",
+              "amount": "$240"
+            }
+          ]
+        }
+      },
+      "community": {
+        "title": "Travel community",
+        "description": "Follow where your friends are traveling, get inspired, comment, and share experiences.",
+        "shared": "Shared with 4 friends"
+      },
+      "stats": {
+        "title": "Detailed statistics",
+        "description": "Track how many countries you've visited and how many days you've spent exploring the world.",
+        "countries": "countries visited",
+        "days": "days on the road"
+      },
+      "everything": {
+        "title": "Everything in one place",
+        "description": "Manage your past and planned trips in a clear dashboard. Each trip has its own profile full of memories, photos, and travel notes.",
+        "itinerary": "Itinerary",
+        "budget": "Budget",
+        "packing": "Packing list",
+        "documents": "Documents"
+      }
+    },
+    "story": {
+      "signature": "Petr",
+      "role": "Journeo's creator"
+    },
+    "cta": {
+      "title": "Ready to go?",
+      "subtitle": "Join and start building your personal world map. No commitments, no clutter.",
+      "button": "Start for free",
+      "script": "Where to next?"
+    },
+    "feedback": {
+      "label": "Feedback",
+      "title": "Help Journeo grow",
+      "subtitle": "Journeo is still growing. If you run into a bug, something doesn't work, or there's a feature you'd love to see — drop me a line. I read every message.",
+      "button": "Send an email"
+    },
+    "footer": {
+      "madeWith": "Made with attention to detail.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "cookies": "Cookie settings"
+    },
+    "changelog": {
+      "title": "Journeo keeps getting better.",
+      "subtitle": "New features land regularly — here's what shipped in the latest releases.",
+      "viewFull": "Full release notes"
+    },
+    "faq": {
+      "title": "Good to know.",
+      "subtitle": "Quick answers to what people usually ask before their first trip.",
+      "items": [
+        {
+          "q": "Is Journeo really free?",
+          "a": "Yes. Journeo is free to use — no credit card, no trial that quietly expires. Create an account, plan your first trip, and that's it."
+        },
+        {
+          "q": "Does it work on my phone?",
+          "a": "Journeo runs in the browser and adapts to your device: the full planning experience on desktop, a focused view for checking your itinerary while traveling."
+        },
+        {
+          "q": "Can I share a trip with people who don't have an account?",
+          "a": "Yes. Every trip can be shared with a link, so friends and family can view the plan without signing up. What you share stays read-only — nobody can change your trip."
+        },
+        {
+          "q": "What can I keep in one trip?",
+          "a": "The itinerary day by day, your budget and expenses, a packing list and travel documents — everything for one journey lives in one place instead of five apps."
+        },
+        {
+          "q": "Is my data private?",
+          "a": "Your trips are private by default. Others only see what you explicitly share, and you can stop sharing or delete a trip at any time."
+        }
+      ]
+    }
+  },
+  "carousel": {
+    "card1": {
+      "title": "The world waits to be discovered",
+      "subtitle": "Don't leave your plans just in your head. Make them real in an app that counts down the days to departure.",
+      "countdownLabel": "Next trip in",
+      "days": "days",
+      "destination": "Kyoto, Japan",
+      "departure": "Departure Oct 12, 2026"
+    },
+    "card2": {
+      "title": "Experiences fade fast",
+      "subtitle": "All routes, accommodation, and places on one map. No stress about forgetting something.",
+      "activities": "Activities nearby: 24",
+      "open": "Open",
+      "destination": "Kyoto day 1.",
+      "place": "Fushimi Inari Shrine"
+    },
+    "card3": {
+      "title": "So you need to capture them",
+      "subtitle": "Build your personal chronicle. Seeing how much you've traveled is the best feeling.",
+      "statsLabel": "Your stats",
+      "countries": "Countries",
+      "daysLabel": "Days on the road"
+    },
+    "card4": {
+      "title": "Your Journeo",
+      "subtitle": "The only app you'll ever need for your travels."
+    }
+  },
+  "errorBoundary": {
+    "title": "Something went wrong",
+    "description": "The page failed to load. We know about it and will look into it. Try reloading the page.",
+    "reload": "Reload page",
+    "home": "Go to overview"
+  },
+  "notFound": {
+    "title": "Off the map",
+    "description": "Looks like you got lost. This destination doesn't exist or has been moved."
+  },
+  "auth": {
+    "backHome": "Back home",
+    "title": {
+      "email": "Welcome to Journeo",
+      "password": "Welcome back",
+      "create": "Create your account",
+      "profile": "What should we call you?",
+      "forgot": "Forgot password",
+      "reset": "New password",
+      "resetCode": "Verify the code"
+    },
+    "subtitle": {
+      "email": "Sign in or create an account. All it takes is your email.",
+      "password": "Enter the password for",
+      "create": "You don't have an account yet. Set a password for",
+      "profile": "Fellow travelers will see you under this name.",
+      "forgot": "Enter your email to reset your password.",
+      "reset": "Choose a new password."
+    },
+    "otp": {
+      "checkEmail": "Check your email",
+      "description": "Enter the 6-digit code we sent to",
+      "verify": "Verify email",
+      "verifying": "Verifying...",
+      "resend": "Resend code",
+      "resendWait": "Resend available in {{seconds}}s",
+      "backToLogin": "Use a different email",
+      "codeMustBe6": "Code must be 6 digits."
+    },
+    "forgot": {
+      "emailPlaceholder": "Enter your email",
+      "submit": "Send reset link",
+      "submitting": "Processing...",
+      "backToLogin": "Back to login",
+      "enterEmail": "Please enter your email."
+    },
+    "reset": {
+      "codeLabel": "Code from email",
+      "newPasswordLabel": "New password",
+      "newPasswordPlaceholder": "Enter new password",
+      "confirmPasswordPlaceholder": "Confirm new password",
+      "submit": "Save new password",
+      "submitting": "Saving...",
+      "backToLogin": "Back to login",
+      "verify": "Verify code",
+      "verifying": "Verifying..."
+    },
+    "fields": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email",
+      "password": "Password"
+    },
+    "forgotPassword": "Forgot your password?",
+    "submit": {
+      "continue": "Continue",
+      "login": "Log in",
+      "create": "Create account",
+      "profile": "Done",
+      "loading": "Processing..."
+    },
+    "or": "Or",
+    "google": "Continue with Google",
+    "googleLoading": "Processing...",
+    "password": {
+      "hide": "Hide password",
+      "show": "Show password"
+    },
+    "passwordReq": {
+      "length": "At least 8 characters",
+      "uppercase": "Contains uppercase letter",
+      "digit": "Contains a digit"
+    },
+    "errors": {
+      "weak": "Password does not meet security requirements",
+      "loginError": "Error signing in.",
+      "registerError": "Error registering.",
+      "verifyError": "Error verifying.",
+      "resendError": "Error resending code.",
+      "forgotError": "Error requesting reset.",
+      "resetError": "Error changing password.",
+      "googleError": "Error signing in with Google.",
+      "googleFailed": "Google sign-in failed.",
+      "checkError": "Couldn't check your email. Please try again.",
+      "profileError": "Couldn't save your profile."
+    },
+    "toasts": {
+      "loginSuccess": "Welcome back!",
+      "registerSuccess": "We sent you a verification code.",
+      "verifySuccess": "Email verified!",
+      "resendSuccess": "New code sent successfully.",
+      "resetSuccess": "Password changed successfully.",
+      "codeSent": "Your account isn't verified yet. We sent you a new code."
+    },
+    "scene": {
+      "quote": "The best stories are written on the road.",
+      "tagline": "Your itinerary, packing lists and plans — in one calm place."
+    },
+    "changeEmail": "Change",
+    "profile": {
+      "avatarLabel": "Profile picture",
+      "avatarDefault": "Use initials",
+      "skip": "Not now, I'll do it later",
+      "saved": "Welcome to Journeo!"
+    }
+  },
+  "dashboardLayout": {
+    "nav": {
+      "overview": "Overview",
+      "myTrips": "My Trips",
+      "map": "Map",
+      "statistics": "Statistics",
+      "friends": "Friends",
+      "budget": "Expenses",
+      "createTrip": "Create Trip",
+      "settings": "Settings",
+      "logout": "Log out",
+      "admin": "Admin Panel"
+    },
+    "theme": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "mobile": {
+      "appearance": "Appearance",
+      "options": "Options",
+      "myProfile": "My Profile"
+    },
+    "traveler": "Traveler",
+    "dialogs": {
+      "unsaved": {
+        "title": "You have unsaved changes",
+        "message": "Are you sure you want to leave? Your changes will not be saved.",
+        "confirm": "Leave without saving"
+      },
+      "logout": {
+        "title": "Log out?",
+        "message": "Are you sure you want to log out of your account?",
+        "confirm": "Log out"
+      }
+    },
+    "navLabel": "Main navigation",
+    "navShort": {
+      "overview": "Home",
+      "myTrips": "Trips",
+      "map": "Map",
+      "statistics": "Stats",
+      "friends": "Friends",
+      "budget": "Expenses",
+      "create": "Trip"
+    },
+    "passport": {
+      "countries": "Countries",
+      "trips": "Trips",
+      "days": "Days",
+      "openMenu": "Account & settings",
+      "nextTrip": "Next trip",
+      "ongoing": "Now · day {{n}} of {{total}}",
+      "dayOf": "day of {{total}}",
+      "daysToGo_one": "day to go",
+      "daysToGo_other": "days to go"
+    },
+    "logoHome": "Journeo – home page"
+  },
+  "spotlight": {
+    "title": "Quick search",
+    "trigger": "Search…",
+    "placeholder": "Search trips, days, places, expenses…",
+    "day": "Day",
+    "packed": "Packed",
+    "pages": {
+      "trash": "Trash"
+    },
+    "groups": {
+      "recent": "Recent",
+      "suggested": "Quick start",
+      "trip": "Trips",
+      "day": "Itinerary",
+      "place": "Places",
+      "expense": "Expenses",
+      "packing": "Packing",
+      "document": "Notes",
+      "friend": "Friends",
+      "page": "Pages",
+      "action": "Actions"
+    },
+    "phase": {
+      "upcoming": "Upcoming",
+      "ongoing": "Right now",
+      "past": "Past"
+    },
+    "actions": {
+      "themeLight": "Switch to light appearance",
+      "themeDark": "Switch to dark appearance",
+      "themeSystem": "Match system appearance",
+      "language": "Switch language"
+    },
+    "empty": {
+      "title": "Nothing found",
+      "hint": "Try another word — accents don't matter."
+    },
+    "hints": {
+      "move": "navigate",
+      "open": "open",
+      "count": "{{count}} results"
+    }
+  },
+  "tripsOverview": {
+    "subtitle": "An overview of your journeys",
+    "title": "Overview",
+    "countdown": {
+      "label": "Next trip in",
+      "today": "Today",
+      "days": "days"
+    },
+    "noTrip": {
+      "title": "No trips yet",
+      "subtitle": "Create your first trip and start planning."
+    },
+    "hero": {
+      "inProgress": "In progress",
+      "dayOf": "day {{day}} of {{total}}",
+      "today": "Today",
+      "noPlanToday": "Nothing planned for today yet.",
+      "openItinerary": "Itinerary",
+      "map": "Map",
+      "expenses": "Expenses",
+      "lastTrip": "Last trip",
+      "planNextPrompt": "Where are you heading next?",
+      "dayCount_one": "{{count}} day",
+      "dayCount_other": "{{count}} days",
+      "placeCount_one": "{{count}} place",
+      "placeCount_other": "{{count}} places"
+    },
+    "readiness": {
+      "doneCount": "· {{done}} of {{total}} done",
+      "allDone": "Everything’s ready to go.",
+      "label": "Readiness",
+      "itinerary": "{{planned}} of {{total}} days planned",
+      "packing": "{{packed}} of {{total}} packed",
+      "packingEmpty": "No packing list yet",
+      "places_one": "{{count}} place pinned",
+      "places_other": "{{count}} places pinned",
+      "placesEmpty": "No places pinned",
+      "documents_one": "{{count}} document",
+      "documents_other": "{{count}} documents",
+      "documentsEmpty": "No documents or links"
+    },
+    "tiles": {
+      "budget": "Budget",
+      "budgetOf": "of {{target}} · {{pct}}%",
+      "budgetTotal": "Spent in total",
+      "budgetEmpty": "No expenses yet",
+      "balance": "Settle up",
+      "balanceSettled": "All settled",
+      "balanceSettledSub": "You owe nobody",
+      "balanceIOwe_one": "You owe {{count}} person",
+      "balanceIOwe_other": "You owe {{count}} people",
+      "balanceOwedToMe_one": "{{count}} person owes you",
+      "balanceOwedToMe_other": "{{count}} people owe you",
+      "balanceUnknown": "Couldn't load",
+      "countries": "Countries",
+      "countriesEmpty": "No places yet",
+      "placesVisited": "{{visited}} of {{total}} visited",
+      "trips": "Trips",
+      "tripsUpcoming_one": "{{count}} upcoming",
+      "tripsUpcoming_other": "{{count}} upcoming"
+    },
+    "friendRequests_one": "{{count}} new friend request",
+    "friendRequests_other": "{{count}} new friend requests",
+    "yourTrips": "Your trips",
+    "allTrips": "All trips",
+    "activities": "Activities:",
+    "open": "Open",
+    "continuePlanning": "Continue planning",
+    "actions": {
+      "newTrip": "New trip"
+    },
+    "error": {
+      "title": "Couldn't load your trips",
+      "description": "Check your internet connection and please try again.",
+      "retry": "Try again"
+    },
+    "delete": {
+      "title": "Delete trip"
+    },
+    "stats": {
+      "trips": "Trips",
+      "places": "Places"
+    }
+  },
+  "tripCard": {
+    "sharedTrip": "Shared trip"
+  },
+  "shareModal": {
+    "title": "Share Trip",
+    "linkSection": "Read-only link",
+    "linkEnable": "Create link",
+    "linkDisable": "Revoke link",
+    "linkCopy": "Copy link",
+    "linkCopied": "Link copied!",
+    "linkHint": "Anyone with the link sees the plan, packing and links. They can’t edit.",
+    "addSection": "Add collaborator",
+    "searchPlaceholder": "Search a friend...",
+    "onlyFriendsHint": "You can only share trips with accepted friends.",
+    "noFriendsFound": "No friends found.",
+    "collaboratorsSection": "Collaborators",
+    "noCollaborators": "No collaborators yet. Invite a friend!",
+    "addedSuccess": "{{name}} was added as a collaborator.",
+    "removedSuccess": "Access has been removed.",
+    "footer": "The owner can change or remove access at any time.",
+    "shareButton": "Share",
+    "roles": {
+      "owner": "Owner",
+      "editor": "Editor",
+      "viewer": "Viewer"
+    },
+    "invite": {
+      "section": "Invite your travel buddies",
+      "hint": "Anyone who opens the link can edit the trip with you. They’ll create an account on the way.",
+      "loading": "Preparing the link…",
+      "copy": "Copy invite",
+      "share": "Share",
+      "revoke": "Revoke invite",
+      "revoked": "Invite revoked. People who already joined stay.",
+      "create": "Create invite",
+      "retry": "Try again",
+      "copyError": "Couldn’t copy the link.",
+      "shareText": "Come plan {{trip}} with me on Journeo"
+    },
+    "copy": "Copy",
+    "copied": "Copied",
+    "people": {
+      "title": "Who’s going",
+      "you": "you",
+      "empty": "Just you so far. Send your crew the invite, or add them from friends.",
+      "roleFor": "Role for {{name}}",
+      "remove": "Remove {{name}}",
+      "newRole": "Role for the new travel buddy"
+    }
+  },
+  "publicTrip": {
+    "readOnly": "Read only",
+    "day": "Day",
+    "days": "days",
+    "prev": "Previous",
+    "next": "Next",
+    "noDayNotes": "No notes for this day.",
+    "tabs": {
+      "itinerary": "Itinerary",
+      "packing": "Packing",
+      "documents": "Documents"
+    },
+    "packing": {
+      "empty": "Packing list is empty."
+    },
+    "documents": {
+      "empty": "No documents.",
+      "open": "Open link"
+    },
+    "notFound": {
+      "title": "Trip not found",
+      "desc": "This link is invalid or has been revoked by the trip owner.",
+      "cta": "Go to Journeo"
+    },
+    "header": {
+      "login": "Log in",
+      "signup": "Get started free"
+    },
+    "cta": {
+      "title": "Like this plan?",
+      "desc": "Copy it and make it your own. Journeo is free.",
+      "button": "Create free account"
+    },
+    "footer": "Trip shared via Journeo",
+    "copy": {
+      "cta": "Copy this trip",
+      "busy": "Copying…",
+      "hint": "The plan, packing and places are copied for you. No sign-up needed, try it right away.",
+      "done": "Trip copied. Make it your own.",
+      "error": "Couldn’t copy the trip."
+    }
+  },
+  "tripDetail": {
+    "backToDashboard": "Back to overview",
+    "backToAll": "Back to My Trips",
+    "notFound": "Trip not found.",
+    "backToOverview": "Back to overview",
+    "generating": {
+      "title": "Setting up your trip...",
+      "description": "We're preparing a space for your itinerary, budget, and packing lists. You'll be able to start planning right away."
+    },
+    "save": {
+      "unsaved": "Save changes",
+      "saved": "Save plan",
+      "success": "Changes saved successfully!"
+    },
+    "rename": "Rename",
+    "tabs": {
+      "itinerary": "Itinerary",
+      "tools": "Tools",
+      "details": "Details",
+      "save": "Save"
+    },
+    "tools": {
+      "packing": "Packing list",
+      "documents": "Links & notes",
+      "diary": "Diary & Gallery",
+      "budget": "Budget",
+      "map": "Map"
+    },
+    "info": {
+      "title": "Trip overview",
+      "date": "Date",
+      "days": "Number of days",
+      "daysValue": "days",
+      "status": "Status",
+      "statusValue": "Planned",
+      "openDiary": "Open diary"
+    },
+    "mobile": {
+      "packing": "Pack",
+      "items": "items",
+      "links": "Links",
+      "records": "records",
+      "budget": "Budget",
+      "budgetEmpty": "No expenses yet",
+      "map": "Trip map",
+      "mapHint": "Places and route on a map"
+    },
+    "packing": {
+      "title": "Packing list",
+      "placeholder": "Add item to pack (press Enter)",
+      "empty": "Nothing here yet. Add the first thing to pack!",
+      "delete": {
+        "title": "Delete item?",
+        "message": "Are you sure you want to remove this item from the packing list?",
+        "confirm": "Delete"
+      }
+    },
+    "documents": {
+      "title": "Links & notes",
+      "titlePlaceholder": "Title (e.g. Flights, Airbnb)",
+      "contentPlaceholder": "Paste a URL or any text note...",
+      "save": "Save link",
+      "empty": "No saved links yet.",
+      "open": "Open link",
+      "delete": {
+        "title": "Delete link?",
+        "message": "Are you sure you want to delete this link or note?",
+        "confirm": "Delete"
+      }
+    },
+    "diary": {
+      "title": "Diary & Photo gallery",
+      "description": "This feature is currently being prepared! Soon you'll be able to write travel memories, rate trips, and create beautiful photo galleries.",
+      "comingSoon": "Coming soon"
+    },
+    "itinerary": {
+      "label": "Itinerary",
+      "locationLabel": "Location (City, Place)",
+      "locationPlaceholder": "e.g. Eiffel Tower, Paris",
+      "planLabel": "What do you have planned?",
+      "planPlaceholder": "Write notes, activities, reservation times...",
+      "noLocation": "No location"
+    },
+    "unsaved": {
+      "title": "You have unsaved changes",
+      "message": "Are you sure you want to leave? Your changes will not be saved.",
+      "confirm": "Leave without saving"
+    },
+    "viewerBanner": "You're viewing this trip in read-only mode. You cannot make changes.",
+    "roles": {
+      "viewer": "Viewer",
+      "editor": "Editor"
+    },
+    "exportPdf": "Export PDF",
+    "notebook": {
+      "program": "Itinerary",
+      "programStatus": "Day {{n}}/{{total}}",
+      "dayOf": "Day {{n}} of {{total}}",
+      "today": "today",
+      "dayTitlePlaceholder": "Day {{n}}",
+      "dayTitleAria": "Day title",
+      "planAria": "Day plan",
+      "locationAria": "Day location",
+      "prevDay": "Previous day",
+      "nextDay": "Next day",
+      "days_one": "{{count}} day",
+      "days_other": "{{count}} days",
+      "countdown_one": "Leaving tomorrow",
+      "countdown_other": "Leaving in {{count}} days",
+      "departsToday": "Leaving today",
+      "traveling": "On the road · day {{n}}",
+      "ended": "Trip is over",
+      "saving": "Saving…",
+      "saved": "Saved",
+      "saveError": "Not saved · retry",
+      "backToProgram": "Back to itinerary",
+      "addExpense": "Expense",
+      "noExpenses": "No expenses",
+      "mapStatus": "Places & route",
+      "packingProgress": "{{done}} of {{total}} packed",
+      "toPack": "Still to pack",
+      "packed": "Packed",
+      "allPacked": "Everything is packed.",
+      "packingPlaceholder": "What not to forget?",
+      "add": "Add",
+      "links": "Links",
+      "notes": "Notes",
+      "notesEmpty": "Keep bookings, tickets, flights or anything else for the trip here.",
+      "composerTitle": "Title, e.g. Flights",
+      "composerContent": "Link or note",
+      "packingEmpty": "The list is empty. Start with documents and a charger.",
+      "spent": "Spent",
+      "of": "of",
+      "packing": "Packing",
+      "searchExpenses": "Search expenses",
+      "edit": "Edit",
+      "saveEdit": "Save",
+      "cancelEdit": "Cancel",
+      "linkTitle": "Link label",
+      "linkUrl": "Link address"
+    },
+    "dates": {
+      "edit": "Change dates",
+      "pick": "Pick the first and last day of the trip",
+      "save": "Save dates",
+      "cancel": "Cancel",
+      "tooLong": "A trip can be at most {{max}} days long.",
+      "lost_one": "Day {{days}} has a plan and won't be part of the new dates. Its plan will be deleted.",
+      "lost_other": "Days {{days}} have plans and won't be part of the new dates. Their plans will be deleted.",
+      "moved": "The plan moves with the trip: day 1 stays day 1.",
+      "kept": "The plan stays on the same calendar days.",
+      "confirmTitle": "Shorten the trip?",
+      "confirm": "Change dates",
+      "pickEnd": "From {{date}}, now pick the last day"
+    }
+  },
+  "pdf": {
+    "travelPlan": "Travel plan",
+    "selectTitle": "Choose what to include",
+    "selectSubtitle": "Pick the sections you'd like in your PDF.",
+    "generate": "Generate PDF",
+    "days": "days",
+    "stops": "stops",
+    "itinerary": "Itinerary",
+    "emptyDay": "Nothing planned yet — enjoy the freedom.",
+    "packing": "Packing list",
+    "packed": "{{done}} of {{total}} packed",
+    "documents": "Links & notes",
+    "budget": "Budget",
+    "spent": "Spent",
+    "target": "of {{amount}} planned",
+    "colDate": "Date",
+    "colDescription": "Description",
+    "colCategory": "Category",
+    "colPaidBy": "Paid by",
+    "colAmount": "Amount",
+    "total": "Total",
+    "balances": "Balances",
+    "toSettle": "Suggested settlements",
+    "generatedWith": "Created with Journeo",
+    "generatedOn": "Exported {{date}}",
+    "signOff": "Bon voyage!"
+  },
+  "allTrips": {
+    "startsIn_one": "In {{count}} day",
+    "startsIn_other": "In {{count}} days",
+    "count_one": "{{count}} trip",
+    "count_other": "{{count}} trips",
+    "dayCount_one": "{{count}} day",
+    "dayCount_other": "{{count}} days",
+    "subtitle": "Everything in one place",
+    "title": "My Trips",
+    "search": {
+      "placeholder": "Search trip by name..."
+    },
+    "filter": {
+      "all": "All",
+      "ongoing": "Ongoing",
+      "upcoming": "Upcoming",
+      "past": "Past",
+      "reset": "Reset"
+    },
+    "sort": {
+      "dateDesc": "Newest first",
+      "dateAsc": "Oldest first",
+      "nameAz": "A – Z"
+    },
+    "shared": "Shared",
+    "days": "days",
+    "open": "Open",
+    "empty": {
+      "title": "No trips found",
+      "description": "No trips match your search. Try changing the filters."
+    },
+    "noTrips": {
+      "title": "All your trips will live here",
+      "description": "Upcoming, in progress and the ones behind you. In one place, with search and filters.",
+      "samples": {
+        "upcoming": {
+          "title": "Lisbon",
+          "meta": "Nov 12–18 · 7 days",
+          "status": "In 12 days"
+        },
+        "ongoing": {
+          "title": "The Alps",
+          "meta": "Oct 25–27 · 3 days",
+          "status": "Day 2 of 3"
+        },
+        "past": {
+          "title": "Vienna",
+          "meta": "Sep 4–7 · 4 days",
+          "status": "Done"
+        }
+      }
+    },
+    "delete": {
+      "title": "Delete trip"
+    },
+    "trash": "Trash"
+  },
+  "map": {
+    "title": "My map",
+    "subtitle_one": "{{count}} saved place",
+    "subtitle_other": "{{count}} saved places",
+    "loading": "Loading places…",
+    "categories": {
+      "sight": "Sight",
+      "food": "Food",
+      "stay": "Stay",
+      "nature": "Nature",
+      "activity": "Activity",
+      "transport": "Transport",
+      "other": "Other"
+    },
+    "statuses": {
+      "visited": "Visited",
+      "wishlist": "Want to go"
+    },
+    "filters": {
+      "searchPlaceholder": "Search places…",
+      "locate": "My location",
+      "toggle": "Filters",
+      "all": "All",
+      "allTrips": "All trips",
+      "tripLabel": "Filter by trip"
+    },
+    "list": {
+      "toggle": "Place list",
+      "edit": "Edit place {{name}}"
+    },
+    "sheet": {
+      "newTitle": "New place",
+      "editTitle": "Edit place",
+      "nameLabel": "Name",
+      "namePlaceholder": "e.g. Viewpoint over the bay",
+      "statusLabel": "Status",
+      "categoryLabel": "Category",
+      "tripLabel": "Trip",
+      "noTrip": "No trip (my map only)",
+      "dayLabel": "Trip day",
+      "noDay": "No specific day",
+      "dayOption": "Day {{number}}",
+      "noteLabel": "Note",
+      "notePlaceholder": "What do you want to remember about this place?",
+      "save": "Save changes",
+      "create": "Save place",
+      "delete": "Delete place",
+      "locationLabel": "Location",
+      "move": "Move",
+      "moveCancel": "Done",
+      "moveHint": "Tap the map or drag the pin to a new spot.",
+      "draftMoveHint": "Tap the map to move the pin."
+    },
+    "empty": {
+      "title": "No places yet",
+      "filtered": "No place matches the filter.",
+      "hint": "Click anywhere on the map to save your first place.",
+      "globalTitle": "Your map of the world",
+      "globalLead": "Save places you want to see and tick off where you’ve been. Visited places fill the countries in your passport.",
+      "tripTitle": "Places for this trip",
+      "tripLead": "Pin your stay, sights and spots. Grouped by day, they become your route.",
+      "tips": {
+        "search": "Search for a place in the box above",
+        "click": "Or click anywhere on the map",
+        "add": "Or use the Add button"
+      }
+    },
+    "confirmDelete": {
+      "title": "Delete place?",
+      "message": "“{{name}}” will be removed from your map. This can't be undone.",
+      "confirm": "Delete"
+    },
+    "toasts": {
+      "created": "Place saved.",
+      "updated": "Changes saved.",
+      "deleted": "Place deleted.",
+      "moved": "Location updated — save to keep it."
+    },
+    "errors": {
+      "load": "Couldn't load your places.",
+      "save": "Couldn't save the place.",
+      "delete": "Couldn't delete the place.",
+      "geolocationUnsupported": "Your browser can't determine your location.",
+      "geolocationDenied": "Couldn't determine your location."
+    },
+    "trip": {
+      "routeSummary": "Route across {{count}} places · {{distance}}",
+      "noRoute": "Assign places to days to see the trip route.",
+      "import": "Import from itinerary",
+      "importDone_one": "Imported {{count}} place from the itinerary.",
+      "importDone_other": "Imported {{count}} places from the itinerary.",
+      "importFailed": "None of the locations could be found on the map.",
+      "importNothing": "Nothing to import from the itinerary.",
+      "importError": "Importing places from the itinerary failed.",
+      "empty": "This trip has no places yet.",
+      "emptyHint": "Click the map or import places from the itinerary.",
+      "canvasLabel": "Map of trip {{title}}"
+    },
+    "stats": {
+      "countries": "Countries visited",
+      "cities": "Cities visited",
+      "places": "Saved places",
+      "wishlist": "On the wishlist",
+      "empty": "Save your first places on the map and your countries show up here.",
+      "open": "Open map"
+    },
+    "mobile": {
+      "back": "Back",
+      "menu": "Menu",
+      "addPlace": "Add",
+      "placeHere": "Place here",
+      "cancel": "Cancel",
+      "edit": "Edit",
+      "move": "Move",
+      "delete": "Delete place",
+      "placingHint": "Drag the map under the crosshair"
+    },
+    "panel": {
+      "collapse": "Collapse panel",
+      "expand": "Expand panel"
+    }
+  },
+  "budget": {
+    "subtitle": "Budget",
+    "title": "Expenses & budget",
+    "sketchHint": "Select a trip here",
+    "addExpense": "New expense",
+    "categories": {
+      "transport": "Transport",
+      "accommodation": "Accommodation",
+      "food": "Food & Drinks",
+      "activities": "Activities",
+      "other": "Other",
+      "all": "All categories"
+    },
+    "summary": {
+      "total": "Total expenses",
+      "transactions": "Number of transactions",
+      "tripDates": "Trip dates",
+      "avgPerDay": "Daily average",
+      "overDays": "over {{count}} days",
+      "used": "used",
+      "daysLeft": "Days left",
+      "projected": "Projected",
+      "remainingAmount": "{{amount}} remaining"
+    },
+    "breakdown": "Breakdown by category",
+    "history": "Expense history",
+    "items": "items",
+    "search": {
+      "placeholder": "Search expense by description..."
+    },
+    "filter": {
+      "reset": "Reset"
+    },
+    "empty": {
+      "noTrips": "No trip",
+      "noTripsDesc": "Create a trip in the planner first, then you can add your first expenses here.",
+      "noExpenses": "No expenses yet. Add the first one!",
+      "noResults": "No results",
+      "noResultsDesc": "No expenses match your search. Try changing the filters.",
+      "noExpensesDesc": "Track your spending as you go — add your first expense to get started.",
+      "title": "What will the trip cost?",
+      "viewerTitle": "No expenses yet",
+      "lead": "Log expenses as you travel. Journeo adds them up by day and category, and when someone pays for the group it works out who owes whom.",
+      "quickStart": "What did you pay for first?",
+      "setLimit": "Set a budget limit",
+      "limitSet": "Limit {{amount}} · edit",
+      "sample": "Example",
+      "splitWays_one": "for {{count}}",
+      "splitWays_other": "split {{count}} ways",
+      "sampleSettle": "Tomáš sends Anna {{amount}}",
+      "samples": {
+        "stay": {
+          "title": "Apartment, 3 nights",
+          "paidBy": "Paid by Anna"
+        },
+        "train": {
+          "title": "Train there and back",
+          "paidBy": "Paid by you"
+        },
+        "dinner": {
+          "title": "Dinner by the harbour",
+          "paidBy": "Paid by Tomáš"
+        }
+      },
+      "noTripsTitle": "Expenses and settling up, no spreadsheets",
+      "noTripsLead": "Once you have a trip, log what you spend here. Journeo adds it up by day and category and works out who owes whom."
+    },
+    "delete": {
+      "deleted": "Expense deleted · {{amount}}",
+      "restored": "Expense restored"
+    },
+    "addModal": {
+      "splitSummaryYou": "Paid by you · split {{count}} ways",
+      "splitSummaryCustomYou": "Paid by you · custom amounts",
+      "forWhatPlaceholder": "What for? e.g. Dinner by the ocean",
+      "amountError": "Enter an amount.",
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "otherDay": "Other day",
+      "tripDay": "Day {{day}} of the trip",
+      "splitSummary": "Paid by {{name}} · split {{count}} ways",
+      "splitSummaryCustom": "Paid by {{name}} · custom amounts",
+      "submitAmount": "Add {{amount}}",
+      "saveAndAddAnother": "Save and add another",
+      "title": "Add expense",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "e.g. Flight Prague → London",
+      "amountLabel": "Amount",
+      "categoryLabel": "Category",
+      "dateLabel": "Expense date",
+      "submit": "Add expense",
+      "success": "Expense added!",
+      "editTitle": "Edit expense",
+      "editSubmit": "Save changes",
+      "editSuccess": "Expense updated!",
+      "error": "Please fill in description and amount.",
+      "paidByLabel": "Who paid",
+      "splitLabel": "Split among",
+      "splitTypeLabel": "Split type",
+      "splitEqually": "Split equally",
+      "splitCustom": "Custom amounts",
+      "personalExpense": "Personal (not split)",
+      "eachOwes": "{{amount}} each",
+      "splitError": "Select at least one person to split among.",
+      "splitSumError": "Split amounts must add up to the total ({{amount}}).",
+      "selectAll": "Select all",
+      "you": "You",
+      "close": "Close",
+      "rateLoading": "Loading rate…",
+      "rateError": "Couldn't load the ECB rate. Enter it manually.",
+      "rateEcb": "ECB rate {{date}}",
+      "rateManual": "custom rate",
+      "rateEdit": "Edit rate",
+      "rateUseEcb": "Use ECB rate",
+      "rateMissing": "Add an exchange rate so the expense can be converted to the trip currency."
+    },
+    "balances": {
+      "title": "Balances",
+      "subtitle": "Who owes whom",
+      "you": "You",
+      "owes": "owes",
+      "owesYou": "owes you",
+      "youOwe": "you owe",
+      "getsBack": "gets back",
+      "youGetBack": "you get back",
+      "net": "Net balance",
+      "toSettle": "Suggested settlements",
+      "settledUp": "Settled up",
+      "allSettled": "Everyone's settled up 🎉",
+      "empty": "No shared expenses yet. Add an expense split among collaborators to see balances.",
+      "loadError": "Failed to load balances."
+    },
+    "settle": {
+      "settleUp": "Settle up",
+      "title": "Settle up",
+      "youOweAmount": "You owe {{amount}} to {{name}}.",
+      "sendMoneyTo": "Send money to",
+      "noBankAccount": "{{name}} hasn't added a bank account yet.",
+      "copyAccount": "Copy account number",
+      "accountCopied": "Account number copied",
+      "markAsPaid": "Mark as paid",
+      "settling": "Settling…",
+      "settleSuccess": "Debt settled — thanks!",
+      "settleError": "Could not settle the debt. Please try again."
+    },
+    "sort": {
+      "dateDesc": "Newest first",
+      "dateAsc": "Oldest first",
+      "amountDesc": "Highest first",
+      "amountAsc": "Lowest first"
+    },
+    "target": {
+      "set": "Set budget limit",
+      "edit": "Edit limit",
+      "save": "Save",
+      "of": "of {{amount}}",
+      "over": "Over budget!",
+      "placeholder": "Enter amount"
+    },
+    "expenseEdit": "Edit",
+    "expenseDelete": "Delete",
+    "pacing": {
+      "onTrack": "On track",
+      "overPace": "Over pace"
+    },
+    "groupDate": {
+      "today": "Today",
+      "yesterday": "Yesterday"
+    },
+    "currency": {
+      "changeTitle": "Change trip currency to {{currency}}?",
+      "changeMessage": "I can convert expenses, settlements and the budget limit from {{from}} to {{to}} at today's ECB rate. Expenses entered directly in {{to}} go back to their exact original amount. If you just picked the wrong currency at the start, choose “Just change currency” and the amounts stay the same.",
+      "convert": "Convert",
+      "relabel": "Just change currency",
+      "converted": "The trip is now in {{currency}}, amounts converted",
+      "changed": "Trip currency changed to {{currency}}"
+    }
+  },
+  "statistics": {
+    "subtitle": "Overview",
+    "title": "Travel statistics",
+    "loading": "Loading your data…",
+    "empty": "You don't have any trips yet. Try creating one!",
+    "metrics": {
+      "trips": "Total trips",
+      "days": "Days on the road",
+      "places": "Unique places",
+      "likes": "Total likes"
+    },
+    "financial": {
+      "label": "Total expenses",
+      "mostExpensive": "Most expensive trip:"
+    },
+    "highlights": {
+      "longestTrip": "Longest trip",
+      "longestTripDays": "days",
+      "packing": "Packing discipline",
+      "packingOf": "of",
+      "packingItems": "items",
+      "packingNoItems": "No items",
+      "favoriteMonth": "Favorite month",
+      "tripCount": "trip",
+      "tripCountFew": "trips",
+      "tripCountMany": "trips",
+      "mostPopular": "Most popular",
+      "likes": "likes",
+      "empty": "—"
+    },
+    "error": {
+      "title": "Couldn't load statistics",
+      "subtitle": "There was a problem fetching your data.",
+      "retry": "Try again"
+    },
+    "emptyState": {
+      "title": "Your travels in numbers",
+      "lead": "After your first trip you’ll see how many days you’ve spent travelling, how many countries you’ve visited, when you travel most and what it cost.",
+      "samples": {
+        "countries": {
+          "value": "3",
+          "label": "Countries"
+        },
+        "trips": {
+          "value": "5",
+          "label": "Trips"
+        },
+        "days": {
+          "value": "26",
+          "label": "Days away"
+        },
+        "byMonth": "Trips by month",
+        "peak": "You travel most in August."
+      }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "status": {
+      "saving": "Saving…",
+      "saved": "Saved",
+      "error": "Not saved · try again"
+    },
+    "profile": {
+      "title": "Your passport",
+      "description": "This is how friends and trip mates see you.",
+      "firstName": "First name",
+      "firstNamePlaceholder": "John",
+      "lastName": "Last name",
+      "lastNamePlaceholder": "Smith",
+      "bio": "About me",
+      "bioPlaceholder": "Mountain lover and adventurer…",
+      "avatarLabel": "Picture",
+      "avatars": {
+        "none": "Initials",
+        "mountain": "Mountains",
+        "beach": "Beach",
+        "city": "Compass",
+        "forest": "Map",
+        "travel": "Plane",
+        "photography": "Camera"
+      },
+      "charsLeft": "{{count}} characters left",
+      "saveError": "Could not save your profile."
+    },
+    "settle": {
+      "title": "Settling up",
+      "bankAccount": "Bank account or IBAN",
+      "bankAccountPlaceholder": "123456789/0100",
+      "bankAccountHint": "So trip mates can send you money when you settle up."
+    },
+    "preferences": {
+      "title": "Preferences"
+    },
+    "emails": {
+      "title": "Email notifications",
+      "note": "Sign-in and password reset codes are always sent.",
+      "tripReminders": "Trip reminder",
+      "tripRemindersHint": "3 days before you leave: what's left to pack, plan and have at hand.",
+      "friendRequests": "Friend requests",
+      "friendRequestsHint": "When someone adds you as a friend.",
+      "settlements": "Settled debts",
+      "settlementsHint": "When someone on a trip pays you back.",
+      "tripTransfers": "Handed-over trips",
+      "tripTransfersHint": "When someone hands a trip over to you before deleting their account.",
+      "error": "Couldn't save email settings."
+    },
+    "currency": {
+      "title": "Main currency",
+      "subtitle": "New trips start in this currency and totals across trips are shown in it. Each trip has its own currency (change it in the trip budget) and expenses can be entered in any currency.",
+      "changed": "Your main currency is now {{currency}}. Existing trips keep their own currency."
+    },
+    "appearance": {
+      "title": "Appearance",
+      "subtitle": "System follows your device setting."
+    },
+    "theme": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "language": {
+      "title": "Language",
+      "subtitle": "The app's interface language.",
+      "cs": "Čeština",
+      "en": "English"
+    },
+    "account": {
+      "title": "Account",
+      "email": "Email",
+      "emailHint": "Email can't be changed.",
+      "logout": "Sign out",
+      "logoutHint": "Signs you out on this device."
+    },
+    "password": {
+      "title": "Password",
+      "subtitle": "You stay signed in on this device after changing it.",
+      "open": "Change password",
+      "cancel": "Cancel",
+      "current": "Current password",
+      "new": "New password",
+      "confirm": "New password again",
+      "submit": "Save new password",
+      "submitting": "Saving…",
+      "mismatch": "Passwords do not match.",
+      "weak": "The new password doesn't meet the requirements below.",
+      "req": {
+        "length": "At least 8 characters",
+        "uppercase": "An uppercase letter",
+        "digit": "A digit"
+      },
+      "reqMet": "met",
+      "reqUnmet": "not met"
+    },
+    "delete": {
+      "title": "Delete account",
+      "description": "Permanently deletes your account, friends, notifications and settings. Trips you own and share with someone who can edit them are handed over to that person. Your other trips are deleted, including for people who can only view them. Expenses you paid in other people's trips stay there without your name. This cannot be undone.",
+      "button": "Delete account…",
+      "confirmTitle": "Really delete your account?",
+      "confirmMessage": "Your account and all your data will be permanently deleted and you will be signed out.",
+      "confirmLabel": "Type your email to confirm",
+      "confirmBtn": "Permanently delete account",
+      "successMessage": "Your account has been deleted.",
+      "error": "Could not delete the account."
+    }
+  },
+  "friends": {
+    "title": "Friends",
+    "defaultName": "this user",
+    "search": {
+      "label": "Find a friend",
+      "placeholder": "Find by name or email",
+      "clear": "Clear search",
+      "noResults": "We couldn't find anyone like that."
+    },
+    "invite": {
+      "title": "Your invite link",
+      "description": "Share this link with someone you know — anyone who opens it while signed in can add you as a friend in one click.",
+      "copy": "Copy link",
+      "copyShort": "Copy",
+      "copied": "Copied",
+      "copyError": "Couldn't copy the link.",
+      "hint": "Share it with anyone — one tap adds you after they sign in.",
+      "regenerate": "Generate a new link",
+      "regenerateTitle": "Generate a new link?",
+      "regenerateMessage": "The current invite link will stop working. Anyone who still has it won't be able to use it to add you.",
+      "regenerateConfirm": "Generate new link",
+      "regenerateSuccess": "New invite link generated.",
+      "regenerateError": "Error generating a new link.",
+      "linkCopied": "Link copied to clipboard!"
+    },
+    "status": {
+      "friends": "Friends",
+      "alreadyFriends": "Friends",
+      "requestSent": "Request sent",
+      "pendingReceived": "Awaiting acceptance",
+      "addButton": "Add",
+      "waitingConfirm": "Awaiting confirmation",
+      "accept": "Accept",
+      "decline": "Decline",
+      "remove": "Remove",
+      "profile": "Profile"
+    },
+    "remove": {
+      "title": "Remove friend?",
+      "message": "Are you sure you want to remove {{name}} from your friends list? You will lose mutual access to trips.",
+      "confirm": "Remove"
+    },
+    "toasts": {
+      "requestSent": "Friend request sent!",
+      "accepted": "Friendship accepted!",
+      "removed": "Friend removed.",
+      "requestError": "Error sending request.",
+      "acceptError": "Error accepting request.",
+      "declineError": "Error declining request.",
+      "removeError": "Error removing friend.",
+      "requestNotFound": "This request has already been handled."
+    },
+    "summary": {
+      "friends_one": "{{count}} travel buddy",
+      "friends_other": "{{count}} travel buddies",
+      "countries_one": "{{count}} shared country",
+      "countries_other": "{{count}} shared countries"
+    },
+    "inviteButton": "Invite with a link",
+    "requests": {
+      "title": "Friend requests",
+      "message": "<0>{{name}}</0> sent you a friend request"
+    },
+    "card": {
+      "since": "Friends since {{date}}",
+      "trips_one": "trip together",
+      "trips_other": "trips together",
+      "countries_one": "country",
+      "countries_other": "countries",
+      "days_one": "day travelling",
+      "days_other": "days travelling",
+      "nextTrip": "Next trip together",
+      "daysToGo_one": "day",
+      "daysToGo_other": "days",
+      "ongoing": "Travelling together now",
+      "nothingPlanned": "Nothing planned yet",
+      "neverTraveled": "You haven't travelled together yet",
+      "owesYou": "Owes you {{amount}}",
+      "youOwe": "You owe {{amount}}",
+      "settled": "All settled",
+      "profile": "Profile",
+      "menu": "More actions for {{name}}",
+      "remove": "Remove friend"
+    },
+    "listTitle": "Your travel buddies",
+    "loadError": "Couldn't load your friends.",
+    "retry": "Try again",
+    "inviteCard": {
+      "title": "Who's coming next?",
+      "description": "Send your link to anyone. Once they sign in, they add you in one click and you can plan and split costs together.",
+      "emptyTitle": "Invite your first travel buddy",
+      "emptyDescription": "Friends share trips, plan together and settle up in one click at the end."
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "markAllRead": "Mark all as read",
+    "empty": "No notifications",
+    "accept": "Accept",
+    "decline": "Decline",
+    "toasts": {
+      "accepted": "Friend request accepted!",
+      "acceptError": "Error accepting request.",
+      "declineError": "Error declining request.",
+      "markError": "Error marking notifications.",
+      "loadError": "Failed to load notifications."
+    },
+    "timeAgo": {
+      "justNow": "just now",
+      "minutesAgo": "{{count}} min ago",
+      "hoursAgo": "{{count}}h ago",
+      "daysAgo": "{{count}}d ago",
+      "weeksAgo": "{{count}}w ago"
+    },
+    "messages": {
+      "friendRequest": "{{name}} sent you a friend request.",
+      "friendAccepted": "{{name}} accepted your friend request.",
+      "tripTransferred": "{{name}} deleted their account — the trip “{{trip}}” is now yours.",
+      "tripJoined": "{{name}} joined your trip “{{trip}}”."
+    },
+    "deletedUser": "Deleted user",
+    "deletedTrip": "a deleted trip"
+  },
+  "friendProfile": {
+    "loading": "Loading profile...",
+    "backToDashboard": "Back to overview",
+    "backToFriends": "Back to friends",
+    "addFriend": "Add friend",
+    "requestSent": "Request sent",
+    "acceptRequest": "Accept",
+    "declineRequest": "Decline",
+    "removeFriend": "Remove friend",
+    "noTrips": "No shared trips",
+    "privateProfile": {
+      "title": "Private profile",
+      "description": "This user's trips are not public. Send them a friend request."
+    },
+    "openTrip": "Open trip",
+    "backToFriendsList": "Back to friends",
+    "yourTrips": "Your trips",
+    "tripsTitle": "Trips",
+    "tripsTotal": "{{count}} total",
+    "activities": "Activities: {{count}}",
+    "viewTrip": "View",
+    "noTripsTitle": "No trips",
+    "noTripsSelf": "You don't have any trips yet.",
+    "noTripsOther": "This user doesn't have any trips yet.",
+    "waitingConfirm": "Awaiting confirmation",
+    "memberSince": "Since",
+    "toasts": {
+      "requestSent": "Friend request sent!",
+      "accepted": "Friendship accepted!",
+      "declined": "Request declined.",
+      "removed": "Friend removed."
+    }
+  },
+  "addFriendInvite": {
+    "loading": "Loading invite...",
+    "backToFriends": "Back to friends",
+    "invalid": {
+      "title": "Invite link not valid",
+      "description": "This invite link doesn't exist anymore, or it was regenerated by its owner."
+    },
+    "self": {
+      "title": "This is your own invite link",
+      "description": "Share it with someone else so they can add you as a friend. Manage it from the Friends page."
+    },
+    "subtitle": "Wants to be your friend",
+    "addButton": "Add as friend",
+    "alreadyFriends": "You're already friends",
+    "requestSent": "Friend request sent",
+    "pendingReceived": "They already sent you a request",
+    "pendingReceivedAction": "Review request",
+    "viewProfile": "View profile",
+    "goToFriends": "Go to friends",
+    "toasts": {
+      "requestSent": "Friend request sent!",
+      "requestError": "Error sending the friend request."
+    }
+  },
+  "readOnlyTrip": {
+    "backToProfile": "Back to profile",
+    "notFound": "Trip not found or you don't have access.",
+    "readOnly": "Read only",
+    "tabs": {
+      "itinerary": "Itinerary",
+      "tools": "Tools",
+      "details": "Details"
+    },
+    "tools": {
+      "packing": "Packing list",
+      "documents": "Links & notes"
+    },
+    "info": {
+      "title": "Trip overview",
+      "date": "Date",
+      "days": "Number of days",
+      "daysValue": "days",
+      "status": "Planned",
+      "openDiary": "Open diary",
+      "author": "Author",
+      "mode": "Mode"
+    },
+    "packing": {
+      "title": "Packing list",
+      "empty": "Nothing here yet.",
+      "noItems": "No items in the packing list."
+    },
+    "documents": {
+      "title": "Links & notes",
+      "open": "Open link",
+      "empty": "No saved links."
+    },
+    "noLocation": "No location",
+    "dayPlan": "Day plan",
+    "noDayNotes": "No notes for this day.",
+    "loadError": "Failed to load trip.",
+    "restricted": {
+      "title": "Only trip members can see the details",
+      "text": "{{name}} hasn't shared this trip with you, so you only see its name and dates. You'll see the plan, packing list and documents once they add you to the trip."
+    }
+  },
+  "likeButton": {
+    "error": "Error processing like.",
+    "unlike": "Unlike",
+    "like": "Like"
+  },
+  "dialog": {
+    "defaultTitle": "Confirm action",
+    "defaultInputLabel": "Enter text to confirm",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "typeExactly": "Type exactly:"
+  },
+  "dashboardHome": {
+    "loadError": "Failed to load trips.",
+    "createError": "Failed to create trip.",
+    "deleteError": "Failed to delete trip.",
+    "updateError": "Failed to update trip.",
+    "conflict": "Someone else edited this trip in the meantime. We loaded their version and your last change wasn't saved, please make it again.",
+    "currencyError": "Error converting currency.",
+    "tripDeleted": "Trip moved to Trash",
+    "undo": "Undo",
+    "tripRestored": "Trip restored",
+    "restoreError": "Failed to restore trip."
+  },
+  "admin": {
+    "nav": {
+      "overview": "Overview",
+      "users": "Users",
+      "trips": "Trips",
+      "analytics": "Analytics",
+      "errors": "Errors"
+    },
+    "logout": "Log out",
+    "backToDashboard": "Back to dashboard",
+    "administrator": "Administrator",
+    "dashboard": {
+      "title": "Admin",
+      "subtitle": "Statistics and overview of the entire Journeo platform",
+      "overview": "Overview",
+      "loadError": "Failed to load data.",
+      "stats": {
+        "users": "Users",
+        "trips": "Trips",
+        "expenses": "Total expenses",
+        "friendships": "Friendships",
+        "newThisWeek": "+{{count}} this week",
+        "usersPerMonth": "+{{count}} users per month",
+        "expenseItems": "{{count}} items",
+        "tripCount": "trips"
+      },
+      "tripsChart": {
+        "title": "Trips per month",
+        "subtitle": "Last 6 months",
+        "noData": "No data"
+      },
+      "topUsers": {
+        "title": "Top users",
+        "subtitle": "By number of trips"
+      },
+      "recentUsers": {
+        "title": "Recent registrations",
+        "subtitle": "10 newest users",
+        "cols": {
+          "user": "User",
+          "email": "Email",
+          "role": "Role",
+          "trips": "Trips",
+          "registration": "Registered"
+        }
+      }
+    },
+    "users": {
+      "title": "User management",
+      "subtitle": "Overview of all registered users",
+      "searchPlaceholder": "Search email, name...",
+      "searchButton": "Search",
+      "total": "Total {{count}} users",
+      "notFound": "No users found.",
+      "you": "you",
+      "tooltips": {
+        "viewUser": "View user",
+        "grantAdmin": "Grant admin rights",
+        "revokeAdmin": "Revoke admin rights",
+        "deleteUser": "Delete user"
+      },
+      "table": {
+        "user": "User",
+        "email": "Email",
+        "role": "Role",
+        "trips": "Trips",
+        "friends": "Friends",
+        "registration": "Registered",
+        "actions": "Actions"
+      },
+      "pageMeta": "Page {{page}} of {{pages}} · {{count}} users",
+      "prevPage": "← Previous",
+      "nextPage": "Next →",
+      "dialog": {
+        "grantTitle": "Grant admin rights?",
+        "grantMessage": "This user will have full access to the admin panel.",
+        "grantConfirm": "Grant",
+        "revokeTitle": "Revoke admin rights?",
+        "revokeMessage": "This user will lose access to the admin panel.",
+        "revokeConfirm": "Revoke",
+        "deleteTitle": "Delete user?",
+        "deleteMessage": "Are you sure you want to delete user \"{{email}}\"? All their data will be permanently deleted.",
+        "deleteConfirm": "Delete permanently"
+      },
+      "toast": {
+        "granted": "Admin rights granted.",
+        "revoked": "Admin rights revoked.",
+        "deleted": "User deleted.",
+        "roleError": "Error changing role.",
+        "deleteError": "Error deleting user.",
+        "loadError": "Failed to load users.",
+        "detailError": "Failed to load user details."
+      },
+      "detail": {
+        "noName": "No name",
+        "trips": "Trips",
+        "friends": "Friends",
+        "totalCzk": "total",
+        "noTrips": "This user has no trips",
+        "noFriends": "This user has no friends",
+        "dialogLabel": "User detail"
+      }
+    },
+    "trips": {
+      "title": "Trip management",
+      "subtitle": "Overview of all trips on the platform",
+      "searchPlaceholder": "Search trips...",
+      "searchButton": "Search",
+      "total": "Total {{count}} trips",
+      "notFound": "No trips found.",
+      "tooltips": {
+        "viewTrip": "View trip",
+        "deleteTrip": "Delete trip"
+      },
+      "table": {
+        "trip": "Trip",
+        "user": "User",
+        "period": "Period",
+        "days": "Days",
+        "activities": "Activities",
+        "expenses": "Expenses",
+        "likes": "Likes",
+        "actions": "Actions"
+      },
+      "pageMeta": "Page {{page}} of {{pages}} · {{count}} trips",
+      "prevPage": "← Previous",
+      "nextPage": "Next →",
+      "dialog": {
+        "deleteTitle": "Delete trip?",
+        "deleteMessage": "Are you sure you want to delete trip \"{{title}}\"? All activities, expenses, and documents will also be deleted.",
+        "deleteConfirm": "Delete permanently"
+      },
+      "toast": {
+        "deleted": "Trip deleted.",
+        "deleteError": "Error deleting trip.",
+        "loadError": "Failed to load trips.",
+        "detailError": "Failed to load trip details."
+      },
+      "detail": {
+        "daysLabel": "Days",
+        "packingLabel": "Packing",
+        "notesLabel": "Notes",
+        "deleteButton": "Delete this trip",
+        "empty": "This trip has no content yet.",
+        "dialogLabel": "Trip detail"
+      }
+    },
+    "close": "Close",
+    "v2": {
+      "title": "Admin",
+      "thisWeek": "This week",
+      "newUsers": "New users",
+      "newTrips": "New trips",
+      "active30": "Active in 30 days",
+      "active30Hint": "edited a trip",
+      "totalUsers": "Users",
+      "totalTrips": "Trips",
+      "friendships": "Friendships",
+      "unverified": "Unverified accounts",
+      "chartTitle": "Sign-ups and trips per week",
+      "chartRange": "Last 12 weeks",
+      "signups": "Sign-ups",
+      "trips": "Trips",
+      "weekOf": "Week of {{date}}",
+      "chartTable": "Data table",
+      "newest": "Newest users",
+      "mostActive": "Most trips",
+      "allUsers": "All users",
+      "sortNewest": "Newest",
+      "sortName": "Name",
+      "sortEmail": "E-mail",
+      "sortLabel": "Sort",
+      "loadMore": "Load more",
+      "selectUser": "Pick a user from the list.",
+      "selectTrip": "Pick a trip from the list.",
+      "back": "Back to list",
+      "registered": "Joined {{date}}",
+      "verified": "E-mail verified",
+      "unverifiedEmail": "E-mail not verified",
+      "unverifiedShort": "unverified",
+      "self": "This is your account — you can't delete it or remove your own rights.",
+      "deleteAccount": "Delete account",
+      "makeAdmin": "Grant admin rights",
+      "removeAdmin": "Remove admin rights",
+      "inTrash": "in trash",
+      "owner": "Owner",
+      "days": "Itinerary days",
+      "expenses": "Expenses",
+      "packing": "Packing",
+      "documents": "Documents",
+      "likes": "Likes",
+      "itinerary": "Itinerary",
+      "noItinerary": "The itinerary is empty.",
+      "deleteTrip": "Delete trip",
+      "dayN": "Day {{n}}",
+      "tripCount": "Trips",
+      "friendCount": "Friends",
+      "searchTrips": "Search trips…",
+      "searchUsers": "Search name or e-mail…",
+      "guestsActive": "Trying without account",
+      "guestsConverted": "Trial → sign-up · 30 d"
+    },
+    "analytics": {
+      "intro": "First-party, cookie-free measurement. Visitors are counted per day; admins and their devices are excluded.",
+      "range": "Period",
+      "days_one": "{{count}} day",
+      "days_other": "{{count}} days",
+      "kpi": {
+        "visitors": "Visitors",
+        "pageviews": "Page views",
+        "activeUsers": "Active users",
+        "signups": "Sign-ups",
+        "trips": "New trips"
+      },
+      "kpiNote": "Percentages compare with the previous period of the same length. Visitors = sum of daily unique visitors.",
+      "series": {
+        "visitors": "Visitors",
+        "activeUsers": "Signed-in users",
+        "pageviews": "Views",
+        "signups": "Sign-ups"
+      },
+      "chartTitle": "Daily traffic",
+      "day": "Day",
+      "funnel": {
+        "visitorsTitle": "From visit to sign-up",
+        "visitorsHint": "visitor per day",
+        "newUsersTitle": "What new users did",
+        "newUsersHint": "signed up in period",
+        "visitors": {
+          "visited": "Visited the site",
+          "landing": "Saw the landing page",
+          "auth": "Opened sign-in",
+          "signup": "Signed up"
+        },
+        "newUsers": {
+          "signedUp": "Signed up",
+          "hasTrip": "Have a trip",
+          "hasContent": "Filled a trip (plan, places, expenses)",
+          "invited": "Invited a buddy",
+          "returned": "Came back another day"
+        }
+      },
+      "featuresTitle": "What people do",
+      "featuresHint": "actions in period",
+      "action": "Action",
+      "count": "Count",
+      "users": "Users",
+      "pagesTitle": "Top pages",
+      "byVisitors": "by visitors",
+      "referrersTitle": "Where they came from",
+      "utmTitle": "Campaigns (UTM)",
+      "devicesTitle": "Devices",
+      "countriesTitle": "Countries",
+      "noReferrers": "Only direct visits so far.",
+      "noData": "No data yet.",
+      "liveTitle": "Right now",
+      "refresh": "Refresh",
+      "anonymous": "Anonymous visitor",
+      "noEvents": "No events yet. Collection starts after deploy.",
+      "userActivity": "Activity",
+      "noUserActivity": "No recorded activity yet.",
+      "lastSeen": "Last seen {{when}}",
+      "activeDays_one": "active {{count}} day",
+      "activeDays_other": "active {{count}} days",
+      "showAll": "Show all ({{count}})",
+      "events": {
+        "signup": "Signed up",
+        "login": "Signed in",
+        "account_deleted": "Deleted account",
+        "trip_created": "Created a trip",
+        "trip_joined": "Joined a trip via invite",
+        "collaborator_added": "Added a buddy to a trip",
+        "share_link_created": "Created a public link",
+        "share_link_copied": "Copied a public link",
+        "invite_link_created": "Created a trip invite",
+        "invite_link_shared": "Shared a trip invite",
+        "place_added": "Added a place",
+        "expense_added": "Added an expense",
+        "settlement": "Settled a debt",
+        "pdf_exported": "Exported PDF",
+        "friend_request_sent": "Sent a friend request",
+        "friend_accepted": "Accepted a friendship",
+        "friend_invite_copied": "Copied friend link",
+        "landing_plan_submitted": "Entered a destination on landing",
+        "pwa_prompt_shown": "Saw “Add to Home Screen” offer",
+        "pwa_install_opened": "Opened app install",
+        "pwa_installed": "Installed the app",
+        "pwa_prompt_declined": "Declined install",
+        "pwa_card_dismissed": "Dismissed install offer",
+        "guest_started": "Started trial mode",
+        "guest_converted": "Signed up from trial mode",
+        "guest_trial_clicked": "Clicked “Try without signing up”",
+        "guest_upsell_shown": "Saw sign-up offer (guest)",
+        "guest_upgrade_clicked": "Clicked save account (guest)"
+      },
+      "device": {
+        "mobile": "Mobile",
+        "tablet": "Tablet",
+        "desktop": "Desktop"
+      }
+    },
+    "errors": {
+      "title": "Errors",
+      "intro": "Errors from users' browsers and from the server. The same error is one row with an occurrence count. A resolved error reopens if it happens again.",
+      "open": "Open",
+      "resolvedTab": "Resolved",
+      "openTitle": "Open errors",
+      "resolvedTitle": "Resolved errors",
+      "last24h_one": "{{count}} in the last 24 h",
+      "last24h_other": "{{count}} in the last 24 h",
+      "source": {
+        "client": "Browser",
+        "server": "Server"
+      },
+      "occurrences_one": "{{count}} occurrence",
+      "occurrences_other": "{{count}} occurrences",
+      "usersAffected_one": "{{count}} user",
+      "usersAffected_other": "{{count}} users",
+      "lastSeen": "last {{when}}",
+      "firstSeen": "First seen",
+      "lastSeenAt": "Last seen",
+      "lastUser": "Last user",
+      "browser": "Browser",
+      "resolve": "Mark as resolved",
+      "reopen": "Reopen",
+      "resolved": "Error marked as resolved.",
+      "reopened": "Error reopened.",
+      "updateError": "Couldn't update the error.",
+      "emptyOpen": "No open errors. 🎉",
+      "emptyResolved": "No resolved errors yet."
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong.",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "close": "Close",
+    "back": "Back",
+    "open": "Open",
+    "search": "Search"
+  },
+  "privacyPolicy": {
+    "back": "Back to home",
+    "title": "Privacy Policy",
+    "effectiveDate": "Effective date: November 2, 2026",
+    "section1": {
+      "title": "1. What data we collect",
+      "content": "We collect data you provide when registering (name, email), and data about your trips that you enter into the app yourself (locations, dates, expenses, notes, photos). Trial mode without signing up needs no personal data: trips are tied to your browser only and are deleted after the 3-day trial plus one more day for viewing, unless you sign up."
+    },
+    "section2": {
+      "title": "2. How we use your data",
+      "content": "We use the collected data exclusively to provide the Journeo app services, synchronize your devices, and improve the user experience. Your trips are not public unless you choose to share them with friends through community features."
+    },
+    "section3": {
+      "title": "3. Sharing with third parties",
+      "content": "We do not sell your personal data. We share data with technical infrastructure providers (Vercel hosting, database, email service) who are bound by confidentiality. If you consent to marketing cookies, our partner Travelpayouts (Travelpayouts Ltd.) processes technical data about your browser and how you browse the page in order to attribute commissions for partner links. This partner may also access the content of the displayed page."
+    },
+    "section4": {
+      "title": "4. Cookies and partner links",
+      "content": "We use essential storage (localStorage) for sign-in, language, theme and remembering your cookie choice; it does not require consent. We measure traffic and app usage with Vercel Web Analytics and our own measurement, both without cookies. Our own measurement records visited app pages and actions (e.g. creating a trip or adding an expense), linked to your account when signed in, so we can improve the app (legitimate interest). We do not store IP addresses; anonymous visitors are only distinguished within a single day. Records are deleted after 13 months and are detached from your account when you delete it. Technical app errors are stored so we can fix them. Marketing cookies from our partner Travelpayouts are loaded only with your consent. They track partner (affiliate) links to services such as Booking.com or GetYourGuide: when you book through them, Journeo earns a commission and your price stays the same. You can withdraw consent at any time.",
+      "cookieSettings": true
+    },
+    "section5": {
+      "title": "5. Your rights (GDPR)",
+      "content": "You have the right to access your personal data, correct it, delete it (\"right to be forgotten\"), to data portability and to withdraw consent. You can delete your account yourself in settings. To exercise other rights, please contact us."
+    },
+    "section6": {
+      "title": "6. Contact",
+      "content": "If you have questions about this policy, contact us at petr@vorlos.eu."
+    }
+  },
+  "termsOfService": {
+    "back": "Back to home",
+    "title": "Terms of Service",
+    "effectiveDate": "Effective date: October 12, 2026",
+    "section1": {
+      "title": "1. Acceptance of terms",
+      "content": "By using the Journeo app (\"Service\") you agree to these Terms of Service. If you do not agree, please do not use this app."
+    },
+    "section2": {
+      "title": "2. User accounts",
+      "content": "When creating an account you must provide accurate and complete information. You are responsible for keeping your password secure and for all activity that occurs on your account."
+    },
+    "section3": {
+      "title": "3. User content",
+      "content": "You retain all rights to content you upload to the Service (including photos and trip notes). By uploading content you grant us a non-exclusive licence to display that content for the purpose of providing the Service. You may not upload illegal, offensive, or harmful content."
+    },
+    "section4": {
+      "title": "4. Service availability",
+      "content": "The Service is provided \"as is\". We do not guarantee that it will always be error-free, secure, or uninterrupted. We reserve the right to suspend, modify, or discontinue the Service at any time."
+    },
+    "section5": {
+      "title": "5. Termination",
+      "content": "We may cancel or suspend your account without prior notice if you violate these Terms of Service. Upon account deletion, your data will be removed in accordance with our Privacy Policy."
+    },
+    "section6": {
+      "title": "6. Partner links",
+      "content": "Journeo is free. Some links in the Service (e.g. to accommodation, activities, eSIMs or insurance) are partner (affiliate) links: if you buy through them, we may earn a commission. This does not change your price. Partner services are the responsibility of their operators and are governed by their terms."
+    },
+    "section7": {
+      "title": "7. Contact",
+      "content": "For any questions about these terms, contact us at petr@vorlos.eu."
+    }
+  },
+  "trash": {
+    "count_one": "{{count}} trip",
+    "count_other": "{{count}} trips",
+    "title": "Trash",
+    "subtitle": "Deleted trips stay here for 30 days, then they're removed forever.",
+    "backToTrips": "My trips",
+    "emptyTrash": "Empty trash",
+    "restore": "Restore",
+    "deleteForever": "Delete forever",
+    "deletedOn": "Deleted {{date}}",
+    "daysLeft_one": "{{count}} day left",
+    "daysLeft_other": "{{count}} days left",
+    "empty": {
+      "title": "Trash is empty",
+      "description": "Deleted trips stay here for 30 days before being removed forever."
+    },
+    "confirmForever": {
+      "title": "Delete forever?",
+      "message": "“{{title}}” will be permanently deleted along with all its activities, expenses and documents. This cannot be undone.",
+      "confirm": "Delete forever"
+    },
+    "confirmEmpty": {
+      "title": "Empty trash?",
+      "message": "All trips in the trash will be permanently deleted. This cannot be undone.",
+      "confirm": "Empty trash"
+    },
+    "restored": "Trip restored",
+    "deletedForever": "Trip permanently deleted",
+    "emptied": "Trash emptied",
+    "loadError": "Failed to load trash.",
+    "error": "Something went wrong."
+  },
+  "cookies": {
+    "title": "Cookies & privacy",
+    "text": "We use essential storage to make the app work (sign-in, language, theme). With your consent we also use marketing cookies from our partner Travelpayouts, which earn us a small commission when you book accommodation or activities through Journeo. It costs you nothing.",
+    "policyLink": "Read the policy",
+    "necessary": {
+      "title": "Essential",
+      "desc": "Sign-in, language, theme and remembering this choice. The app does not work without them."
+    },
+    "measurement": {
+      "title": "Usage measurement",
+      "desc": "No cookies, no stored IP: which pages and features get used, so we know what to improve. Anonymous visitors are never tracked for longer than a day."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "desc": "Travelpayouts: tracking partner links (Booking, GetYourGuide, etc.) to attribute commissions."
+    },
+    "acceptAll": "Accept all",
+    "rejectAll": "Essential only",
+    "save": "Save choice",
+    "customize": "Customize",
+    "openSettings": "Change cookie settings"
+  },
+  "onboarding": {
+    "greeting": "Welcome to Journeo",
+    "greetingName": "Welcome to Journeo, {{name}}",
+    "title": "Where to?",
+    "subtitle": "Type where you’re going and your trip is ready in a minute: a day-by-day plan, a packing list and a pin on the map.",
+    "destinationLabel": "Where are you going",
+    "destinationPlaceholder": "Lisbon, the Alps, Croatia…",
+    "whenLabel": "When?",
+    "dates": {
+      "thisWeekend": "This weekend",
+      "nextWeekend": "Next weekend",
+      "inMonth": "A week, next month",
+      "custom": "Pick dates",
+      "from": "From",
+      "to": "To",
+      "tooLong": "A trip can be at most {{max}} days long."
+    },
+    "dayCount_one": "{{count}} day",
+    "dayCount_other": "{{count}} days",
+    "typeLabel": "Pre-fill the packing list?",
+    "types": {
+      "city": "City",
+      "mountains": "Mountains",
+      "sea": "Seaside",
+      "roadtrip": "Road trip",
+      "own": "I’ll pack myself"
+    },
+    "submit": "Plan the trip",
+    "changeLater": "You can change anything later.",
+    "error": "Something went wrong, please try again.",
+    "progress": {
+      "title": "Getting {{place}} ready",
+      "trip": "Creating the trip",
+      "days_one": "Laying out {{count}} day",
+      "days_other": "Laying out {{count}} days",
+      "packing": "Pre-filling the packing list",
+      "map": "Pinning {{place}} on the map"
+    },
+    "days": {
+      "arrival": "Arrival",
+      "departure": "Heading home",
+      "day": "Day {{n}}"
+    },
+    "packing": {
+      "base": [
+        "ID or passport",
+        "Card and some cash",
+        "Charger and power bank",
+        "Meds and plasters",
+        "Toothbrush and toothpaste",
+        "Underwear and socks",
+        "Comfy shoes"
+      ],
+      "city": [
+        "Tickets or bookings",
+        "Light jacket",
+        "Small day pack"
+      ],
+      "mountains": [
+        "Hiking boots",
+        "Rain jacket",
+        "Fleece",
+        "Hat and gloves",
+        "Water bottle",
+        "Map or offline maps"
+      ],
+      "sea": [
+        "Swimsuit",
+        "Sunscreen",
+        "Sunglasses",
+        "Beach towel",
+        "Flip-flops",
+        "Sun hat"
+      ],
+      "roadtrip": [
+        "Driving licence and car papers",
+        "Toll vignettes",
+        "Car charger",
+        "Snacks and water",
+        "Road trip playlist"
+      ]
+    },
+    "checklist": {
+      "title": "Your trip is ready. A few quick steps",
+      "titleCopy": "The trip is yours. Make it your own",
+      "progress": "{{done}} of {{total}} done",
+      "created": "Trip created",
+      "copied": "Trip copied",
+      "packing": "Tick off what you’ve packed",
+      "plan": "Write what you want to do on day one",
+      "invite": "Invite your travel buddies",
+      "done": "done",
+      "doneTitle": "Done, it’s all in one place",
+      "doneSubtitle": "Plan, packing and crew sit together now. Fill in the other days whenever you like.",
+      "packingOwn": "Write what to pack"
+    },
+    "pickDates": "Pick when you’re going.",
+    "preview": {
+      "label": "Trip preview",
+      "untitled": "Your next trip",
+      "days": "Day by day",
+      "packing": "Packing",
+      "more_one": "and {{count}} more item",
+      "more_other": "and {{count}} more items",
+      "mapEmpty": "Pin on the map",
+      "mapHint": "Pick a destination from the suggestions to pin it",
+      "packingOwn": "You’ll write the list yourself"
+    },
+    "newEyebrow": "New trip",
+    "newTitle": "Where to next?",
+    "back": "Back"
+  },
+  "joinTrip": {
+    "invitedBy": "{{name}} invites you on a trip",
+    "someone": "A friend",
+    "days_one": "{{count}} day",
+    "days_other": "{{count}} days",
+    "countdown_one": "in {{count}} day",
+    "countdown_other": "in {{count}} days",
+    "crew_one": "{{name}} and {{count}} other are going",
+    "crew_other": "{{name}} and {{count}} others are going",
+    "crewSolo": "Just {{name}} so far. Be the first to join.",
+    "stats": {
+      "plannedDays_one": "{{count}} day planned",
+      "plannedDays_other": "{{count}} days planned",
+      "places_one": "{{count}} place on the map",
+      "places_other": "{{count}} places on the map",
+      "packing_one": "{{count}} item to pack",
+      "packing_other": "{{count}} items to pack",
+      "expenses_one": "{{count}} expense",
+      "expenses_other": "{{count}} expenses"
+    },
+    "pitch": "Plan it together: a day-by-day plan, a map of places, who brings what, and a budget that works out who owes whom.",
+    "cta": "Join the trip",
+    "joining": "Joining…",
+    "microcopy": "Free. Creating an account takes seconds.",
+    "signedInAs": "Account: {{email}}",
+    "joined": "You’re in! You’re now planning “{{trip}}” together.",
+    "error": "Couldn’t join the trip.",
+    "invalid": {
+      "title": "This invite has expired",
+      "desc": "The link is invalid or the trip owner revoked it. Ask them for a new one.",
+      "cta": "Go to Journeo"
+    }
+  },
+  "emptyStates": {
+    "sample": "Example",
+    "planFirst": "Plan your first trip"
+  },
+  "currencyPicker": {
+    "search": "Search currency",
+    "frequent": "Frequently used",
+    "all": "All currencies",
+    "noResults": "No matching currency.",
+    "change": "Expense currency: {{currency}}, change",
+    "tripCurrency": "Trip currency · {{currency}}"
+  },
+  "pwa": {
+    "menu": "Add to Home Screen",
+    "card": {
+      "title": "Keep Journeo at hand",
+      "text": "Add it to your home screen. It opens like an app, no address bar, in one tap.",
+      "cta": "Add to Home Screen",
+      "ctaInApp": "How to",
+      "dismiss": "Not now"
+    },
+    "settings": {
+      "group": "App",
+      "title": "Journeo on your home screen",
+      "hint": "Open Journeo like an app, in one tap from your home screen.",
+      "installedHint": "Journeo is on your home screen and opens as an app.",
+      "installed": "Installed"
+    },
+    "sheet": {
+      "title": "Add Journeo to your home screen",
+      "subtitle": "Then open it in one tap, full screen like an app.",
+      "ios": {
+        "step1": "Tap Share",
+        "step1Hint": "The square with an arrow. At the bottom in Safari, or tucked under ⋯.",
+        "step2": "Choose “Add to Home Screen”",
+        "step2Hint": "Scroll down the menu if you don't see it.",
+        "step3": "Confirm “Add”",
+        "step3Hint": "Journeo appears among your apps."
+      },
+      "android": {
+        "step1": "Open the browser menu",
+        "step1Hint": "Three dots ⋮ in the top right.",
+        "step2": "Choose “Add to Home screen”",
+        "step2Hint": "Sometimes called “Install app”.",
+        "step3": "Confirm",
+        "step3Hint": "Journeo appears among your apps."
+      },
+      "inapp": {
+        "title": "{{app}} can't install apps",
+        "thisApp": "This browser",
+        "subtitle": "Open Journeo in {{browser}} and add it to your home screen there.",
+        "step1": "Tap ⋯ or ⋮ in the top right",
+        "step1Hint": "In the menu of the app the link opened in.",
+        "step2": "Choose “Open in browser” ({{browser}})",
+        "step2Hint": "Or copy the link below and paste it into your browser.",
+        "step3": "Then choose “Add to Home Screen”",
+        "step3Hint": "Via Share (iPhone) or the ⋮ menu (Android).",
+        "copy": "Copy link",
+        "copied": "Link copied, paste it into {{browser}}.",
+        "copyError": "Couldn't copy the link."
+      }
+    }
+  },
+  "guest": {
+    "name": "Guest",
+    "subtitle": "Trial mode",
+    "try": "Try it without signing up",
+    "tryAuth": "Or try it first without signing up →",
+    "endedNotice": "Your trial has ended and its trips were deleted. Sign up and start again, it's free.",
+    "claimed_one": "Your account is saved with {{count}} trip from the trial.",
+    "claimed_other": "Your account is saved with {{count}} trips from the trial.",
+    "logoutWarning": "You're in trial mode without an account. After signing out you won't get back to your trips. Save them by signing up instead?",
+    "time": {
+      "days_one": "{{count}} day",
+      "days_other": "{{count}} days",
+      "hours_one": "{{count}} hour",
+      "hours_other": "{{count}} hours",
+      "minutes_one": "{{count}} minute",
+      "minutes_other": "{{count}} minutes"
+    },
+    "banner": {
+      "title": "Trial mode · {{time}} left",
+      "local": "Saved in this browser only",
+      "save": "Save your account",
+      "expiredTitle": "Your trial has ended",
+      "expiredText": "You can still view your trips and download them as PDF for {{time}}, then they're deleted. Sign up to keep them.",
+      "keep": "Sign up and keep my trips",
+      "pdf": "Download PDF"
+    },
+    "upsell": {
+      "limit": {
+        "title": "More trips after signing up",
+        "text": "In trial mode you get one trip of your own plus a sample. Sign up and plan as many as you like."
+      },
+      "expired": {
+        "title": "Your trial has ended",
+        "text": "You can still look around for a while. Sign up to keep editing, everything stays."
+      },
+      "friends": {
+        "title": "Friends after signing up",
+        "text": "Adding friends and seeing their trips needs an account."
+      },
+      "share": {
+        "title": "Sharing after signing up",
+        "text": "Inviting buddies or sharing a trip by link needs an account."
+      },
+      "locked": {
+        "title": "Unlock this by signing up",
+        "text": "This feature is locked in trial mode."
+      },
+      "benefits": {
+        "keep": "Everything you tried stays",
+        "trips": "Unlimited trips on all your devices",
+        "friends": "Invite buddies and plan together"
+      },
+      "cta": "Sign up for free",
+      "later": "Not now"
+    },
+    "locked": {
+      "friends": {
+        "title": "Friends after signing up",
+        "text": "With an account you can add friends, see their trips and invite them to yours. Your trial trips stay."
+      }
+    },
+    "settings": {
+      "group": "Trial account",
+      "title": "Save your account",
+      "hint": "{{time}} left. Your trips are saved in this browser only for now.",
+      "expiredHint": "Your trial has ended. Trips are deleted in {{time}} unless you sign up.",
+      "deleteTitle": "Delete trial data",
+      "deleteHint": "Deletes your trial trips right away instead of waiting.",
+      "deleteButton": "Delete data",
+      "deleteConfirmTitle": "Delete trial data?",
+      "deleteConfirmMessage": "Trips from trial mode will be permanently deleted."
+    },
+    "auth": {
+      "title": "Save your trip",
+      "subtitle": "Enter your email. Everything from the trial stays."
+    },
+    "sample": {
+      "badge": "Sample trip · feel free to edit it",
+      "short": "Sample",
+      "eyebrow": "Just want to look around first?",
+      "cta": "See the sample: {{title}}"
+    }
+  }
+}

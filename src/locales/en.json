@@ -1,0 +1,147 @@
+{
+  "common": {
+    "tryAgain": "Try again",
+    "undo": "Undo",
+    "clear": "Clear",
+    "back": "Back",
+    "continue": "Continue",
+    "done": "Done",
+    "skip": "Skip"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "network": "Couldn't reach the server. Check your connection.",
+    "loadTitle": "Couldn't load",
+    "crashTitle": "That didn't work",
+    "crashText": "Something went wrong and this screen didn't load. We know about it and will take a look."
+  },
+  "tabs": {
+    "overview": "Overview",
+    "trips": "Trips",
+    "map": "Map",
+    "profile": "Profile"
+  },
+  "welcome": {
+    "title": "Your whole trip\nin one app",
+    "subtitle": "Itinerary, map, packing and shared expenses. For you and the whole crew.",
+    "start": "Start planning",
+    "haveAccount": "I have an account",
+    "signIn": "Sign in",
+    "preview": {
+      "nextTrip": "Next trip",
+      "days_one": "day",
+      "days_other": "days",
+      "city": "Lisbon",
+      "day": "Day 2 · Alfama",
+      "breakfast": "Breakfast at Pastéis",
+      "tram": "Tram 28",
+      "viewpoint": "Miradouro da Graça",
+      "owes": "Tom owes you",
+      "amount": "€25"
+    }
+  },
+  "destination": {
+    "step": "Your first trip",
+    "title": "Where are you going?",
+    "placeholder": "City, country or mountains…",
+    "suggestionsLabel": "Popular right now",
+    "suggestions": [
+      "Lisbon",
+      "Croatia",
+      "Rome",
+      "The Alps",
+      "Barcelona",
+      "Vienna"
+    ],
+    "hint": "You can add dates, friends and places later.",
+    "plan": "Plan {{place}}",
+    "planTrip": "Plan a trip"
+  },
+  "auth": {
+    "choose": {
+      "title": "Continue to Journeo",
+      "subtitle": "Sign in, or create an account in seconds.",
+      "guestTitle": "Save your trip",
+      "guestSubtitle": "With an account you won't lose your trips and can invite friends.",
+      "guestSubtitleTrip": "With an account you won't lose {{trip}} and can invite friends.",
+      "apple": "Continue with Apple",
+      "google": "Continue with Google",
+      "email": "Continue with email",
+      "appleSoon": "Sign in with Apple arrives with the app's own build.",
+      "googleSoon": "Sign in with Google arrives with the app's own build.",
+      "legal": "By continuing you agree to the <terms>terms</terms> and the <privacy>privacy policy</privacy>."
+    },
+    "email": {
+      "title": "Your email",
+      "subtitle": "We'll sign you in or create a new account.",
+      "placeholder": "name@email.com"
+    },
+    "password": {
+      "title": "Welcome back",
+      "placeholder": "Password",
+      "submit": "Sign in",
+      "forgot": "Forgot password?",
+      "changed": "Password changed. Sign in with the new one."
+    },
+    "create": {
+      "title": "New account",
+      "subtitle": "Choose a password for <strong>{{email}}</strong>.",
+      "submit": "Create account"
+    },
+    "rules": {
+      "length": "At least 8 characters",
+      "uppercase": "Uppercase letter",
+      "digit": "Number"
+    },
+    "otp": {
+      "title": "Verify your email",
+      "sent": "We sent a code to <strong>{{email}}</strong>.",
+      "resend": "Didn't get it? Send again",
+      "resent": "A new code is on its way."
+    },
+    "profile": {
+      "title": "What should we call you?",
+      "subtitle": "Friends will see it in shared trips."
+    },
+    "reset": {
+      "title": "Forgot password",
+      "newTitle": "New password",
+      "newSubtitle": "Choose the password you'll sign in with.",
+      "placeholder": "New password",
+      "submit": "Change password"
+    }
+  },
+  "newTrip": {
+    "bannerTitle": "Your trip is only on this phone",
+    "bannerText": "Create an account so you don't lose it.",
+    "bannerAction": "Save",
+    "badge": "New trip",
+    "noDate": "No dates yet",
+    "addDate": "Add dates",
+    "next": "What's next",
+    "steps": {
+      "dateTitle": "When are you going?",
+      "dateText": "Dates split the trip into days.",
+      "peopleTitle": "Invite friends",
+      "peopleText": "Plan together and split expenses.",
+      "placesTitle": "Add places",
+      "placesText": "What to see, where to sleep, where to eat.",
+      "packingTitle": "Packing list",
+      "packingText": "So nothing gets left at home."
+    }
+  },
+  "overview": {
+    "planTrip": "Plan a trip"
+  },
+  "comingSoon": {
+    "tripsTitle": "All trips",
+    "tripsText": "Your trips will be here, with search and filters.",
+    "mapTitle": "Full-screen map",
+    "mapText": "Every place from every trip on one map."
+  },
+  "profile": {
+    "guest": "Guest (no account)",
+    "soon": "Account, friends, currency and notifications will live here.",
+    "signOut": "Sign out"
+  }
+}
