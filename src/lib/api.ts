@@ -102,3 +102,115 @@ export const authApi = {
   updateProfile: (fields: { first_name: string | null; last_name: string | null }, token: string) =>
     request<{ user: User }>('/auth/profile', { method: 'PUT', body: fields, token }),
 };
+
+// ── Výlety ──────────────────────────────────────────────────
+// Tvar odpovědi GET /api/trips (výlet i se vším, co k němu patří).
+
+export type TripRole = 'owner' | 'editor' | 'viewer';
+
+export type Activity = {
+  id?: string;
+  dayIndex?: number;
+  date: string;
+  title: string;
+  plan: string;
+  location: string;
+};
+
+export type Expense = {
+  id: string;
+  description: string;
+  amount: number;
+  category: string;
+  date: string;
+  paidBy: number | null;
+  splits: { userId: number; amount: number }[];
+};
+
+export type PackingItem = { id?: string; text: string; checked: boolean };
+
+export type TripDocument = { id: string; title: string; content: string };
+
+export type Trip = {
+  id: string;
+  title: string;
+  startDate: string;
+  endDate: string;
+  role: TripRole;
+  currency: string;
+  budgetTarget: number | null;
+  version: number;
+  isSample: boolean;
+  activities: Activity[];
+  expenses: Expense[];
+  packingList: PackingItem[];
+  documents: TripDocument[];
+};
+
+export type TrashedTrip = {
+  id: string;
+  title: string;
+  startDate: string;
+  endDate: string;
+  deletedAt: string;
+};
+
+export type BalancesSummary = {
+  currency: string;
+  owedToMe: number;
+  iOwe: number;
+  counterparties: { userId: number; direction: 'owedToMe' | 'iOwe'; amount: number }[];
+};
+
+export const tripsApi = {
+  list: () => request<{ trips: Trip[] }>('/trips'),
+  create: (fields: { title: string; startDate: string; endDate: string }) =>
+    request<{ trip: Trip }>('/trips', { method: 'POST', body: fields }),
+  // Mění se jen poslaná pole; `version` chrání před přepsáním cizí úpravy (409).
+  update: (id: string, fields: Partial<Trip>) =>
+    request<{ trip: Trip }>(`/trips/${id}`, { method: 'PUT', body: fields }),
+  // Měkké smazání: výlet jde do koše a 30 dní se dá obnovit.
+  remove: (id: string) => request<{ message: string }>(`/trips/${id}`, { method: 'DELETE' }),
+  restore: (id: string) =>
+    request<{ message: string }>(`/trips/${id}/restore`, { method: 'POST' }),
+  trash: () => request<{ trips: TrashedTrip[] }>('/trips/trash'),
+  removeForever: (id: string) =>
+    request<{ message: string }>(`/trips/${id}/permanent`, { method: 'DELETE' }),
+  emptyTrash: () => request<{ deleted: number }>('/trips/trash', { method: 'DELETE' }),
+  balancesSummary: () => request<BalancesSummary>('/trips/balances-summary'),
+};
+
+// ── Místa a geokódování ─────────────────────────────────────
+
+export type GeoPlace = {
+  name: string;
+  address: string | null;
+  lat: number;
+  lng: number;
+  countryCode: string | null;
+  city: string | null;
+};
+
+export type Place = GeoPlace & {
+  id: string;
+  tripId: string | null;
+  status: 'wishlist' | 'visited';
+};
+
+export const placesApi = {
+  list: () => request<{ places: Place[] }>('/places'),
+  create: (place: GeoPlace & { tripId: string; dayIndex: number; source: 'itinerary' }) =>
+    request<{ place: Place }>('/places', { method: 'POST', body: place }),
+};
+
+export const geoApi = {
+  // Našeptávač míst (Nominatim přes server). Pod 3 znaky vrací prázdné pole.
+  search: (query: string, lang: 'cs' | 'en') =>
+    request<{ results: GeoPlace[] }>(
+      `/geo/search?q=${encodeURIComponent(query)}&lang=${lang}`,
+    ),
+};
+
+export const friendsApi = {
+  requests: () => request<{ requests: unknown[] }>('/friends/requests'),
+};

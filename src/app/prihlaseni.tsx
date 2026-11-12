@@ -25,6 +25,8 @@ import { ApiError, authApi, type User } from '@/lib/api';
 import i18n from '@/lib/i18n';
 import { useSession } from '@/lib/session';
 import { reportError } from '@/lib/telemetry';
+import { ownTrips } from '@/lib/trip';
+import { useTrips } from '@/lib/trips';
 
 // Stejné kroky jako AuthFlow na webu:
 // e-mail → heslo (účet existuje) | nové heslo → kód z e-mailu → jméno.
@@ -41,7 +43,10 @@ function errorText(err: unknown) {
 
 export default function SignInSheet() {
   const { t } = useTranslation();
-  const { isGuest, firstTrip, completeAuth } = useSession();
+  const { isGuest, plannedDestination, completeAuth } = useSession();
+  const { trips } = useTrips();
+  // Host má jeden vlastní výlet; dokud ho nezaloží, stačí destinace z úvodu.
+  const guestTrip = ownTrips(trips ?? [])[0]?.title ?? plannedDestination;
   const [step, setStep] = useState<Step>('choose');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -374,8 +379,8 @@ export default function SignInSheet() {
         subtitle={
           !isGuest
             ? t('app.auth.choose.subtitle')
-            : firstTrip
-              ? t('app.auth.choose.guestSubtitleTrip', { trip: firstTrip })
+            : guestTrip
+              ? t('app.auth.choose.guestSubtitleTrip', { trip: guestTrip })
               : t('app.auth.choose.guestSubtitle')
         }
       />

@@ -53,7 +53,7 @@
       "Barcelona",
       "Vienna"
     ],
-    "hint": "You can add dates, friends and places later.",
+    "hint": "You'll pick dates and trip type in the next step.",
     "plan": "Plan {{place}}",
     "planTrip": "Plan a trip"
   },
@@ -112,30 +112,20 @@
     }
   },
   "newTrip": {
-    "bannerTitle": "Your trip is only on this phone",
-    "bannerText": "Create an account so you don't lose it.",
-    "bannerAction": "Save",
-    "badge": "New trip",
-    "noDate": "No dates yet",
-    "addDate": "Add dates",
-    "next": "What's next",
-    "steps": {
-      "dateTitle": "When are you going?",
-      "dateText": "Dates split the trip into days.",
-      "peopleTitle": "Invite friends",
-      "peopleText": "Plan together and split expenses.",
-      "placesTitle": "Add places",
-      "placesText": "What to see, where to sleep, where to eat.",
-      "packingTitle": "Packing list",
-      "packingText": "So nothing gets left at home."
-    }
+    "close": "Close",
+    "searchFailed": "Couldn't load place suggestions. Keep typing, you can still create the trip.",
+    "pickPlace": "Pick a place from the suggestions and we'll pin it on the map.",
+    "placePinned": "We'll pin it on the map",
+    "pickStart": "Tap the first day of your trip.",
+    "pickEnd": "tap the last day"
   },
   "overview": {
-    "planTrip": "Plan a trip"
+    "planTrip": "Plan a trip",
+    "seeAll": "See all",
+    "emptyTitle": "Where to?",
+    "emptyText": "Tell us where you're going and your trip is ready in a minute: a day-by-day plan, a packing list and a pin on the map."
   },
   "comingSoon": {
-    "tripsTitle": "All trips",
-    "tripsText": "Your trips will be here, with search and filters.",
     "mapTitle": "Full-screen map",
     "mapText": "Every place from every trip on one map."
   },
@@ -143,5 +133,20 @@
     "guest": "Guest (no account)",
     "soon": "Account, friends, currency and notifications will live here.",
     "signOut": "Sign out"
+  },
+  "trips": {
+    "searchPlaceholder": "Search trips",
+    "sort": "Sort",
+    "trash": "Trash",
+    "newTrip": "New trip",
+    "delete": "Delete",
+    "dayOf": "Day {{day}} of {{total}}",
+    "past": "Done"
+  },
+  "tripDetail": {
+    "soonTitle": "Trip details are coming",
+    "soonText": "Itinerary, packing, map and expenses arrive in the next version of the app. Until then you'll find them on the web.",
+    "openWeb": "Open on the web",
+    "notFound": "Trip not found. It may be in the trash, or someone stopped sharing it with you."
   }
 }

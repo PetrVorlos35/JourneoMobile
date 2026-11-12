@@ -11,12 +11,14 @@ import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { StyleSheet, View } from 'react-native';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 import { EmptyState } from '@/components/ui/empty-state';
 import { ToastProvider } from '@/components/ui/toast';
 import { Colors, Spacing } from '@/constants/theme';
 import { SessionProvider, useSession } from '@/lib/session';
 import { installErrorReporting, pathFromSegments, reportError, trackScreen } from '@/lib/telemetry';
+import { TripsProvider } from '@/lib/trips';
 
 // Splash drží, dokud se nenačte uložené přihlášení (jinak by problikl úvod).
 SplashScreen.preventAutoHideAsync();
@@ -29,13 +31,17 @@ const theme = {
 
 export default function RootLayout() {
   return (
-    <ThemeProvider value={theme}>
-      <SessionProvider>
-        <ToastProvider>
-          <RootStack />
-        </ToastProvider>
-      </SessionProvider>
-    </ThemeProvider>
+    <GestureHandlerRootView style={styles.root}>
+      <ThemeProvider value={theme}>
+        <SessionProvider>
+          <ToastProvider>
+            <TripsProvider>
+              <RootStack />
+            </TripsProvider>
+          </ToastProvider>
+        </SessionProvider>
+      </ThemeProvider>
+    </GestureHandlerRootView>
   );
 }
 
@@ -84,6 +90,13 @@ function RootStack() {
 
       <Stack.Protected guard={!!user}>
         <Stack.Screen name="(tabs)" />
+        <Stack.Screen
+          name="novy-vylet"
+          options={{
+            presentation: 'modal',
+            contentStyle: { backgroundColor: Colors.background },
+          }}
+        />
       </Stack.Protected>
 
       {/* Přihlášení je dostupné i hostovi (uložení výletu do účtu). */}
@@ -103,6 +116,7 @@ function RootStack() {
 }
 
 const styles = StyleSheet.create({
+  root: { flex: 1 },
   crash: {
     flex: 1,
     justifyContent: 'center',

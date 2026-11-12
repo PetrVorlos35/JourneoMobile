@@ -54,7 +54,7 @@
       "Barcelona",
       "Vídeň"
     ],
-    "hint": "Termín, parťáky a místa doplníš potom.",
+    "hint": "Termín a typ výletu vybereš hned v dalším kroku.",
     "plan": "Naplánovat {{place}}",
     "planTrip": "Naplánovat výlet"
   },
@@ -113,30 +113,20 @@
     }
   },
   "newTrip": {
-    "bannerTitle": "Výlet máš zatím jen v telefonu",
-    "bannerText": "Vytvoř si účet, ať o něj nepřijdeš.",
-    "bannerAction": "Uložit",
-    "badge": "Nový výlet",
-    "noDate": "Termín zatím nemáš",
-    "addDate": "Doplnit termín",
-    "next": "Co dál",
-    "steps": {
-      "dateTitle": "Kdy jedeš?",
-      "dateText": "Termín rozdělí výlet do dnů.",
-      "peopleTitle": "Pozvi parťáky",
-      "peopleText": "Plánujte spolu a dělte si výdaje.",
-      "placesTitle": "Přidej místa",
-      "placesText": "Co chceš vidět, kde spíš, kde jíst.",
-      "packingTitle": "Seznam věcí",
-      "packingText": "Ať nic nezapomeneš doma."
-    }
+    "close": "Zavřít",
+    "searchFailed": "Návrhy míst se nepodařilo načíst. Můžeš psát dál, výlet založíš i tak.",
+    "pickPlace": "Vyber místo z návrhů a připíchneme ho na mapu.",
+    "placePinned": "Připíchneme na mapu",
+    "pickStart": "Klepni na první den výletu.",
+    "pickEnd": "klepni na poslední den"
   },
   "overview": {
-    "planTrip": "Naplánovat výlet"
+    "planTrip": "Naplánovat výlet",
+    "seeAll": "Vše",
+    "emptyTitle": "Kam to bude?",
+    "emptyText": "Napiš, kam jedeš, a za minutu máš výlet připravený: program po dnech, seznam na balení i místo na mapě."
   },
   "comingSoon": {
-    "tripsTitle": "Všechny výlety",
-    "tripsText": "Tady bude seznam tvých cest s hledáním a filtry.",
     "mapTitle": "Mapa přes celou obrazovku",
     "mapText": "Všechna místa ze všech výletů na jedné mapě."
   },
@@ -144,5 +134,20 @@
     "guest": "Host (bez účtu)",
     "soon": "Účet, přátelé, měna a upozornění přijdou sem.",
     "signOut": "Odhlásit se"
+  },
+  "trips": {
+    "searchPlaceholder": "Hledat výlet",
+    "sort": "Řazení",
+    "trash": "Koš",
+    "newTrip": "Nový výlet",
+    "delete": "Smazat",
+    "dayOf": "Den {{day}} z {{total}}",
+    "past": "Proběhlo"
+  },
+  "tripDetail": {
+    "soonTitle": "Detail výletu se chystá",
+    "soonText": "Itinerář, balení, mapa a výdaje přibudou v další verzi appky. Do té doby je najdeš na webu.",
+    "openWeb": "Otevřít na webu",
+    "notFound": "Výlet se nenašel. Možná je v koši, nebo ti ho někdo přestal sdílet."
   }
 }

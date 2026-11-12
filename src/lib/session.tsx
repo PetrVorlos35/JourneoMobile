@@ -4,6 +4,7 @@ import { ApiError, authApi, type User } from '@/lib/api';
 import { currentLanguage } from '@/lib/i18n';
 import {
   clearAll,
+  clearDestination,
   clearGuestToken,
   getCachedUser,
   getDestination,
@@ -20,7 +21,9 @@ type SessionContextValue = {
   status: 'loading' | 'ready';
   user: User | null;
   isGuest: boolean;
-  firstTrip: string | null;
+  // Destinace z úvodu („Kam jedeš?“), ze které se ještě nezaložil výlet.
+  plannedDestination: string | null;
+  clearPlannedDestination: () => Promise<void>;
   startAsGuest: (destination: string) => Promise<void>;
   // Po přihlášení / ověření e-mailu: uloží token a převede výlety hosta.
   completeAuth: (token: string, user: User) => Promise<void>;
@@ -32,13 +35,13 @@ const SessionContext = createContext<SessionContextValue | null>(null);
 export function SessionProvider({ children }: { children: ReactNode }) {
   const [status, setStatus] = useState<'loading' | 'ready'>('loading');
   const [user, setUser] = useState<User | null>(null);
-  const [firstTrip, setFirstTrip] = useState<string | null>(null);
+  const [plannedDestination, setPlannedDestination] = useState<string | null>(null);
 
   useEffect(() => {
     async function restore() {
       const token = await getToken();
       if (!token) return;
-      setFirstTrip(await getDestination());
+      setPlannedDestination(await getDestination());
       try {
         const { user } = await authApi.me(token);
         setUser(user);
@@ -49,7 +52,7 @@ export function SessionProvider({ children }: { children: ReactNode }) {
           setUser(await getCachedUser<User>());
         } else {
           await clearAll();
-          setFirstTrip(null);
+          setPlannedDestination(null);
         }
       }
     }
@@ -64,7 +67,7 @@ export function SessionProvider({ children }: { children: ReactNode }) {
       setDestination(destination),
       setCachedUser(user),
     ]);
-    setFirstTrip(destination);
+    setPlannedDestination(destination);
     setUser(user);
   }
 
@@ -80,9 +83,14 @@ export function SessionProvider({ children }: { children: ReactNode }) {
     setUser(nextUser);
   }
 
+  async function clearPlannedDestination() {
+    await clearDestination();
+    setPlannedDestination(null);
+  }
+
   async function signOut() {
     await clearAll();
-    setFirstTrip(null);
+    setPlannedDestination(null);
     setUser(null);
   }
 
@@ -90,7 +98,8 @@ export function SessionProvider({ children }: { children: ReactNode }) {
     status,
     user,
     isGuest: Boolean(user?.is_guest),
-    firstTrip,
+    plannedDestination,
+    clearPlannedDestination,
     startAsGuest,
     completeAuth,
     signOut,

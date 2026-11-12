@@ -15,9 +15,10 @@ export const getGuestToken = () => SecureStore.getItemAsync(GUEST_TOKEN_KEY);
 export const setGuestToken = (token: string) => SecureStore.setItemAsync(GUEST_TOKEN_KEY, token);
 export const clearGuestToken = () => SecureStore.deleteItemAsync(GUEST_TOKEN_KEY);
 
-// Cíl z úvodu („Kam jedeš?“), než ho půjde uložit jako skutečný výlet s termínem.
+// Cíl z úvodu („Kam jedeš?“), dokud z něj nevznikne výlet s termínem.
 export const getDestination = () => SecureStore.getItemAsync(DESTINATION_KEY);
 export const setDestination = (value: string) => SecureStore.setItemAsync(DESTINATION_KEY, value);
+export const clearDestination = () => SecureStore.deleteItemAsync(DESTINATION_KEY);
 
 export async function getCachedUser<T>(): Promise<T | null> {
   const raw = await SecureStore.getItemAsync(USER_KEY);
