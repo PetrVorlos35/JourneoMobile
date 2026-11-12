@@ -20,6 +20,13 @@ export function useApi<T>(key: string | null, fetcher: () => Promise<T>) {
     loading: key !== null,
     refreshing: false,
   });
+  // Jiný klíč (typicky jiný uživatel po odhlášení) = stará data zahodit hned při renderu,
+  // jinak by nový uživatel chvíli viděl data předchozího a obrazovky by podle nich rozhodovaly.
+  const [prevKey, setPrevKey] = useState(key);
+  if (key !== prevKey) {
+    setPrevKey(key);
+    setState({ data: undefined, error: null, loading: key !== null, refreshing: false });
+  }
   const fetcherRef = useRef(fetcher);
   fetcherRef.current = fetcher;
   // Pomalejší starší odpověď nesmí přepsat novější.
@@ -49,6 +56,8 @@ export function useApi<T>(key: string | null, fetcher: () => Promise<T>) {
 
   useEffect(() => {
     if (key !== null) load('load');
+    // Odpověď pro předchozí klíč, která ještě běží, už nesmí nic přepsat.
+    else requestId.current++;
   }, [key, load]);
 
   return {
