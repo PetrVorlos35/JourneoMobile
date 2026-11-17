@@ -162,12 +162,26 @@ export type BalancesSummary = {
   counterparties: { userId: number; direction: 'owedToMe' | 'iOwe'; amount: number }[];
 };
 
+export type TripMember = {
+  id: number;
+  firstName: string | null;
+  lastName: string | null;
+  email: string;
+};
+
+export type TripBalances = {
+  members: TripMember[];
+  balances: { userId: number; net: number }[];
+  settlements: { from: number; to: number; amount: number }[];
+};
+
 export const tripsApi = {
   list: () => request<{ trips: Trip[] }>('/trips'),
   create: (fields: { title: string; startDate: string; endDate: string }) =>
     request<{ trip: Trip }>('/trips', { method: 'POST', body: fields }),
   // Mění se jen poslaná pole; `version` chrání před přepsáním cizí úpravy (409).
-  update: (id: string, fields: Partial<Trip>) =>
+  // `dayShift` = o kolik dní posunout místa přiřazená ke dnům při změně termínu.
+  update: (id: string, fields: Partial<Trip> & { dayShift?: number }) =>
     request<{ trip: Trip }>(`/trips/${id}`, { method: 'PUT', body: fields }),
   // Měkké smazání: výlet jde do koše a 30 dní se dá obnovit.
   remove: (id: string) => request<{ message: string }>(`/trips/${id}`, { method: 'DELETE' }),
@@ -178,6 +192,8 @@ export const tripsApi = {
     request<{ message: string }>(`/trips/${id}/permanent`, { method: 'DELETE' }),
   emptyTrash: () => request<{ deleted: number }>('/trips/trash', { method: 'DELETE' }),
   balancesSummary: () => request<BalancesSummary>('/trips/balances-summary'),
+  // Členové výletu a kdo komu kolik dluží (do PDF a později do Vyrovnání).
+  balances: (id: string) => request<TripBalances>(`/trips/${id}/balances`),
 };
 
 // ── Místa a geokódování ─────────────────────────────────────

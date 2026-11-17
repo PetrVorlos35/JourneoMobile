@@ -51,3 +51,6 @@ yarn-error.*
 *.orig.*
 .idea/
 .claude/settings.local.json
+
+# Pracovní kopie agentů (git worktree)
+.claude/worktrees/

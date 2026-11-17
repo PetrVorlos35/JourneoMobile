@@ -38,11 +38,18 @@
         "expo-localization",
         {
           "supportedLocales": {
-            "ios": ["cs", "en"],
-            "android": ["cs", "en"]
+            "ios": [
+              "cs",
+              "en"
+            ],
+            "android": [
+              "cs",
+              "en"
+            ]
           }
         }
-      ]
+      ],
+      "expo-sharing"
     ],
     "experiments": {
       "typedRoutes": true,

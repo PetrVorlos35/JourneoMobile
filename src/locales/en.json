@@ -6,7 +6,9 @@
     "back": "Back",
     "continue": "Continue",
     "done": "Done",
-    "skip": "Skip"
+    "skip": "Skip",
+    "save": "Save",
+    "delete": "Delete"
   },
   "errors": {
     "generic": "Something went wrong. Please try again.",
@@ -144,9 +146,15 @@
     "past": "Done"
   },
   "tripDetail": {
-    "soonTitle": "Trip details are coming",
-    "soonText": "Itinerary, packing, map and expenses arrive in the next version of the app. Until then you'll find them on the web.",
     "openWeb": "Open on the web",
-    "notFound": "Trip not found. It may be in the trash, or someone stopped sharing it with you."
+    "notFound": "Trip not found. It may be in the trash, or someone stopped sharing it with you.",
+    "addDoc": "Add a link or note",
+    "editDoc": "Edit item",
+    "itemDeleted": "Item deleted",
+    "docDeleted": "Item deleted",
+    "more": "More actions",
+    "pdfCreate": "Create",
+    "pdfBusy": "Creating…",
+    "pdfError": "Couldn’t create the PDF. Please try again."
   }
 }

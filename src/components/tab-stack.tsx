@@ -17,7 +17,6 @@ export function TabStack({ title }: { title: string }) {
         headerTransparent: true,
         headerBlurEffect: legacyBlur ? 'systemChromeMaterial' : undefined,
         headerTintColor: Colors.primary,
-        headerLargeStyle: { backgroundColor: Colors.background },
         headerTitleStyle: { color: Colors.text },
         headerLargeTitleStyle: { color: Colors.text },
       }}>

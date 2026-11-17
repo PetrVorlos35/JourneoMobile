@@ -1,3 +1,4 @@
+import * as Haptics from 'expo-haptics';
 import { NativeTabs } from 'expo-router/native-tabs';
 import { useTranslation } from 'react-i18next';
 
@@ -6,7 +7,10 @@ import { Colors } from '@/constants/theme';
 export default function TabsLayout() {
   const { t } = useTranslation();
   return (
-    <NativeTabs tintColor={Colors.primary}>
+    <NativeTabs
+      tintColor={Colors.primary}
+      // Lehké cvaknutí při klepnutí na záložku (i na tu aktivní, která vyjede nahoru).
+      screenListeners={{ tabPress: () => Haptics.selectionAsync() }}>
       <NativeTabs.Trigger name="(prehled)">
         <NativeTabs.Trigger.Label>{t('app.tabs.overview')}</NativeTabs.Trigger.Label>
         <NativeTabs.Trigger.Icon sf={{ default: 'house', selected: 'house.fill' }} md="home" />

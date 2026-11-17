@@ -169,3 +169,88 @@ export function buildStarterPacking(t: TFunction, type: TripType): PackingItem[]
   ];
   return texts.map((text) => ({ text, checked: false }));
 }
+
+// ── Program po dnech (detail výletu) ────────────────────────
+// Stejně jako buildDailyPlans a planDateChange v TripDetail.jsx na webu.
+
+// Výchozí název dne („Den 3“ / „Day 3“) se při posunu termínu přečísluje, vlastní zůstane.
+const DEFAULT_DAY_TITLE = /^(Den|Day) \d+$/;
+const isDefaultDayTitle = (title: string) => DEFAULT_DAY_TITLE.test(title.trim());
+
+export const dayHasContent = (day: Activity | undefined) =>
+  !!(
+    day &&
+    (day.plan?.trim() || day.location?.trim() || (day.title && !isDefaultDayTitle(day.title)))
+  );
+
+// Stránka pro každý den výletu doplněná o uložené aktivity (server je řadí podle dne).
+export function buildDailyPlans(t: TFunction, trip: Pick<Trip, 'startDate' | 'endDate' | 'activities'>) {
+  const start = parseISO(trip.startDate);
+  const count = tripDayCount(trip);
+  return Array.from({ length: count }, (_, i): Activity => {
+    const saved = trip.activities[i];
+    return {
+      date: toIsoDate(addDays(start, i)),
+      title: saved?.title || t('onboarding.days.day', { n: i + 1 }),
+      plan: saved?.plan || '',
+      location: saved?.location || '',
+    };
+  });
+}
+
+// Posun výletu se stejnou délkou: program jede s ním (1. den zůstane 1. dnem), i když
+// se nový termín s původním překrývá. Při prodloužení nebo zkrácení s překryvem zůstane
+// program u stejných kalendářních dnů (přidaný den je prázdný), bez překryvu jede s výletem.
+// `lost` = čísla dnů s programem, které v novém termínu nebudou.
+// (Web 2026-11-12 drží kalendářní dny při každém překryvu, i při čistém posunu.)
+export function planDateChange(
+  current: { startDate: string; endDate: string },
+  days: Activity[],
+  startDate: string,
+  endDate: string,
+) {
+  const oldStart = parseISO(current.startDate);
+  const oldEnd = parseISO(current.endDate);
+  const newStart = parseISO(startDate);
+  const newEnd = parseISO(endDate);
+  const overlaps = newStart <= oldEnd && newEnd >= oldStart;
+  const length = differenceInCalendarDays(newEnd, newStart) + 1;
+  const sameLength = length === differenceInCalendarDays(oldEnd, oldStart) + 1;
+  const keepCalendar = overlaps && !sameLength;
+  const offset = keepCalendar ? differenceInCalendarDays(newStart, oldStart) : 0;
+  const lost = days
+    .map((day, i) => ({ day, n: i + 1, to: i - offset }))
+    .filter((x) => (x.to < 0 || x.to >= length) && dayHasContent(x.day))
+    .map((x) => x.n);
+  const hasContent = days.some(dayHasContent);
+  const note: 'lost' | 'moved' | 'kept' | null = lost.length
+    ? 'lost'
+    : !keepCalendar && hasContent
+      ? 'moved'
+      : keepCalendar && offset !== 0 && hasContent
+        ? 'kept'
+        : null;
+  return { offset, lost, note };
+}
+
+// Program pro nový termín: dny se přesunou o `offset`, výchozí názvy se přečíslují.
+export function shiftDailyPlans(
+  t: TFunction,
+  days: Activity[],
+  startDate: string,
+  endDate: string,
+  offset: number,
+) {
+  const start = parseISO(startDate);
+  const count = differenceInCalendarDays(parseISO(endDate), start) + 1;
+  return Array.from({ length: count }, (_, i): Activity => {
+    const src = days[i + offset];
+    const custom = src?.title && !isDefaultDayTitle(src.title);
+    return {
+      date: toIsoDate(addDays(start, i)),
+      title: custom ? src.title : t('onboarding.days.day', { n: i + 1 }),
+      plan: src?.plan || '',
+      location: src?.location || '',
+    };
+  });
+}

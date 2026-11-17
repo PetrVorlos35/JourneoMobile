@@ -6,7 +6,9 @@
     "back": "Zpět",
     "continue": "Pokračovat",
     "done": "Hotovo",
-    "skip": "Přeskočit"
+    "skip": "Přeskočit",
+    "save": "Uložit",
+    "delete": "Smazat"
   },
   "errors": {
     "generic": "Něco se pokazilo. Zkus to prosím znovu.",
@@ -145,9 +147,15 @@
     "past": "Proběhlo"
   },
   "tripDetail": {
-    "soonTitle": "Detail výletu se chystá",
-    "soonText": "Itinerář, balení, mapa a výdaje přibudou v další verzi appky. Do té doby je najdeš na webu.",
     "openWeb": "Otevřít na webu",
-    "notFound": "Výlet se nenašel. Možná je v koši, nebo ti ho někdo přestal sdílet."
+    "notFound": "Výlet se nenašel. Možná je v koši, nebo ti ho někdo přestal sdílet.",
+    "addDoc": "Přidat odkaz nebo poznámku",
+    "editDoc": "Upravit záznam",
+    "itemDeleted": "Položka smazána",
+    "docDeleted": "Záznam smazán",
+    "more": "Další akce",
+    "pdfCreate": "Vytvořit",
+    "pdfBusy": "Vytvářím…",
+    "pdfError": "PDF se nepodařilo vytvořit. Zkus to znovu."
   }
 }

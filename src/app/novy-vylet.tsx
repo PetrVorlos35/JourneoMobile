@@ -40,6 +40,7 @@ import {
   type TripType,
 } from '@/lib/trip';
 import { useTrips } from '@/lib/trips';
+import { startWelcome } from '@/lib/welcome';
 
 type Step = 'trip' | 'days' | 'packing' | 'map';
 type DateKey = QuickDate | 'custom';
@@ -154,6 +155,8 @@ export default function NewTripScreen() {
 
   function finish(trip: Trip) {
     Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+    // První výlet dostane v detailu uvítací checklist (jako na webu).
+    if (isFirst) startWelcome(trip.id, 'starter', { prefilledPacking: !!type });
     upsertTrip(trip);
     clearPlannedDestination();
     router.back();
